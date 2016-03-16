@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "b09ad63f02ebe1b5deb45a62639884a2"
-build_time: [511410889, 150581000]
+options: "c29a6eb6992c8153690598591cb24c6e"
+build_time: [511411853, 418835000]
 inputs:
-  "/Users/Avinash/Desktop/Code/Punchit/Punchit/Punchit/ViewController.swift": [511410885, 0]
-  "/Users/Avinash/Desktop/Code/Punchit/Punchit/Punchit/AppDelegate.swift": [511410885, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/AppDelegate.swift": !dirty [511410885, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/ViewController.swift": !dirty [511410885, 0]
