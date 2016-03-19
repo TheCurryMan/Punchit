@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA349CA440AD10EBA106CDC8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559D6075F9B2ADA10A77406E /* Pods.framework */; };
 		C628A1F3A24041EDEE4512FA /* Pods_Punchit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */; };
 		E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119127E1C98FDC500D702C8 /* AppDelegate.swift */; };
-		E11912811C98FDC500D702C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11912801C98FDC500D702C8 /* ViewController.swift */; };
+		E11912811C98FDC500D702C8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11912801C98FDC500D702C8 /* RestaurantViewController.swift */; };
 		E11912841C98FDC500D702C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11912821C98FDC500D702C8 /* Main.storyboard */; };
 		E11912861C98FDC500D702C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11912851C98FDC500D702C8 /* Assets.xcassets */; };
 		E11912891C98FDC500D702C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11912871C98FDC500D702C8 /* LaunchScreen.storyboard */; };
 		E11912941C98FDC600D702C8 /* PunchitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11912931C98FDC600D702C8 /* PunchitTests.swift */; };
 		E119129F1C98FDC600D702C8 /* PunchitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119129E1C98FDC600D702C8 /* PunchitUITests.swift */; };
+		E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F11091C99059000E5BD25 /* PCContentViewController.swift */; };
+		E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */; };
+		E14C33E51C9D231B0001D83E /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */; };
+		E1C8530E1C9CADF700343E4F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530A1C9CADF700343E4F /* Business.swift */; };
+		E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530C1C9CADF700343E4F /* YelpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,14 @@
 
 /* Begin PBXFileReference section */
 		3B8BB52DAF2CDA455A99632C /* Pods-Punchit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Punchit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Punchit/Pods-Punchit.release.xcconfig"; sourceTree = "<group>"; };
+		559D6075F9B2ADA10A77406E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Punchit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F79BBEE762DD939BC9A98E /* Pods-Punchit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Punchit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Punchit/Pods-Punchit.debug.xcconfig"; sourceTree = "<group>"; };
+		D03AE7E65FD53BD834DEADC9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DCBD71DB08F55DB86D1BECE7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E119127B1C98FDC500D702C8 /* Punchit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Punchit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E119127E1C98FDC500D702C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E11912801C98FDC500D702C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E11912801C98FDC500D702C8 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		E11912831C98FDC500D702C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11912851C98FDC500D702C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11912881C98FDC500D702C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		E119129A1C98FDC600D702C8 /* PunchitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunchitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E119129E1C98FDC600D702C8 /* PunchitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchitUITests.swift; sourceTree = "<group>"; };
 		E11912A01C98FDC600D702C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11F11091C99059000E5BD25 /* PCContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCContentViewController.swift; sourceTree = "<group>"; };
+		E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchCardViewController.swift; sourceTree = "<group>"; };
+		E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantTableViewCell.xib; path = "../../../../../Downloads/ios_yelp_swift-master/Yelp/RestaurantTableViewCell.xib"; sourceTree = "<group>"; };
+		E1C8530A1C9CADF700343E4F /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		E1C8530C1C9CADF700343E4F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C628A1F3A24041EDEE4512FA /* Pods_Punchit.framework in Frameworks */,
+				BA349CA440AD10EBA106CDC8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,8 @@
 			children = (
 				70F79BBEE762DD939BC9A98E /* Pods-Punchit.debug.xcconfig */,
 				3B8BB52DAF2CDA455A99632C /* Pods-Punchit.release.xcconfig */,
+				DCBD71DB08F55DB86D1BECE7 /* Pods.debug.xcconfig */,
+				D03AE7E65FD53BD834DEADC9 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -92,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */,
+				559D6075F9B2ADA10A77406E /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,9 +139,14 @@
 		E119127D1C98FDC500D702C8 /* Punchit */ = {
 			isa = PBXGroup;
 			children = (
+				E1C8530B1C9CADF700343E4F /* Models */,
+				E1C8530D1C9CADF700343E4F /* API */,
 				E119127E1C98FDC500D702C8 /* AppDelegate.swift */,
-				E11912801C98FDC500D702C8 /* ViewController.swift */,
+				E11912801C98FDC500D702C8 /* RestaurantViewController.swift */,
+				E11F11091C99059000E5BD25 /* PCContentViewController.swift */,
+				E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */,
 				E11912821C98FDC500D702C8 /* Main.storyboard */,
+				E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */,
 				E11912851C98FDC500D702C8 /* Assets.xcassets */,
 				E11912871C98FDC500D702C8 /* LaunchScreen.storyboard */,
 				E119128A1C98FDC500D702C8 /* Info.plist */,
@@ -147,6 +170,24 @@
 				E11912A01C98FDC600D702C8 /* Info.plist */,
 			);
 			path = PunchitUITests;
+			sourceTree = "<group>";
+		};
+		E1C8530B1C9CADF700343E4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8530A1C9CADF700343E4F /* Business.swift */,
+			);
+			name = Models;
+			path = "../../../../../Downloads/ios_yelp_swift-master/Yelp";
+			sourceTree = "<group>";
+		};
+		E1C8530D1C9CADF700343E4F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8530C1C9CADF700343E4F /* YelpClient.swift */,
+			);
+			name = API;
+			path = "../../../../../Downloads/ios_yelp_swift-master/Yelp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14C33E51C9D231B0001D83E /* RestaurantTableViewCell.xib in Resources */,
 				E11912891C98FDC500D702C8 /* LaunchScreen.storyboard in Resources */,
 				E11912861C98FDC500D702C8 /* Assets.xcassets in Resources */,
 				E11912841C98FDC500D702C8 /* Main.storyboard in Resources */,
@@ -306,7 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Punchit/Pods-Punchit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1C43C7B9A49257E544C2FA8 /* Embed Pods Frameworks */ = {
@@ -321,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Punchit/Pods-Punchit-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -331,8 +373,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11912811C98FDC500D702C8 /* ViewController.swift in Sources */,
+				E11912811C98FDC500D702C8 /* RestaurantViewController.swift in Sources */,
+				E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */,
 				E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */,
+				E1C8530E1C9CADF700343E4F /* Business.swift in Sources */,
+				E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */,
+				E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -461,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -470,7 +516,7 @@
 		};
 		E11912A41C98FDC600D702C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F79BBEE762DD939BC9A98E /* Pods-Punchit.debug.xcconfig */;
+			baseConfigurationReference = DCBD71DB08F55DB86D1BECE7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Punchit/Info.plist;
@@ -482,7 +528,7 @@
 		};
 		E11912A51C98FDC600D702C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B8BB52DAF2CDA455A99632C /* Pods-Punchit.release.xcconfig */;
+			baseConfigurationReference = D03AE7E65FD53BD834DEADC9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Punchit/Info.plist;

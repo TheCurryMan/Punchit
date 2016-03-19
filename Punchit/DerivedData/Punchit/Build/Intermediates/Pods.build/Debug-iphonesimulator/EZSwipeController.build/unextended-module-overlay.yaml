@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/EZSwipeController.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/EZSwipeController.build/unextended-module.modulemap',
+    }]
+  }]
+}

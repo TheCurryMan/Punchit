@@ -1,0 +1,10 @@
+framework module EZSwipeController {
+  umbrella header "EZSwipeController-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module EZSwipeController.__Swift {
+    exclude header "EZSwipeController-Swift.h"
+}

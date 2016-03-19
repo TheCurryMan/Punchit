@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "9783f11590dabe2930b9f3abc5dc870a"
+build_time: [511412049, 920816000]
+inputs:
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Pods/EZSwipeController/EZSwipeController.swift": [511412018, 0]
