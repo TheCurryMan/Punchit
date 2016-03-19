@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA349CA440AD10EBA106CDC8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559D6075F9B2ADA10A77406E /* Pods.framework */; };
-		C628A1F3A24041EDEE4512FA /* Pods_Punchit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */; };
 		E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119127E1C98FDC500D702C8 /* AppDelegate.swift */; };
 		E11912811C98FDC500D702C8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11912801C98FDC500D702C8 /* RestaurantViewController.swift */; };
 		E11912841C98FDC500D702C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11912821C98FDC500D702C8 /* Main.storyboard */; };
@@ -18,7 +17,10 @@
 		E119129F1C98FDC600D702C8 /* PunchitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119129E1C98FDC600D702C8 /* PunchitUITests.swift */; };
 		E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F11091C99059000E5BD25 /* PCContentViewController.swift */; };
 		E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */; };
+		E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */; };
 		E14C33E51C9D231B0001D83E /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */; };
+		E17709BB1C9D3EB5003920DC /* Pods_Punchit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E179254E1C9D3C28006A3E24 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179254D1C9D3C28006A3E24 /* ScanViewController.swift */; };
 		E1C8530E1C9CADF700343E4F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530A1C9CADF700343E4F /* Business.swift */; };
 		E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530C1C9CADF700343E4F /* YelpClient.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,20 @@
 			remoteInfo = Punchit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E17709BC1C9D3EB5003920DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E17709BB1C9D3EB5003920DC /* Pods_Punchit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B8BB52DAF2CDA455A99632C /* Pods-Punchit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Punchit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Punchit/Pods-Punchit.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +78,9 @@
 		E11912A01C98FDC600D702C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11F11091C99059000E5BD25 /* PCContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCContentViewController.swift; sourceTree = "<group>"; };
 		E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchCardViewController.swift; sourceTree = "<group>"; };
+		E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchPointsViewController.swift; sourceTree = "<group>"; };
 		E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantTableViewCell.xib; path = "../../../../../Downloads/ios_yelp_swift-master/Yelp/RestaurantTableViewCell.xib"; sourceTree = "<group>"; };
+		E179254D1C9D3C28006A3E24 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		E1C8530A1C9CADF700343E4F /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		E1C8530C1C9CADF700343E4F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C628A1F3A24041EDEE4512FA /* Pods_Punchit.framework in Frameworks */,
 				BA349CA440AD10EBA106CDC8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +161,9 @@
 				E119127E1C98FDC500D702C8 /* AppDelegate.swift */,
 				E11912801C98FDC500D702C8 /* RestaurantViewController.swift */,
 				E11F11091C99059000E5BD25 /* PCContentViewController.swift */,
+				E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */,
 				E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */,
+				E179254D1C9D3C28006A3E24 /* ScanViewController.swift */,
 				E11912821C98FDC500D702C8 /* Main.storyboard */,
 				E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */,
 				E11912851C98FDC500D702C8 /* Assets.xcassets */,
@@ -203,6 +222,7 @@
 				E11912791C98FDC500D702C8 /* Resources */,
 				F1C43C7B9A49257E544C2FA8 /* Embed Pods Frameworks */,
 				CA44A7ECB2B54D520344FFF0 /* Copy Pods Resources */,
+				E17709BC1C9D3EB5003920DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -374,8 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11912811C98FDC500D702C8 /* RestaurantViewController.swift in Sources */,
+				E179254E1C9D3C28006A3E24 /* ScanViewController.swift in Sources */,
 				E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */,
 				E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */,
+				E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */,
 				E1C8530E1C9CADF700343E4F /* Business.swift in Sources */,
 				E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */,
 				E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */,

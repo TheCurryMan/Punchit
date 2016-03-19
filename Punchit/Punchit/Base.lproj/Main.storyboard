@@ -36,17 +36,41 @@
         <!--PunchPoints-->
         <scene sceneID="Nia-vS-HhI">
             <objects>
-                <viewController id="9xf-nO-Bi9" sceneMemberID="viewController">
+                <viewController id="9xf-nO-Bi9" customClass="PunchPointsViewController" customModule="Punchit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W6d-He-7eq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7zM-vs-vGq">
+                                <rect key="frame" x="40" y="164" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PunchPoints" id="jNV-e8-toM"/>
+                    <connections>
+                        <outlet property="iconView" destination="7zM-vs-vGq" id="WFQ-dw-ach"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qox-UK-vVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="951"/>
+        </scene>
+        <!--Scan-->
+        <scene sceneID="tXi-g9-pSE">
+            <objects>
+                <viewController id="8a6-Ko-oIZ" customClass="ScanViewController" customModule="Punchit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bPc-Qr-Pmf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="PunchPoints" id="jNV-e8-toM"/>
+                    <tabBarItem key="tabBarItem" title="Scan" id="xih-91-EHj"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qox-UK-vVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8W-Up-HK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502" y="812"/>
+            <point key="canvasLocation" x="502" y="951"/>
         </scene>
         <!--PunchCard-->
         <scene sceneID="SGY-1k-zkA">
@@ -119,6 +143,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="QZ7-rA-bo4"/>
                         <segue destination="9xf-nO-Bi9" kind="relationship" relationship="viewControllers" id="xcn-sE-PdN"/>
                         <segue destination="N2z-zw-7T6" kind="relationship" relationship="viewControllers" id="UHI-7H-gLj"/>
+                        <segue destination="8a6-Ko-oIZ" kind="relationship" relationship="viewControllers" id="pzE-ec-nJT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8xr-8M-AE7" userLabel="First Responder" sceneMemberID="firstResponder"/>

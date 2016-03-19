@@ -1,10 +1,12 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "c59940be771d6ed69c1bea7069cde621"
-build_time: [511688131, 907689000]
+options: "704bbeba81bb4ac45ed705b8c477ae2b"
+build_time: [511691147, 267939000]
 inputs:
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/RestaurantViewController.swift": [511688131, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PCContentViewController.swift": [511414547, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchPointsViewController.swift": [9223372036854775807, 0]
   "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchCardViewController.swift": [511652365, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/RestaurantViewController.swift": [511690844, 0]
+  "/Users/Avinash/Downloads/ios_yelp_swift-master/Yelp/YelpClient.swift": [511690871, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/AppDelegate.swift": [511688909, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/ScanViewController.swift": [511689938, 0]
   "/Users/Avinash/Downloads/ios_yelp_swift-master/Yelp/Business.swift": [507617030, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/AppDelegate.swift": [511414262, 0]
-  "/Users/Avinash/Downloads/ios_yelp_swift-master/Yelp/YelpClient.swift": [511687863, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PCContentViewController.swift": [511414547, 0]

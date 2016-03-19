@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "98d0304e0c2f1208b9979465c3efbd26"
+build_time: [511689657, 752898000]
+inputs:
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Pods/SwiftQRCode/QRCode/Source/QRCode.swift": [511688906, 0]

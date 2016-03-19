@@ -24,15 +24,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftQRCode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>25AE22F104B897CC8A88F51E15E37276</key>
+		<key>4878C70B21CA37D7CB8A476BF986741B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4878C70B21CA37D7CB8A476BF986741B</key>
+		<key>556B3337F108397CEC66EC4CEC64025B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>804A32A19779019E6D3DF731BB25A617</key>
 		<dict>
 			<key>primary</key>
 			<true/>

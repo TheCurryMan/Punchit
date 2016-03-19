@@ -82,10 +82,10 @@ func getYelpData() {
             self.distance.append(business.distance!)
             self.logo.append(business.ratingImageURL!)
             
-            print(business.name!)
-            print(business.address!)
-            print(business.ratingImageURL)
-            print(business.reviewCount)
+            //print(business.name!)
+            //print(business.address!)
+            //print(business.ratingImageURL)
+            //print(business.reviewCount)
         }
         
         self.tableView.reloadData()

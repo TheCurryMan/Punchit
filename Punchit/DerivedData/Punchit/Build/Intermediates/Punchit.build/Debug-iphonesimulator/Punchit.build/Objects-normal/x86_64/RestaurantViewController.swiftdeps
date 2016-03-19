@@ -9,60 +9,60 @@ provides-member:
 - ["C7Punchit23RestaurantTableViewCell", ""]
 - ["C7Punchit24RestaurantViewController", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "logo"
-- "businesses"
-- "address"
-- "didReceiveMemoryWarning"
-- "Distance"
-- "viewDidLoad"
-- "names"
-- "Title"
-- "Logo"
-- "distance"
 - "myRootRef"
+- "Distance"
+- "distance"
+- "locationManager"
+- "locationManager"
 - "getYelpData"
+- "address"
 - "Address"
-- "locationManager"
-- "locationManager"
+- "didReceiveMemoryWarning"
+- "businesses"
+- "logo"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "Logo"
+- "Title"
+- "names"
+- "viewDidLoad"
 depends-top-level:
-- "Business"
-- "Int"
-- !private "NSError"
-- "Firebase"
-- !private "NSUserDefaults"
-- !private "kCLLocationAccuracyNearestTenMeters"
-- !private "NSData"
-- "UIViewController"
+- "CLLocationManagerDelegate"
+- "NSURL"
+- !private "UINib"
+- "UITableViewCell"
+- "UITableViewDelegate"
+- !private "CLLocationCoordinate2D"
 - "UITableViewDataSource"
 - "CLLocation"
-- "CGFloat"
-- !private "BooleanLiteralType"
-- "UITableViewDelegate"
-- "CLLocationManagerDelegate"
-- "UITableView"
-- !private "Array"
-- "UITableViewCell"
-- !private "CLLocationCoordinate2D"
-- !private "=="
-- !private "print"
-- "NSURL"
-- "NSArray"
-- "UILabel"
-- "UIImageView"
-- "CLLocationManager"
-- !private "Void"
 - "NSIndexPath"
-- "RestaurantTableViewCell"
 - "StringLiteralType"
-- !private "UIImage"
-- "String"
-- !private "UINib"
+- "UIViewController"
+- !private "NSData"
+- "RestaurantTableViewCell"
+- "CGFloat"
+- !private "Void"
+- !private "=="
+- "CLLocationManager"
+- !private "BooleanLiteralType"
+- "Firebase"
 - "RestaurantViewController"
+- "String"
+- !private "Array"
+- "Int"
+- "UIImageView"
+- !private "kCLLocationAccuracyNearestTenMeters"
+- "Business"
+- !private "NSUserDefaults"
+- "NSArray"
+- !private "UIImage"
+- "UITableView"
+- "UILabel"
+- !private "NSError"
+- !private "print"
 depends-member:
 - ["PSs9AnyObject", "Address"]
 - !private ["PSs9AnyObject", "Business"]
@@ -105,7 +105,6 @@ depends-member:
 - !private ["PSs9AnyObject", "registerNib"]
 - !private ["PSs9AnyObject", "reloadData"]
 - !private ["PSs9AnyObject", "requestAlwaysAuthorization"]
-- !private ["PSs9AnyObject", "reviewCount"]
 - !private ["PSs9AnyObject", "row"]
 - ["PSs9AnyObject", "scrollViewDidEndDecelerating"]
 - ["PSs9AnyObject", "scrollViewDidEndDragging"]
@@ -161,7 +160,6 @@ depends-member:
 - !private ["C7Punchit8Business", "distance"]
 - !private ["C7Punchit8Business", "name"]
 - !private ["C7Punchit8Business", "ratingImageURL"]
-- !private ["C7Punchit8Business", "reviewCount"]
 - !private ["C7Punchit8Business", "searchWithTerm"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["CSo10CLLocation", "coordinate"]
@@ -254,7 +252,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "registerNib"]
 - !private ["PSs11CVarArgType", "reloadData"]
 - !private ["PSs11CVarArgType", "requestAlwaysAuthorization"]
-- !private ["PSs11CVarArgType", "reviewCount"]
 - !private ["PSs11CVarArgType", "row"]
 - ["PSs11CVarArgType", "scrollViewDidEndDecelerating"]
 - ["PSs11CVarArgType", "scrollViewDidEndDragging"]
@@ -348,7 +345,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "registerNib"]
 - !private ["PSs23CustomStringConvertible", "reloadData"]
 - !private ["PSs23CustomStringConvertible", "requestAlwaysAuthorization"]
-- !private ["PSs23CustomStringConvertible", "reviewCount"]
 - !private ["PSs23CustomStringConvertible", "row"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDragging"]
@@ -418,7 +414,6 @@ depends-member:
 - !private ["PSs9Equatable", "registerNib"]
 - !private ["PSs9Equatable", "reloadData"]
 - !private ["PSs9Equatable", "requestAlwaysAuthorization"]
-- !private ["PSs9Equatable", "reviewCount"]
 - !private ["PSs9Equatable", "row"]
 - ["PSs9Equatable", "scrollViewDidEndDecelerating"]
 - ["PSs9Equatable", "scrollViewDidEndDragging"]
@@ -491,7 +486,6 @@ depends-member:
 - !private ["PSs8Hashable", "registerNib"]
 - !private ["PSs8Hashable", "reloadData"]
 - !private ["PSs8Hashable", "requestAlwaysAuthorization"]
-- !private ["PSs8Hashable", "reviewCount"]
 - !private ["PSs8Hashable", "row"]
 - ["PSs8Hashable", "scrollViewDidEndDecelerating"]
 - ["PSs8Hashable", "scrollViewDidEndDragging"]
@@ -720,7 +714,6 @@ depends-member:
 - !private ["CSo8NSObject", "registerNib"]
 - !private ["CSo8NSObject", "reloadData"]
 - !private ["CSo8NSObject", "requestAlwaysAuthorization"]
-- !private ["CSo8NSObject", "reviewCount"]
 - !private ["CSo8NSObject", "row"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
@@ -785,7 +778,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "registerNib"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
 - !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
-- !private ["PSo16NSObjectProtocol", "reviewCount"]
 - !private ["PSo16NSObjectProtocol", "row"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
@@ -1650,6 +1642,13 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/module.modulemap"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"

@@ -167,6 +167,16 @@ SWIFT_CLASS("_TtC7Punchit23PunchCardViewController")
 
 @class UIImageView;
 
+SWIFT_CLASS("_TtC7Punchit25PunchPointsViewController")
+@interface PunchPointsViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified iconView;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7Punchit23RestaurantTableViewCell")
 @interface RestaurantTableViewCell : UITableViewCell
 @property (nonatomic, strong) IBOutlet UILabel * __null_unspecified Title;
@@ -201,6 +211,17 @@ SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 - (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class QRCode;
+
+SWIFT_CLASS("_TtC7Punchit18ScanViewController")
+@interface ScanViewController : UIViewController
+@property (nonatomic, readonly, strong) QRCode * __nonnull scanner;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

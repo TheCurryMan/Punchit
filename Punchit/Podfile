@@ -8,6 +8,7 @@ use_frameworks!
 pod 'AFNetworking', '~> 2.5'
 pod 'BDBOAuth1Manager'
 pod 'Firebase', '>= 2.5.0'
+pod 'SwiftQRCode'
 
 #target 'Punchit' do
 #pod 'AFNetworking'

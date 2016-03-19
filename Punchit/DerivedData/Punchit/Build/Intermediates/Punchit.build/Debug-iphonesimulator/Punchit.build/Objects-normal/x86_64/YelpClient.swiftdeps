@@ -13,43 +13,40 @@ provides-member:
 - ["O7Punchit12YelpSortMode", ""]
 - ["C7Punchit10YelpClient", ""]
 provides-dynamic-lookup:
-- "accessSecret"
 - "accessToken"
 - "sharedInstance"
 - "searchWithTerm"
+- "accessSecret"
 depends-top-level:
-- "Bool"
-- "yelpToken"
-- "YelpClient"
-- !private "NSURL"
 - "NSError"
-- !private "dispatch_once_t"
-- !private "Dictionary"
-- !private "!="
-- !private "AnyObject"
-- !private "&&"
-- !private "print"
-- !private "+"
-- "NSCoder"
-- "String"
-- "Int"
-- !private ">"
-- "BDBOAuth1RequestOperationManager"
-- "Business"
-- !private "~="
-- "=="
-- !private "NSUserDefaults"
-- "yelpConsumerSecret"
-- "Void"
-- !private "UnicodeScalarType"
-- "YelpSortMode"
-- "yelpTokenSecret"
-- !private "dispatch_once"
 - "StringLiteralType"
+- !private "&&"
+- "YelpSortMode"
+- !private "UnicodeScalarType"
+- "yelpToken"
+- "BDBOAuth1RequestOperationManager"
+- !private "dispatch_once"
+- !private "NSURL"
+- "YelpClient"
+- "String"
+- "yelpTokenSecret"
+- !private "AnyObject"
+- !private "Dictionary"
+- "Bool"
+- "Int"
+- "=="
+- "Void"
+- !private "~="
+- !private ">"
 - "yelpConsumerKey"
-- "AFHTTPRequestOperation"
 - !private "BDBOAuth1Credential"
+- !private "dispatch_once_t"
+- !private "!="
+- "AFHTTPRequestOperation"
+- "yelpConsumerSecret"
 - !private "NSDictionary"
+- "NSCoder"
+- "Business"
 depends-member:
 - ["CSo29AFHTTPRequestOperationManager", "AFHTTPRequestOperation"]
 - !private ["CSo29AFHTTPRequestOperationManager", "AnyObject"]
@@ -61,7 +58,6 @@ depends-member:
 - !private ["CSo29AFHTTPRequestOperationManager", "NSDictionary"]
 - ["CSo29AFHTTPRequestOperationManager", "NSError"]
 - !private ["CSo29AFHTTPRequestOperationManager", "NSURL"]
-- !private ["CSo29AFHTTPRequestOperationManager", "NSUserDefaults"]
 - ["CSo29AFHTTPRequestOperationManager", "String"]
 - ["CSo29AFHTTPRequestOperationManager", "Void"]
 - ["CSo29AFHTTPRequestOperationManager", "YelpClient"]
@@ -71,7 +67,6 @@ depends-member:
 - !private ["CSo29AFHTTPRequestOperationManager", "dispatch_once"]
 - !private ["CSo29AFHTTPRequestOperationManager", "dispatch_once_t"]
 - ["CSo29AFHTTPRequestOperationManager", "init"]
-- !private ["CSo29AFHTTPRequestOperationManager", "print"]
 - !private ["CSo29AFHTTPRequestOperationManager", "requestSerializer"]
 - ["CSo29AFHTTPRequestOperationManager", "searchWithTerm"]
 - ["CSo29AFHTTPRequestOperationManager", "sharedInstance"]
@@ -85,7 +80,6 @@ depends-member:
 - !private ["PSs9AnyObject", "Business"]
 - !private ["PSs9AnyObject", "GET"]
 - !private ["PSs9AnyObject", "NSURL"]
-- !private ["PSs9AnyObject", "NSUserDefaults"]
 - !private ["PSs9AnyObject", "YelpClient"]
 - ["PSs9AnyObject", "accessSecret"]
 - ["PSs9AnyObject", "accessToken"]
@@ -93,13 +87,10 @@ depends-member:
 - !private ["PSs9AnyObject", "deinit"]
 - !private ["PSs9AnyObject", "dispatch_once"]
 - ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "objectForKey"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "requestSerializer"]
 - !private ["PSs9AnyObject", "saveAccessToken"]
 - ["PSs9AnyObject", "searchWithTerm"]
 - ["PSs9AnyObject", "sharedInstance"]
-- !private ["PSs9AnyObject", "standardUserDefaults"]
 - !private ["PSs9AnyObject", "subscript"]
 - !private ["PSs9AnyObject", "yelpConsumerKey"]
 - !private ["PSs9AnyObject", "yelpConsumerSecret"]
@@ -132,7 +123,6 @@ depends-member:
 - !private ["CSo32BDBOAuth1RequestOperationManager", "NSDictionary"]
 - ["CSo32BDBOAuth1RequestOperationManager", "NSError"]
 - !private ["CSo32BDBOAuth1RequestOperationManager", "NSURL"]
-- !private ["CSo32BDBOAuth1RequestOperationManager", "NSUserDefaults"]
 - ["CSo32BDBOAuth1RequestOperationManager", "String"]
 - ["CSo32BDBOAuth1RequestOperationManager", "Void"]
 - ["CSo32BDBOAuth1RequestOperationManager", "YelpClient"]
@@ -142,7 +132,6 @@ depends-member:
 - !private ["CSo32BDBOAuth1RequestOperationManager", "dispatch_once"]
 - !private ["CSo32BDBOAuth1RequestOperationManager", "dispatch_once_t"]
 - ["CSo32BDBOAuth1RequestOperationManager", "init"]
-- !private ["CSo32BDBOAuth1RequestOperationManager", "print"]
 - !private ["CSo32BDBOAuth1RequestOperationManager", "requestSerializer"]
 - ["CSo32BDBOAuth1RequestOperationManager", "searchWithTerm"]
 - ["CSo32BDBOAuth1RequestOperationManager", "sharedInstance"]
@@ -169,7 +158,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "GET"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "NSURL"]
-- !private ["PSs11CVarArgType", "NSUserDefaults"]
 - !private ["PSs11CVarArgType", "YelpClient"]
 - ["PSs11CVarArgType", "accessSecret"]
 - ["PSs11CVarArgType", "accessToken"]
@@ -177,19 +165,15 @@ depends-member:
 - !private ["PSs11CVarArgType", "dispatch_once"]
 - !private ["PSs11CVarArgType", "hashValue"]
 - ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "objectForKey"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "requestSerializer"]
 - !private ["PSs11CVarArgType", "saveAccessToken"]
 - ["PSs11CVarArgType", "searchWithTerm"]
 - ["PSs11CVarArgType", "sharedInstance"]
-- !private ["PSs11CVarArgType", "standardUserDefaults"]
 - !private ["PSs11CVarArgType", "yelpConsumerKey"]
 - !private ["PSs11CVarArgType", "yelpConsumerSecret"]
 - !private ["PSs11CVarArgType", "yelpToken"]
 - !private ["PSs11CVarArgType", "yelpTokenSecret"]
 - ["PSs11CVarArgType", ""]
-- !private ["VSs9Character", "deinit"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "Key"]
@@ -202,7 +186,6 @@ depends-member:
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
 - !private ["PSs10Comparable", "hashValue"]
-- !private ["PSs10Comparable", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "Generator"]
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "Key"]
@@ -210,7 +193,6 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "Value"]
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "count"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "joinWithSeparator"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "BDBOAuth1Credential"]
@@ -222,7 +204,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["PSs23CustomStringConvertible", "Key"]
 - !private ["PSs23CustomStringConvertible", "NSURL"]
-- !private ["PSs23CustomStringConvertible", "NSUserDefaults"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "Value"]
 - !private ["PSs23CustomStringConvertible", "YelpClient"]
@@ -236,13 +217,10 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "hashValue"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "joinWithSeparator"]
-- !private ["PSs23CustomStringConvertible", "objectForKey"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "requestSerializer"]
 - !private ["PSs23CustomStringConvertible", "saveAccessToken"]
 - ["PSs23CustomStringConvertible", "searchWithTerm"]
 - ["PSs23CustomStringConvertible", "sharedInstance"]
-- !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "yelpConsumerKey"]
 - !private ["PSs23CustomStringConvertible", "yelpConsumerSecret"]
@@ -263,7 +241,6 @@ depends-member:
 - !private ["PSs9Equatable", "GET"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "NSURL"]
-- !private ["PSs9Equatable", "NSUserDefaults"]
 - ["PSs9Equatable", "RawValue"]
 - !private ["PSs9Equatable", "YelpClient"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
@@ -273,21 +250,16 @@ depends-member:
 - !private ["PSs9Equatable", "dispatch_once"]
 - ["PSs9Equatable", "hashValue"]
 - ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "objectForKey"]
-- !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "rawValue"]
 - !private ["PSs9Equatable", "requestSerializer"]
 - !private ["PSs9Equatable", "saveAccessToken"]
 - ["PSs9Equatable", "searchWithTerm"]
 - ["PSs9Equatable", "sharedInstance"]
-- !private ["PSs9Equatable", "standardUserDefaults"]
 - !private ["PSs9Equatable", "yelpConsumerKey"]
 - !private ["PSs9Equatable", "yelpConsumerSecret"]
 - !private ["PSs9Equatable", "yelpToken"]
 - !private ["PSs9Equatable", "yelpTokenSecret"]
 - ["PSs9Equatable", ""]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["Sf", "deinit"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs16ForwardIndexType", "hashValue"]
@@ -298,7 +270,6 @@ depends-member:
 - !private ["PSs8Hashable", "GET"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "NSURL"]
-- !private ["PSs8Hashable", "NSUserDefaults"]
 - ["PSs8Hashable", "RawValue"]
 - !private ["PSs8Hashable", "YelpClient"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
@@ -308,14 +279,11 @@ depends-member:
 - !private ["PSs8Hashable", "dispatch_once"]
 - ["PSs8Hashable", "hashValue"]
 - ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "objectForKey"]
-- !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "rawValue"]
 - !private ["PSs8Hashable", "requestSerializer"]
 - !private ["PSs8Hashable", "saveAccessToken"]
 - ["PSs8Hashable", "searchWithTerm"]
 - ["PSs8Hashable", "sharedInstance"]
-- !private ["PSs8Hashable", "standardUserDefaults"]
 - !private ["PSs8Hashable", "yelpConsumerKey"]
 - !private ["PSs8Hashable", "yelpConsumerSecret"]
 - !private ["PSs8Hashable", "yelpToken"]
@@ -336,10 +304,6 @@ depends-member:
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
 - !private ["Si", "hashValue"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
 - !private ["PSs21IntegerArithmeticType", "Distance"]
 - !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["PSs21IntegerArithmeticType", "hashValue"]
@@ -353,7 +317,6 @@ depends-member:
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "hashValue"]
-- !private ["PSs14MirrorPathType", "init"]
 - !private ["PSs21MutableCollectionType", "Generator"]
 - !private ["PSs21MutableCollectionType", "Index"]
 - !private ["PSs21MutableCollectionType", "SubSequence"]
@@ -376,13 +339,11 @@ depends-member:
 - !private ["PSo8NSCoding", "Business"]
 - !private ["PSo8NSCoding", "GET"]
 - !private ["PSo8NSCoding", "NSURL"]
-- !private ["PSo8NSCoding", "NSUserDefaults"]
 - !private ["PSo8NSCoding", "YelpClient"]
 - ["PSo8NSCoding", "accessSecret"]
 - ["PSo8NSCoding", "accessToken"]
 - !private ["PSo8NSCoding", "dispatch_once"]
 - ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "requestSerializer"]
 - !private ["PSo8NSCoding", "saveAccessToken"]
 - ["PSo8NSCoding", "searchWithTerm"]
@@ -396,14 +357,12 @@ depends-member:
 - !private ["PSo9NSCopying", "Business"]
 - !private ["PSo9NSCopying", "GET"]
 - !private ["PSo9NSCopying", "NSURL"]
-- !private ["PSo9NSCopying", "NSUserDefaults"]
 - !private ["PSo9NSCopying", "YelpClient"]
 - ["PSo9NSCopying", "accessSecret"]
 - ["PSo9NSCopying", "accessToken"]
 - !private ["PSo9NSCopying", "deinit"]
 - !private ["PSo9NSCopying", "dispatch_once"]
 - ["PSo9NSCopying", "init"]
-- !private ["PSo9NSCopying", "print"]
 - !private ["PSo9NSCopying", "requestSerializer"]
 - !private ["PSo9NSCopying", "saveAccessToken"]
 - ["PSo9NSCopying", "searchWithTerm"]
@@ -413,7 +372,6 @@ depends-member:
 - !private ["PSo9NSCopying", "yelpToken"]
 - !private ["PSo9NSCopying", "yelpTokenSecret"]
 - ["PSo9NSCopying", ""]
-- !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AFHTTPRequestOperation"]
 - !private ["CSo8NSObject", "AnyObject"]
@@ -425,7 +383,6 @@ depends-member:
 - !private ["CSo8NSObject", "NSDictionary"]
 - ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "NSURL"]
-- !private ["CSo8NSObject", "NSUserDefaults"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "Void"]
 - ["CSo8NSObject", "YelpClient"]
@@ -437,13 +394,10 @@ depends-member:
 - !private ["CSo8NSObject", "dispatch_once"]
 - !private ["CSo8NSObject", "dispatch_once_t"]
 - ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "objectForKey"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "requestSerializer"]
 - !private ["CSo8NSObject", "saveAccessToken"]
 - ["CSo8NSObject", "searchWithTerm"]
 - ["CSo8NSObject", "sharedInstance"]
-- !private ["CSo8NSObject", "standardUserDefaults"]
 - !private ["CSo8NSObject", "yelpConsumerKey"]
 - !private ["CSo8NSObject", "yelpConsumerSecret"]
 - !private ["CSo8NSObject", "yelpToken"]
@@ -452,20 +406,16 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Business"]
 - !private ["PSo16NSObjectProtocol", "GET"]
 - !private ["PSo16NSObjectProtocol", "NSURL"]
-- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
 - !private ["PSo16NSObjectProtocol", "YelpClient"]
 - ["PSo16NSObjectProtocol", "accessSecret"]
 - ["PSo16NSObjectProtocol", "accessToken"]
 - !private ["PSo16NSObjectProtocol", "businesses"]
 - !private ["PSo16NSObjectProtocol", "dispatch_once"]
 - ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "objectForKey"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "requestSerializer"]
 - !private ["PSo16NSObjectProtocol", "saveAccessToken"]
 - ["PSo16NSObjectProtocol", "searchWithTerm"]
 - ["PSo16NSObjectProtocol", "sharedInstance"]
-- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
 - !private ["PSo16NSObjectProtocol", "yelpConsumerKey"]
 - !private ["PSo16NSObjectProtocol", "yelpConsumerSecret"]
 - !private ["PSo16NSObjectProtocol", "yelpToken"]
@@ -475,13 +425,11 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "Business"]
 - !private ["PSo14NSSecureCoding", "GET"]
 - !private ["PSo14NSSecureCoding", "NSURL"]
-- !private ["PSo14NSSecureCoding", "NSUserDefaults"]
 - !private ["PSo14NSSecureCoding", "YelpClient"]
 - ["PSo14NSSecureCoding", "accessSecret"]
 - ["PSo14NSSecureCoding", "accessToken"]
 - !private ["PSo14NSSecureCoding", "dispatch_once"]
 - ["PSo14NSSecureCoding", "init"]
-- !private ["PSo14NSSecureCoding", "print"]
 - !private ["PSo14NSSecureCoding", "requestSerializer"]
 - !private ["PSo14NSSecureCoding", "saveAccessToken"]
 - ["PSo14NSSecureCoding", "searchWithTerm"]
@@ -491,13 +439,9 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "yelpToken"]
 - !private ["PSo14NSSecureCoding", "yelpTokenSecret"]
 - ["PSo14NSSecureCoding", ""]
-- !private ["CSo8NSString", "init"]
 - !private ["CSo5NSURL", "init"]
-- !private ["CSo14NSUserDefaults", "objectForKey"]
-- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
 - !private ["CSo7NSValue", "deinit"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "init"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["PSs21RandomAccessIndexType", "hashValue"]
@@ -534,21 +478,10 @@ depends-member:
 - !private ["VSs5Slice", "SubSequence"]
 - !private ["VSs5Slice", "_Element"]
 - !private ["VSs12StaticString", "deinit"]
-- !private ["PSs10Streamable", "init"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
 - !private ["PSs10Strideable", "hashValue"]
 - !private ["SS", "deinit"]
-- !private ["SS", "init"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "init"]
-- !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
-- !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
 - ["C7Punchit10YelpClient", "AFHTTPRequestOperation"]
 - !private ["C7Punchit10YelpClient", "AnyObject"]
 - !private ["C7Punchit10YelpClient", "BDBOAuth1Credential"]
@@ -559,7 +492,6 @@ depends-member:
 - !private ["C7Punchit10YelpClient", "NSDictionary"]
 - ["C7Punchit10YelpClient", "NSError"]
 - !private ["C7Punchit10YelpClient", "NSURL"]
-- !private ["C7Punchit10YelpClient", "NSUserDefaults"]
 - ["C7Punchit10YelpClient", "String"]
 - ["C7Punchit10YelpClient", "Void"]
 - ["C7Punchit10YelpClient", "YelpClient"]
@@ -570,7 +502,6 @@ depends-member:
 - !private ["C7Punchit10YelpClient", "dispatch_once"]
 - !private ["C7Punchit10YelpClient", "dispatch_once_t"]
 - ["C7Punchit10YelpClient", "init"]
-- !private ["C7Punchit10YelpClient", "print"]
 - !private ["C7Punchit10YelpClient", "requestSerializer"]
 - ["C7Punchit10YelpClient", "searchWithTerm"]
 - ["C7Punchit10YelpClient", "sharedInstance"]
@@ -593,14 +524,9 @@ depends-member:
 - !private ["PSs10_ArrayType", "count"]
 - !private ["PSs10_ArrayType", "joinWithSeparator"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "init"]
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
@@ -628,7 +554,6 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
 - !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "joinWithSeparator"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
@@ -673,7 +598,6 @@ depends-nominal:
 - !private "PSs11BooleanType"
 - !private "C7Punchit8Business"
 - "PSs11CVarArgType"
-- !private "VSs9Character"
 - !private "PSs14CollectionType"
 - !private "PSs10Comparable"
 - !private "PSs28CustomDebugStringConvertible"
@@ -682,8 +606,6 @@ depends-nominal:
 - !private "PSs28DictionaryLiteralConvertible"
 - !private "Sd"
 - "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
-- !private "Sf"
 - !private "PSs16ForwardIndexType"
 - !private "PSs13GeneratorType"
 - "PSs8Hashable"
@@ -691,10 +613,6 @@ depends-nominal:
 - !private "PSs9Indexable"
 - !private "VSs17IndexingGenerator"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
@@ -705,17 +623,13 @@ depends-nominal:
 - !private "PSs16MutableSliceable"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
-- !private "PSo16NSMutableCopying"
 - !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
-- !private "CSo8NSString"
 - !private "CSo5NSURL"
-- !private "CSo14NSUserDefaults"
 - !private "CSo7NSValue"
 - !private "Sq"
-- !private "PSs16OutputStreamType"
 - !private "PSs21RandomAccessIndexType"
 - !private "VSs5Range"
 - !private "PSs30RangeReplaceableCollectionType"
@@ -725,28 +639,13 @@ depends-nominal:
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
 - !private "VSs12StaticString"
-- !private "PSs10Streamable"
 - !private "PSs10Strideable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
-- !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
-- !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
 - "C7Punchit10YelpClient"
 - "O7Punchit12YelpSortMode"
 - !private "PSs10_ArrayType"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
 - !private "PSs24_DestructorSafeContainer"
 - !private "PSs32_FileReferenceLiteralConvertible"
 - !private "PSs14_Incrementable"
@@ -759,7 +658,6 @@ depends-nominal:
 - !private "PSs18_SignedIntegerType"
 - !private "PSs11_Strideable"
 depends-dynamic-lookup:
-- !private "init"
 - !private "subscript"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -784,6 +682,13 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/module.modulemap"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
