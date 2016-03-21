@@ -1,12 +1,14 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "5fece25f7dee7468fe4d36fc80e0065e"
-build_time: [511691173, 321407000]
+options: "1b27def5ed810827baf8cf5e2e9c1f19"
+build_time: [511764855, 187992000]
 inputs:
+  "/Users/Avinash/Documents/NewsOTG/NewsOTG/NewsOTG/LoadingViewController.swift": [511739233, 0]
   "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PCContentViewController.swift": [511414547, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/SignUpViewController.swift": [511756746, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/AppDelegate.swift": [511738918, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchCardViewController.swift": [511652365, 0]
   "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/ScanViewController.swift": [511689938, 0]
   "/Users/Avinash/Downloads/ios_yelp_swift-master/Yelp/Business.swift": [507617030, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchPointsViewController.swift": [511691131, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchCardViewController.swift": [511652365, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/AppDelegate.swift": [511688909, 0]
-  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/RestaurantViewController.swift": [511690844, 0]
   "/Users/Avinash/Downloads/ios_yelp_swift-master/Yelp/YelpClient.swift": [511690871, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/RestaurantViewController.swift": [511690844, 0]
+  "/Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/PunchPointsViewController.swift": [511691502, 0]

@@ -98,6 +98,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
+@class NSURL;
 
 SWIFT_CLASS("_TtC7Punchit11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -108,10 +109,10 @@ SWIFT_CLASS("_TtC7Punchit11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * __nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * __nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * __nonnull)application;
+- (BOOL)application:(UIApplication * __nonnull)application openURL:(NSURL * __nonnull)url sourceApplication:(NSString * __nullable)sourceApplication annotation:(id __nullable)annotation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSURL;
 @class NSNumber;
 @class NSDictionary;
 @class NSError;
@@ -130,9 +131,23 @@ SWIFT_CLASS("_TtC7Punchit8Business")
 + (void)searchWithTerm:(NSString * __nonnull)term completion:(void (^ __nonnull)(NSArray<Business *> * __null_unspecified, NSError * __null_unspecified))completion;
 @end
 
-@class UILabel;
+@class UIActivityIndicatorView;
+@class Firebase;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7Punchit21LoadingViewController")
+@interface LoadingViewController : UIViewController
+@property (nonatomic, strong) UIActivityIndicatorView * __nonnull activityIndicator;
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)nextpage;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
 
 SWIFT_CLASS("_TtC7Punchit23PCContentViewController")
 @interface PCContentViewController : UIViewController
@@ -189,7 +204,6 @@ SWIFT_CLASS("_TtC7Punchit23RestaurantTableViewCell")
 
 @class CLLocationManager;
 @class UITableView;
-@class Firebase;
 @class CLLocation;
 @class NSIndexPath;
 
@@ -222,6 +236,28 @@ SWIFT_CLASS("_TtC7Punchit18ScanViewController")
 @property (nonatomic, readonly, strong) QRCode * __nonnull scanner;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UIButton;
+@class UITouch;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC7Punchit20SignUpViewController")
+@interface SignUpViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified email;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified username;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified password;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified signup;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified fbsignup;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
+- (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
+- (IBAction)signUp:(UIButton * __nonnull)sender;
+- (IBAction)fbLogin:(id __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -9,60 +9,63 @@ provides-member:
 - ["C7Punchit23RestaurantTableViewCell", ""]
 - ["C7Punchit24RestaurantViewController", ""]
 provides-dynamic-lookup:
-- "myRootRef"
-- "Distance"
-- "distance"
-- "locationManager"
-- "locationManager"
-- "getYelpData"
-- "address"
-- "Address"
 - "didReceiveMemoryWarning"
-- "businesses"
+- "myRootRef"
+- "viewWillAppear"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "address"
+- "Distance"
+- "viewWillDisappear"
 - "logo"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
+- "getYelpData"
 - "Logo"
+- "businesses"
+- "viewDidLoad"
 - "Title"
 - "names"
-- "viewDidLoad"
+- "Address"
+- "locationManager"
+- "locationManager"
+- "distance"
 depends-top-level:
-- "CLLocationManagerDelegate"
-- "NSURL"
-- !private "UINib"
-- "UITableViewCell"
-- "UITableViewDelegate"
-- !private "CLLocationCoordinate2D"
 - "UITableViewDataSource"
 - "CLLocation"
-- "NSIndexPath"
-- "StringLiteralType"
-- "UIViewController"
-- !private "NSData"
+- !private "UIImage"
+- "UITableViewDelegate"
+- "UITableViewCell"
 - "RestaurantTableViewCell"
-- "CGFloat"
-- !private "Void"
-- !private "=="
-- "CLLocationManager"
-- !private "BooleanLiteralType"
-- "Firebase"
-- "RestaurantViewController"
-- "String"
+- !private "CLLocationCoordinate2D"
+- "CLLocationManagerDelegate"
+- "UIViewController"
+- "StringLiteralType"
+- !private "NSUserDefaults"
 - !private "Array"
+- !private "UINib"
+- "NSURL"
+- !private "print"
+- "Firebase"
+- "CGFloat"
+- !private "=="
+- "Business"
+- !private "BooleanLiteralType"
+- "String"
+- "Bool"
 - "Int"
+- "CLLocationManager"
+- !private "NSData"
+- "UITableView"
+- "RestaurantViewController"
+- "NSIndexPath"
+- !private "NSError"
+- "UILabel"
+- !private "Void"
+- "NSArray"
 - "UIImageView"
 - !private "kCLLocationAccuracyNearestTenMeters"
-- "Business"
-- !private "NSUserDefaults"
-- "NSArray"
-- !private "UIImage"
-- "UITableView"
-- "UILabel"
-- !private "NSError"
-- !private "print"
 depends-member:
 - ["PSs9AnyObject", "Address"]
 - !private ["PSs9AnyObject", "Business"]
@@ -99,7 +102,11 @@ depends-member:
 - ["PSs9AnyObject", "myRootRef"]
 - !private ["PSs9AnyObject", "name"]
 - ["PSs9AnyObject", "names"]
+- !private ["PSs9AnyObject", "navigationController"]
+- !private ["PSs9AnyObject", "navigationItem"]
 - ["PSs9AnyObject", "numberOfSectionsInTableView"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "phoneNumber"]
 - !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "ratingImageURL"]
 - !private ["PSs9AnyObject", "registerNib"]
@@ -120,6 +127,8 @@ depends-member:
 - ["PSs9AnyObject", "scrollViewWillEndDragging"]
 - !private ["PSs9AnyObject", "searchWithTerm"]
 - ["PSs9AnyObject", "sectionIndexTitlesForTableView"]
+- !private ["PSs9AnyObject", "setHidesBackButton"]
+- !private ["PSs9AnyObject", "setNavigationBarHidden"]
 - !private ["PSs9AnyObject", "setObject"]
 - !private ["PSs9AnyObject", "standardUserDefaults"]
 - !private ["PSs9AnyObject", "startUpdatingLocation"]
@@ -128,6 +137,8 @@ depends-member:
 - !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewForZoomingInScrollView"]
+- ["PSs9AnyObject", "viewWillAppear"]
+- ["PSs9AnyObject", "viewWillDisappear"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Element"]
 - !private ["Sa", "Generator"]
@@ -159,6 +170,7 @@ depends-member:
 - !private ["C7Punchit8Business", "address"]
 - !private ["C7Punchit8Business", "distance"]
 - !private ["C7Punchit8Business", "name"]
+- !private ["C7Punchit8Business", "phoneNumber"]
 - !private ["C7Punchit8Business", "ratingImageURL"]
 - !private ["C7Punchit8Business", "searchWithTerm"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
@@ -192,7 +204,10 @@ depends-member:
 - ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo25CLLocationManagerDelegate", "logo"]
 - !private ["PSo25CLLocationManagerDelegate", "names"]
+- !private ["PSo25CLLocationManagerDelegate", "navigationController"]
+- !private ["PSo25CLLocationManagerDelegate", "navigationItem"]
 - ["PSo25CLLocationManagerDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo25CLLocationManagerDelegate", "performSegueWithIdentifier"]
 - !private ["PSo25CLLocationManagerDelegate", "print"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewDidEndDragging"]
@@ -246,7 +261,11 @@ depends-member:
 - ["PSs11CVarArgType", "myRootRef"]
 - !private ["PSs11CVarArgType", "name"]
 - ["PSs11CVarArgType", "names"]
+- !private ["PSs11CVarArgType", "navigationController"]
+- !private ["PSs11CVarArgType", "navigationItem"]
 - ["PSs11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "phoneNumber"]
 - !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "ratingImageURL"]
 - !private ["PSs11CVarArgType", "registerNib"]
@@ -267,6 +286,8 @@ depends-member:
 - ["PSs11CVarArgType", "scrollViewWillEndDragging"]
 - !private ["PSs11CVarArgType", "searchWithTerm"]
 - ["PSs11CVarArgType", "sectionIndexTitlesForTableView"]
+- !private ["PSs11CVarArgType", "setHidesBackButton"]
+- !private ["PSs11CVarArgType", "setNavigationBarHidden"]
 - !private ["PSs11CVarArgType", "setObject"]
 - !private ["PSs11CVarArgType", "standardUserDefaults"]
 - !private ["PSs11CVarArgType", "startUpdatingLocation"]
@@ -275,6 +296,8 @@ depends-member:
 - !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", "viewForZoomingInScrollView"]
+- ["PSs11CVarArgType", "viewWillAppear"]
+- ["PSs11CVarArgType", "viewWillDisappear"]
 - ["PSs11CVarArgType", ""]
 - !private ["PSs14CollectionType", "Element"]
 - !private ["PSs14CollectionType", "Generator"]
@@ -339,7 +362,11 @@ depends-member:
 - ["PSs23CustomStringConvertible", "myRootRef"]
 - !private ["PSs23CustomStringConvertible", "name"]
 - ["PSs23CustomStringConvertible", "names"]
+- !private ["PSs23CustomStringConvertible", "navigationController"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
 - ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "phoneNumber"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "ratingImageURL"]
 - !private ["PSs23CustomStringConvertible", "registerNib"]
@@ -360,6 +387,8 @@ depends-member:
 - ["PSs23CustomStringConvertible", "scrollViewWillEndDragging"]
 - !private ["PSs23CustomStringConvertible", "searchWithTerm"]
 - ["PSs23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- !private ["PSs23CustomStringConvertible", "setHidesBackButton"]
+- !private ["PSs23CustomStringConvertible", "setNavigationBarHidden"]
 - !private ["PSs23CustomStringConvertible", "setObject"]
 - !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
 - !private ["PSs23CustomStringConvertible", "startUpdatingLocation"]
@@ -369,6 +398,8 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", "viewForZoomingInScrollView"]
+- ["PSs23CustomStringConvertible", "viewWillAppear"]
+- ["PSs23CustomStringConvertible", "viewWillDisappear"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
 - ["PSs9Equatable", "Address"]
@@ -408,7 +439,11 @@ depends-member:
 - ["PSs9Equatable", "myRootRef"]
 - !private ["PSs9Equatable", "name"]
 - ["PSs9Equatable", "names"]
+- !private ["PSs9Equatable", "navigationController"]
+- !private ["PSs9Equatable", "navigationItem"]
 - ["PSs9Equatable", "numberOfSectionsInTableView"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "phoneNumber"]
 - !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "ratingImageURL"]
 - !private ["PSs9Equatable", "registerNib"]
@@ -429,6 +464,8 @@ depends-member:
 - ["PSs9Equatable", "scrollViewWillEndDragging"]
 - !private ["PSs9Equatable", "searchWithTerm"]
 - ["PSs9Equatable", "sectionIndexTitlesForTableView"]
+- !private ["PSs9Equatable", "setHidesBackButton"]
+- !private ["PSs9Equatable", "setNavigationBarHidden"]
 - !private ["PSs9Equatable", "setObject"]
 - !private ["PSs9Equatable", "standardUserDefaults"]
 - !private ["PSs9Equatable", "startUpdatingLocation"]
@@ -437,6 +474,8 @@ depends-member:
 - !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewForZoomingInScrollView"]
+- ["PSs9Equatable", "viewWillAppear"]
+- ["PSs9Equatable", "viewWillDisappear"]
 - ["PSs9Equatable", ""]
 - ["CSo6FQuery", "init"]
 - ["CSo8Firebase", "init"]
@@ -480,7 +519,11 @@ depends-member:
 - ["PSs8Hashable", "myRootRef"]
 - !private ["PSs8Hashable", "name"]
 - ["PSs8Hashable", "names"]
+- !private ["PSs8Hashable", "navigationController"]
+- !private ["PSs8Hashable", "navigationItem"]
 - ["PSs8Hashable", "numberOfSectionsInTableView"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "phoneNumber"]
 - !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "ratingImageURL"]
 - !private ["PSs8Hashable", "registerNib"]
@@ -501,6 +544,8 @@ depends-member:
 - ["PSs8Hashable", "scrollViewWillEndDragging"]
 - !private ["PSs8Hashable", "searchWithTerm"]
 - ["PSs8Hashable", "sectionIndexTitlesForTableView"]
+- !private ["PSs8Hashable", "setHidesBackButton"]
+- !private ["PSs8Hashable", "setNavigationBarHidden"]
 - !private ["PSs8Hashable", "setObject"]
 - !private ["PSs8Hashable", "standardUserDefaults"]
 - !private ["PSs8Hashable", "startUpdatingLocation"]
@@ -509,6 +554,8 @@ depends-member:
 - !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", "viewForZoomingInScrollView"]
+- ["PSs8Hashable", "viewWillAppear"]
+- ["PSs8Hashable", "viewWillDisappear"]
 - ["PSs8Hashable", ""]
 - !private ["SQ", "Generator"]
 - ["SQ", "deinit"]
@@ -587,7 +634,10 @@ depends-member:
 - ["PSo8NSCoding", "logo"]
 - ["PSo8NSCoding", "myRootRef"]
 - ["PSo8NSCoding", "names"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "registerNib"]
 - !private ["PSo8NSCoding", "reloadData"]
@@ -605,10 +655,14 @@ depends-member:
 - ["PSo8NSCoding", "scrollViewWillBeginZooming"]
 - ["PSo8NSCoding", "scrollViewWillEndDragging"]
 - ["PSo8NSCoding", "sectionIndexTitlesForTableView"]
+- !private ["PSo8NSCoding", "setHidesBackButton"]
+- !private ["PSo8NSCoding", "setNavigationBarHidden"]
 - ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewForZoomingInScrollView"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "viewWillDisappear"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "coordinate"]
 - ["PSo9NSCopying", "init"]
@@ -637,7 +691,10 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "logo"]
 - ["PSo26NSExtensionRequestHandling", "myRootRef"]
 - ["PSo26NSExtensionRequestHandling", "names"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
@@ -652,14 +709,18 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "scrollViewWillBeginZooming"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewWillEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "sectionIndexTitlesForTableView"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
 - ["PSo26NSExtensionRequestHandling", "tableView"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["PSo17NSFastEnumeration", "init"]
 - !private ["CSo11NSIndexPath", "row"]
 - ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Address"]
+- ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "Business"]
 - ["CSo8NSObject", "CGFloat"]
 - ["CSo8NSObject", "CLLocation"]
@@ -708,7 +769,11 @@ depends-member:
 - ["CSo8NSObject", "myRootRef"]
 - !private ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "names"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "phoneNumber"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "ratingImageURL"]
 - !private ["CSo8NSObject", "registerNib"]
@@ -729,6 +794,8 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - !private ["CSo8NSObject", "searchWithTerm"]
 - ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- !private ["CSo8NSObject", "setHidesBackButton"]
+- !private ["CSo8NSObject", "setNavigationBarHidden"]
 - !private ["CSo8NSObject", "setObject"]
 - !private ["CSo8NSObject", "standardUserDefaults"]
 - !private ["CSo8NSObject", "startUpdatingLocation"]
@@ -737,6 +804,8 @@ depends-member:
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "viewWillDisappear"]
 - ["PSo16NSObjectProtocol", "Address"]
 - !private ["PSo16NSObjectProtocol", "Business"]
 - ["PSo16NSObjectProtocol", "CLLocationManager"]
@@ -772,7 +841,11 @@ depends-member:
 - ["PSo16NSObjectProtocol", "myRootRef"]
 - !private ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "names"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "phoneNumber"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "ratingImageURL"]
 - !private ["PSo16NSObjectProtocol", "registerNib"]
@@ -793,6 +866,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
 - !private ["PSo16NSObjectProtocol", "searchWithTerm"]
 - ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- !private ["PSo16NSObjectProtocol", "setHidesBackButton"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
 - !private ["PSo16NSObjectProtocol", "setObject"]
 - !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
 - !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
@@ -801,6 +876,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "coordinate"]
 - ["PSo14NSSecureCoding", "init"]
@@ -831,6 +908,7 @@ depends-member:
 - ["C7Punchit23RestaurantTableViewCell", "UILabel"]
 - ["C7Punchit23RestaurantTableViewCell", "deinit"]
 - ["C7Punchit23RestaurantTableViewCell", "init"]
+- ["C7Punchit24RestaurantViewController", "Bool"]
 - ["C7Punchit24RestaurantViewController", "Business"]
 - ["C7Punchit24RestaurantViewController", "CGFloat"]
 - ["C7Punchit24RestaurantViewController", "CLLocation"]
@@ -867,7 +945,10 @@ depends-member:
 - ["C7Punchit24RestaurantViewController", "logo"]
 - ["C7Punchit24RestaurantViewController", "myRootRef"]
 - ["C7Punchit24RestaurantViewController", "names"]
+- !private ["C7Punchit24RestaurantViewController", "navigationController"]
+- !private ["C7Punchit24RestaurantViewController", "navigationItem"]
 - ["C7Punchit24RestaurantViewController", "numberOfSectionsInTableView"]
+- !private ["C7Punchit24RestaurantViewController", "performSegueWithIdentifier"]
 - !private ["C7Punchit24RestaurantViewController", "print"]
 - ["C7Punchit24RestaurantViewController", "scrollViewDidEndDecelerating"]
 - ["C7Punchit24RestaurantViewController", "scrollViewDidEndDragging"]
@@ -885,6 +966,8 @@ depends-member:
 - ["C7Punchit24RestaurantViewController", "tableView"]
 - ["C7Punchit24RestaurantViewController", "viewDidLoad"]
 - ["C7Punchit24RestaurantViewController", "viewForZoomingInScrollView"]
+- ["C7Punchit24RestaurantViewController", "viewWillAppear"]
+- ["C7Punchit24RestaurantViewController", "viewWillDisappear"]
 - !private ["PSs12SequenceType", "Element"]
 - !private ["PSs12SequenceType", "Generator"]
 - !private ["PSs12SequenceType", "Index"]
@@ -955,7 +1038,10 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "logo"]
 - ["PSo21UIAppearanceContainer", "myRootRef"]
 - ["PSo21UIAppearanceContainer", "names"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "registerNib"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
@@ -972,10 +1058,13 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "scrollViewWillBeginZooming"]
 - ["PSo21UIAppearanceContainer", "scrollViewWillEndDragging"]
 - ["PSo21UIAppearanceContainer", "sectionIndexTitlesForTableView"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
 - ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "Business"]
 - ["PSo18UIContentContainer", "CLLocationManager"]
@@ -1000,7 +1089,10 @@ depends-member:
 - ["PSo18UIContentContainer", "logo"]
 - ["PSo18UIContentContainer", "myRootRef"]
 - ["PSo18UIContentContainer", "names"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
@@ -1015,9 +1107,12 @@ depends-member:
 - ["PSo18UIContentContainer", "scrollViewWillBeginZooming"]
 - ["PSo18UIContentContainer", "scrollViewWillEndDragging"]
 - ["PSo18UIContentContainer", "sectionIndexTitlesForTableView"]
+- !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
 - ["PSo18UIContentContainer", "tableView"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
 - ["PSo18UIContentContainer", ""]
 - ["PSo17UICoordinateSpace", "Address"]
 - ["PSo17UICoordinateSpace", "Distance"]
@@ -1070,7 +1165,10 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "logo"]
 - ["PSo18UIFocusEnvironment", "myRootRef"]
 - ["PSo18UIFocusEnvironment", "names"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "registerNib"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
@@ -1087,10 +1185,13 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UIFocusEnvironment", "scrollViewWillEndDragging"]
 - ["PSo18UIFocusEnvironment", "sectionIndexTitlesForTableView"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
 - ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewForZoomingInScrollView"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
 - ["PSo18UIFocusEnvironment", ""]
 - ["PSo27UIGestureRecognizerDelegate", "Address"]
 - ["PSo27UIGestureRecognizerDelegate", "Distance"]
@@ -1101,8 +1202,11 @@ depends-member:
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "image"]
 - !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "setNavigationBarHidden"]
+- !private ["CSo16UINavigationItem", "setHidesBackButton"]
 - !private ["CSo5UINib", "init"]
 - ["CSo11UIResponder", "Address"]
+- ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "Business"]
 - ["CSo11UIResponder", "CGFloat"]
 - ["CSo11UIResponder", "CLLocation"]
@@ -1145,7 +1249,10 @@ depends-member:
 - ["CSo11UIResponder", "logo"]
 - ["CSo11UIResponder", "myRootRef"]
 - ["CSo11UIResponder", "names"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "registerNib"]
 - !private ["CSo11UIResponder", "reloadData"]
@@ -1162,10 +1269,13 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillBeginZooming"]
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
 - ["CSo11UIResponder", "sectionIndexTitlesForTableView"]
+- !private ["CSo11UIResponder", "setNavigationBarHidden"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "viewWillDisappear"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "registerNib"]
 - !private ["CSo12UIScrollView", "reloadData"]
@@ -1189,7 +1299,10 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo20UIScrollViewDelegate", "logo"]
 - !private ["PSo20UIScrollViewDelegate", "names"]
+- !private ["PSo20UIScrollViewDelegate", "navigationController"]
+- !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo20UIScrollViewDelegate", "performSegueWithIdentifier"]
 - !private ["PSo20UIScrollViewDelegate", "print"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
@@ -1230,7 +1343,10 @@ depends-member:
 - ["PSo16UIStateRestoring", "logo"]
 - ["PSo16UIStateRestoring", "myRootRef"]
 - ["PSo16UIStateRestoring", "names"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
@@ -1245,9 +1361,12 @@ depends-member:
 - ["PSo16UIStateRestoring", "scrollViewWillBeginZooming"]
 - ["PSo16UIStateRestoring", "scrollViewWillEndDragging"]
 - ["PSo16UIStateRestoring", "sectionIndexTitlesForTableView"]
+- !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
 - ["PSo16UIStateRestoring", "tableView"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UITableView", "registerNib"]
@@ -1280,7 +1399,10 @@ depends-member:
 - ["PSo21UITableViewDataSource", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo21UITableViewDataSource", "logo"]
 - !private ["PSo21UITableViewDataSource", "names"]
+- !private ["PSo21UITableViewDataSource", "navigationController"]
+- !private ["PSo21UITableViewDataSource", "navigationItem"]
 - ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- !private ["PSo21UITableViewDataSource", "performSegueWithIdentifier"]
 - !private ["PSo21UITableViewDataSource", "print"]
 - ["PSo21UITableViewDataSource", "scrollViewDidEndDecelerating"]
 - ["PSo21UITableViewDataSource", "scrollViewDidEndDragging"]
@@ -1318,7 +1440,10 @@ depends-member:
 - ["PSo19UITableViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo19UITableViewDelegate", "logo"]
 - !private ["PSo19UITableViewDelegate", "names"]
+- !private ["PSo19UITableViewDelegate", "navigationController"]
+- !private ["PSo19UITableViewDelegate", "navigationItem"]
 - ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo19UITableViewDelegate", "performSegueWithIdentifier"]
 - !private ["PSo19UITableViewDelegate", "print"]
 - ["PSo19UITableViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo19UITableViewDelegate", "scrollViewDidEndDragging"]
@@ -1365,7 +1490,10 @@ depends-member:
 - ["PSo18UITraitEnvironment", "logo"]
 - ["PSo18UITraitEnvironment", "myRootRef"]
 - ["PSo18UITraitEnvironment", "names"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "registerNib"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
@@ -1382,10 +1510,13 @@ depends-member:
 - ["PSo18UITraitEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UITraitEnvironment", "scrollViewWillEndDragging"]
 - ["PSo18UITraitEnvironment", "sectionIndexTitlesForTableView"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
 - ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewForZoomingInScrollView"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Address"]
 - ["CSo6UIView", "Distance"]
@@ -1399,6 +1530,7 @@ depends-member:
 - !private ["CSo6UIView", "registerNib"]
 - !private ["CSo6UIView", "reloadData"]
 - !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "Business"]
 - ["CSo16UIViewController", "CGFloat"]
 - ["CSo16UIViewController", "CLLocation"]
@@ -1434,7 +1566,10 @@ depends-member:
 - ["CSo16UIViewController", "logo"]
 - ["CSo16UIViewController", "myRootRef"]
 - ["CSo16UIViewController", "names"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
 - ["CSo16UIViewController", "scrollViewDidEndDragging"]
@@ -1449,9 +1584,12 @@ depends-member:
 - ["CSo16UIViewController", "scrollViewWillBeginZooming"]
 - ["CSo16UIViewController", "scrollViewWillEndDragging"]
 - ["CSo16UIViewController", "sectionIndexTitlesForTableView"]
+- !private ["CSo16UIViewController", "setNavigationBarHidden"]
 - ["CSo16UIViewController", "tableView"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "viewWillDisappear"]
 - ["CSo16UIViewController", ""]
 - !private ["O7Punchit12YelpSortMode", "Distance"]
 - !private ["PSs10_ArrayType", "Element"]
@@ -1592,6 +1730,8 @@ depends-nominal:
 - !private "CSo7UIImage"
 - !private "CSo11UIImageView"
 - !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
 - !private "CSo5UINib"
 - "CSo11UIResponder"
 - !private "CSo12UIScrollView"
@@ -1641,6 +1781,60 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
@@ -1678,4 +1872,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "328e55c32693c6d59a37f950f19ae299"
+interface-hash: "a9169bdb61fe73e8248f129e94a64588"

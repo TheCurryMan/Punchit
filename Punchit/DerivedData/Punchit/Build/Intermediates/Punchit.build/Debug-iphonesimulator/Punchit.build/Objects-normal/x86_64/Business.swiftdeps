@@ -6,35 +6,37 @@ provides-nominal:
 provides-member:
 - ["C7Punchit8Business", ""]
 provides-dynamic-lookup:
-- "distance"
-- "reviewCount"
-- "ratingImageURL"
-- "categories"
-- "imageURL"
-- "name"
-- "searchWithTerm"
-- "address"
 - "businesses"
+- "imageURL"
+- "distance"
+- "searchWithTerm"
+- "categories"
+- "name"
+- "phoneNumber"
+- "ratingImageURL"
+- "address"
+- "reviewCount"
 depends-top-level:
-- !private "+="
-- !private "&&"
-- !private "*"
-- !private "NSArray"
-- "NSURL"
-- !private ">"
-- !private "StringLiteralType"
-- "NSObject"
-- "Void"
 - "String"
-- "NSError"
-- "Business"
-- !private "YelpClient"
-- "Bool"
-- !private "!"
-- "NSDictionary"
+- !private "print"
 - "YelpSortMode"
+- "NSURL"
+- "NSObject"
+- "NSDictionary"
+- "Bool"
+- !private "StringLiteralType"
+- !private "!"
 - "NSNumber"
+- !private "+="
+- "Void"
+- !private ">"
+- "NSError"
 - !private "!="
+- !private "NSArray"
+- !private "&&"
+- !private "YelpClient"
+- !private "*"
+- "Business"
 depends-member:
 - !private ["CSo29AFHTTPRequestOperationManager", "searchWithTerm"]
 - !private ["CSo29AFHTTPRequestOperationManager", "sharedInstance"]
@@ -52,6 +54,8 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "isEmpty"]
 - ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "phoneNumber"]
+- !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "ratingImageURL"]
 - ["PSs9AnyObject", "reviewCount"]
 - ["PSs9AnyObject", "searchWithTerm"]
@@ -107,6 +111,8 @@ depends-member:
 - ["C7Punchit8Business", "imageURL"]
 - ["C7Punchit8Business", "init"]
 - ["C7Punchit8Business", "name"]
+- ["C7Punchit8Business", "phoneNumber"]
+- !private ["C7Punchit8Business", "print"]
 - ["C7Punchit8Business", "ratingImageURL"]
 - ["C7Punchit8Business", "reviewCount"]
 - ["C7Punchit8Business", "searchWithTerm"]
@@ -126,6 +132,8 @@ depends-member:
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "isEmpty"]
 - ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "phoneNumber"]
+- !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "ratingImageURL"]
 - ["PSs11CVarArgType", "reviewCount"]
 - ["PSs11CVarArgType", "searchWithTerm"]
@@ -176,6 +184,8 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "isEmpty"]
 - !private ["PSs23CustomStringConvertible", "joinWithSeparator"]
 - ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "phoneNumber"]
+- !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "ratingImageURL"]
 - ["PSs23CustomStringConvertible", "reviewCount"]
 - ["PSs23CustomStringConvertible", "searchWithTerm"]
@@ -200,6 +210,8 @@ depends-member:
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "isEmpty"]
 - ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "phoneNumber"]
+- !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "ratingImageURL"]
 - ["PSs9Equatable", "reviewCount"]
 - ["PSs9Equatable", "searchWithTerm"]
@@ -229,6 +241,8 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "isEmpty"]
 - ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "phoneNumber"]
+- !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "ratingImageURL"]
 - ["PSs8Hashable", "reviewCount"]
 - ["PSs8Hashable", "searchWithTerm"]
@@ -326,6 +340,8 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isEmpty"]
 - ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "phoneNumber"]
+- !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "ratingImageURL"]
 - ["CSo8NSObject", "reviewCount"]
 - ["CSo8NSObject", "searchWithTerm"]
@@ -346,6 +362,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isEmpty"]
 - ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "phoneNumber"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "ratingImageURL"]
 - ["PSo16NSObjectProtocol", "reviewCount"]
 - ["PSo16NSObjectProtocol", "searchWithTerm"]
@@ -584,6 +602,60 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
@@ -621,4 +693,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "2ba7dac12f8c287e61f7205634308dec"
+interface-hash: "611168532f21bacf1284cbc81641a5e8"

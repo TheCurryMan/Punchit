@@ -1,0 +1,677 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PunchCardViewController"
+provides-nominal:
+- "C7Punchit23PunchCardViewController"
+provides-member:
+- ["C7Punchit23PunchCardViewController", ""]
+provides-dynamic-lookup:
+- "viewControllerAtIndex"
+- "presentationCountForPageViewController"
+- "presentationIndexForPageViewController"
+- "pagePunches"
+- "pageViewController"
+- "pageViewController"
+- "pageViewController"
+- "pageRestaurants"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+depends-top-level:
+- !private "-"
+- "UIViewController"
+- "PunchCardViewController"
+- !private "=="
+- !private "StringLiteralType"
+- !private ">="
+- "UIPageViewController"
+- !private "NSNotFound"
+- !private "++"
+- !private "||"
+- "UIPageViewControllerDataSource"
+- !private "CGRectMake"
+- !private "String"
+- "PCContentViewController"
+- "NSArray"
+- "Int"
+- !private "--"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "NSArray"]
+- !private ["PSs9AnyObject", "NSNotFound"]
+- !private ["PSs9AnyObject", "PCContentViewController"]
+- !private ["PSs9AnyObject", "addChildViewController"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "count"]
+- !private ["PSs9AnyObject", "dataSource"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "didMoveToParentViewController"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs9AnyObject", "pageIndex"]
+- ["PSs9AnyObject", "pagePunches"]
+- ["PSs9AnyObject", "pageRestaurants"]
+- ["PSs9AnyObject", "pageViewController"]
+- ["PSs9AnyObject", "presentationCountForPageViewController"]
+- ["PSs9AnyObject", "presentationIndexForPageViewController"]
+- !private ["PSs9AnyObject", "punchedText"]
+- !private ["PSs9AnyObject", "restaurantText"]
+- !private ["PSs9AnyObject", "setViewControllers"]
+- !private ["PSs9AnyObject", "storyboard"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewControllerAtIndex"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "NSArray"]
+- !private ["PSs11CVarArgType", "NSNotFound"]
+- !private ["PSs11CVarArgType", "PCContentViewController"]
+- !private ["PSs11CVarArgType", "addChildViewController"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "count"]
+- !private ["PSs11CVarArgType", "dataSource"]
+- !private ["PSs11CVarArgType", "didMoveToParentViewController"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs11CVarArgType", "pageIndex"]
+- ["PSs11CVarArgType", "pagePunches"]
+- ["PSs11CVarArgType", "pageRestaurants"]
+- ["PSs11CVarArgType", "pageViewController"]
+- ["PSs11CVarArgType", "presentationCountForPageViewController"]
+- ["PSs11CVarArgType", "presentationIndexForPageViewController"]
+- !private ["PSs11CVarArgType", "punchedText"]
+- !private ["PSs11CVarArgType", "restaurantText"]
+- !private ["PSs11CVarArgType", "setViewControllers"]
+- !private ["PSs11CVarArgType", "storyboard"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewControllerAtIndex"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "NSArray"]
+- !private ["PSs23CustomStringConvertible", "NSNotFound"]
+- !private ["PSs23CustomStringConvertible", "PCContentViewController"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addChildViewController"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "dataSource"]
+- !private ["PSs23CustomStringConvertible", "didMoveToParentViewController"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "pageIndex"]
+- ["PSs23CustomStringConvertible", "pagePunches"]
+- ["PSs23CustomStringConvertible", "pageRestaurants"]
+- ["PSs23CustomStringConvertible", "pageViewController"]
+- ["PSs23CustomStringConvertible", "presentationCountForPageViewController"]
+- ["PSs23CustomStringConvertible", "presentationIndexForPageViewController"]
+- !private ["PSs23CustomStringConvertible", "punchedText"]
+- !private ["PSs23CustomStringConvertible", "restaurantText"]
+- !private ["PSs23CustomStringConvertible", "setViewControllers"]
+- !private ["PSs23CustomStringConvertible", "storyboard"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewControllerAtIndex"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGRectMake"]
+- !private ["PSs9Equatable", "Forward"]
+- !private ["PSs9Equatable", "NSArray"]
+- !private ["PSs9Equatable", "NSNotFound"]
+- !private ["PSs9Equatable", "PCContentViewController"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addChildViewController"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "count"]
+- !private ["PSs9Equatable", "dataSource"]
+- !private ["PSs9Equatable", "didMoveToParentViewController"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs9Equatable", "pageIndex"]
+- ["PSs9Equatable", "pagePunches"]
+- ["PSs9Equatable", "pageRestaurants"]
+- ["PSs9Equatable", "pageViewController"]
+- ["PSs9Equatable", "presentationCountForPageViewController"]
+- ["PSs9Equatable", "presentationIndexForPageViewController"]
+- !private ["PSs9Equatable", "punchedText"]
+- !private ["PSs9Equatable", "restaurantText"]
+- !private ["PSs9Equatable", "setViewControllers"]
+- !private ["PSs9Equatable", "storyboard"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewControllerAtIndex"]
+- ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGRectMake"]
+- !private ["PSs8Hashable", "Forward"]
+- !private ["PSs8Hashable", "NSArray"]
+- !private ["PSs8Hashable", "NSNotFound"]
+- !private ["PSs8Hashable", "PCContentViewController"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addChildViewController"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "count"]
+- !private ["PSs8Hashable", "dataSource"]
+- !private ["PSs8Hashable", "didMoveToParentViewController"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
+- !private ["PSs8Hashable", "pageIndex"]
+- ["PSs8Hashable", "pagePunches"]
+- ["PSs8Hashable", "pageRestaurants"]
+- ["PSs8Hashable", "pageViewController"]
+- ["PSs8Hashable", "presentationCountForPageViewController"]
+- ["PSs8Hashable", "presentationIndexForPageViewController"]
+- !private ["PSs8Hashable", "punchedText"]
+- !private ["PSs8Hashable", "restaurantText"]
+- !private ["PSs8Hashable", "setViewControllers"]
+- !private ["PSs8Hashable", "storyboard"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewControllerAtIndex"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["CSo7NSArray", "count"]
+- !private ["CSo7NSArray", "deinit"]
+- !private ["CSo7NSArray", "init"]
+- !private ["CSo7NSArray", "subscript"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "NSArray"]
+- !private ["PSo8NSCoding", "NSNotFound"]
+- !private ["PSo8NSCoding", "PCContentViewController"]
+- !private ["PSo8NSCoding", "addChildViewController"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "didMoveToParentViewController"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "pageIndex"]
+- ["PSo8NSCoding", "pagePunches"]
+- ["PSo8NSCoding", "pageRestaurants"]
+- ["PSo8NSCoding", "pageViewController"]
+- ["PSo8NSCoding", "presentationCountForPageViewController"]
+- ["PSo8NSCoding", "presentationIndexForPageViewController"]
+- !private ["PSo8NSCoding", "punchedText"]
+- !private ["PSo8NSCoding", "restaurantText"]
+- !private ["PSo8NSCoding", "setViewControllers"]
+- !private ["PSo8NSCoding", "storyboard"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewControllerAtIndex"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "NSArray"]
+- !private ["PSo26NSExtensionRequestHandling", "NSNotFound"]
+- !private ["PSo26NSExtensionRequestHandling", "PCContentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "addChildViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "dataSource"]
+- !private ["PSo26NSExtensionRequestHandling", "didMoveToParentViewController"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "pageIndex"]
+- ["PSo26NSExtensionRequestHandling", "pagePunches"]
+- ["PSo26NSExtensionRequestHandling", "pageRestaurants"]
+- ["PSo26NSExtensionRequestHandling", "pageViewController"]
+- ["PSo26NSExtensionRequestHandling", "presentationCountForPageViewController"]
+- ["PSo26NSExtensionRequestHandling", "presentationIndexForPageViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "punchedText"]
+- !private ["PSo26NSExtensionRequestHandling", "restaurantText"]
+- !private ["PSo26NSExtensionRequestHandling", "setViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewControllerAtIndex"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSArray"]
+- !private ["CSo8NSObject", "NSNotFound"]
+- ["CSo8NSObject", "PCContentViewController"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIPageViewController"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addChildViewController"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "didMoveToParentViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo8NSObject", "pageIndex"]
+- ["CSo8NSObject", "pagePunches"]
+- ["CSo8NSObject", "pageRestaurants"]
+- ["CSo8NSObject", "pageViewController"]
+- ["CSo8NSObject", "presentationCountForPageViewController"]
+- ["CSo8NSObject", "presentationIndexForPageViewController"]
+- !private ["CSo8NSObject", "punchedText"]
+- !private ["CSo8NSObject", "restaurantText"]
+- !private ["CSo8NSObject", "setViewControllers"]
+- !private ["CSo8NSObject", "storyboard"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewControllerAtIndex"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "NSArray"]
+- !private ["PSo16NSObjectProtocol", "NSNotFound"]
+- !private ["PSo16NSObjectProtocol", "PCContentViewController"]
+- !private ["PSo16NSObjectProtocol", "addChildViewController"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "didMoveToParentViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "pageIndex"]
+- ["PSo16NSObjectProtocol", "pagePunches"]
+- ["PSo16NSObjectProtocol", "pageRestaurants"]
+- ["PSo16NSObjectProtocol", "pageViewController"]
+- ["PSo16NSObjectProtocol", "presentationCountForPageViewController"]
+- ["PSo16NSObjectProtocol", "presentationIndexForPageViewController"]
+- !private ["PSo16NSObjectProtocol", "punchedText"]
+- !private ["PSo16NSObjectProtocol", "restaurantText"]
+- !private ["PSo16NSObjectProtocol", "setViewControllers"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewControllerAtIndex"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["Sq", "deinit"]
+- !private ["C7Punchit23PCContentViewController", "init"]
+- !private ["C7Punchit23PCContentViewController", "pageIndex"]
+- !private ["C7Punchit23PCContentViewController", "punchedText"]
+- !private ["C7Punchit23PCContentViewController", "restaurantText"]
+- !private ["C7Punchit23PunchCardViewController", "CGRectMake"]
+- ["C7Punchit23PunchCardViewController", "Int"]
+- ["C7Punchit23PunchCardViewController", "NSArray"]
+- !private ["C7Punchit23PunchCardViewController", "NSNotFound"]
+- ["C7Punchit23PunchCardViewController", "PCContentViewController"]
+- !private ["C7Punchit23PunchCardViewController", "String"]
+- ["C7Punchit23PunchCardViewController", "UIPageViewController"]
+- ["C7Punchit23PunchCardViewController", "UIViewController"]
+- !private ["C7Punchit23PunchCardViewController", "addChildViewController"]
+- ["C7Punchit23PunchCardViewController", "deinit"]
+- ["C7Punchit23PunchCardViewController", "didReceiveMemoryWarning"]
+- ["C7Punchit23PunchCardViewController", "init"]
+- ["C7Punchit23PunchCardViewController", "pagePunches"]
+- ["C7Punchit23PunchCardViewController", "pageRestaurants"]
+- ["C7Punchit23PunchCardViewController", "pageViewController"]
+- ["C7Punchit23PunchCardViewController", "presentationCountForPageViewController"]
+- ["C7Punchit23PunchCardViewController", "presentationIndexForPageViewController"]
+- !private ["C7Punchit23PunchCardViewController", "storyboard"]
+- !private ["C7Punchit23PunchCardViewController", "view"]
+- ["C7Punchit23PunchCardViewController", "viewControllerAtIndex"]
+- ["C7Punchit23PunchCardViewController", "viewDidLoad"]
+- !private ["PSs16RawRepresentable", "Forward"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "NSArray"]
+- !private ["PSo21UIAppearanceContainer", "NSNotFound"]
+- !private ["PSo21UIAppearanceContainer", "PCContentViewController"]
+- !private ["PSo21UIAppearanceContainer", "addChildViewController"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "didMoveToParentViewController"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "pageIndex"]
+- ["PSo21UIAppearanceContainer", "pagePunches"]
+- ["PSo21UIAppearanceContainer", "pageRestaurants"]
+- ["PSo21UIAppearanceContainer", "pageViewController"]
+- ["PSo21UIAppearanceContainer", "presentationCountForPageViewController"]
+- ["PSo21UIAppearanceContainer", "presentationIndexForPageViewController"]
+- !private ["PSo21UIAppearanceContainer", "punchedText"]
+- !private ["PSo21UIAppearanceContainer", "restaurantText"]
+- !private ["PSo21UIAppearanceContainer", "setViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewControllerAtIndex"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "NSArray"]
+- !private ["PSo18UIContentContainer", "NSNotFound"]
+- !private ["PSo18UIContentContainer", "PCContentViewController"]
+- !private ["PSo18UIContentContainer", "addChildViewController"]
+- !private ["PSo18UIContentContainer", "dataSource"]
+- !private ["PSo18UIContentContainer", "didMoveToParentViewController"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "pageIndex"]
+- ["PSo18UIContentContainer", "pagePunches"]
+- ["PSo18UIContentContainer", "pageRestaurants"]
+- ["PSo18UIContentContainer", "pageViewController"]
+- ["PSo18UIContentContainer", "presentationCountForPageViewController"]
+- ["PSo18UIContentContainer", "presentationIndexForPageViewController"]
+- !private ["PSo18UIContentContainer", "punchedText"]
+- !private ["PSo18UIContentContainer", "restaurantText"]
+- !private ["PSo18UIContentContainer", "setViewControllers"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewControllerAtIndex"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "NSArray"]
+- !private ["PSo18UIFocusEnvironment", "NSNotFound"]
+- !private ["PSo18UIFocusEnvironment", "PCContentViewController"]
+- !private ["PSo18UIFocusEnvironment", "addChildViewController"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "didMoveToParentViewController"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "pageIndex"]
+- ["PSo18UIFocusEnvironment", "pagePunches"]
+- ["PSo18UIFocusEnvironment", "pageRestaurants"]
+- ["PSo18UIFocusEnvironment", "pageViewController"]
+- ["PSo18UIFocusEnvironment", "presentationCountForPageViewController"]
+- ["PSo18UIFocusEnvironment", "presentationIndexForPageViewController"]
+- !private ["PSo18UIFocusEnvironment", "punchedText"]
+- !private ["PSo18UIFocusEnvironment", "restaurantText"]
+- !private ["PSo18UIFocusEnvironment", "setViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewControllerAtIndex"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo20UIPageViewController", "dataSource"]
+- !private ["CSo20UIPageViewController", "didMoveToParentViewController"]
+- !private ["CSo20UIPageViewController", "setViewControllers"]
+- !private ["CSo20UIPageViewController", "view"]
+- !private ["PSo30UIPageViewControllerDataSource", "CGRectMake"]
+- !private ["PSo30UIPageViewControllerDataSource", "NSArray"]
+- !private ["PSo30UIPageViewControllerDataSource", "NSNotFound"]
+- !private ["PSo30UIPageViewControllerDataSource", "PCContentViewController"]
+- !private ["PSo30UIPageViewControllerDataSource", "addChildViewController"]
+- !private ["PSo30UIPageViewControllerDataSource", "pagePunches"]
+- !private ["PSo30UIPageViewControllerDataSource", "pageRestaurants"]
+- ["PSo30UIPageViewControllerDataSource", "pageViewController"]
+- ["PSo30UIPageViewControllerDataSource", "presentationCountForPageViewController"]
+- ["PSo30UIPageViewControllerDataSource", "presentationIndexForPageViewController"]
+- !private ["PSo30UIPageViewControllerDataSource", "storyboard"]
+- !private ["PSo30UIPageViewControllerDataSource", "view"]
+- !private ["PSo30UIPageViewControllerDataSource", "viewControllerAtIndex"]
+- ["PSo30UIPageViewControllerDataSource", ""]
+- !private ["OSC39UIPageViewControllerNavigationDirection", "Forward"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSArray"]
+- !private ["CSo11UIResponder", "NSNotFound"]
+- ["CSo11UIResponder", "PCContentViewController"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIPageViewController"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "addChildViewController"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "didMoveToParentViewController"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "pageIndex"]
+- ["CSo11UIResponder", "pagePunches"]
+- ["CSo11UIResponder", "pageRestaurants"]
+- ["CSo11UIResponder", "pageViewController"]
+- ["CSo11UIResponder", "presentationCountForPageViewController"]
+- ["CSo11UIResponder", "presentationIndexForPageViewController"]
+- !private ["CSo11UIResponder", "punchedText"]
+- !private ["CSo11UIResponder", "restaurantText"]
+- !private ["CSo11UIResponder", "setViewControllers"]
+- !private ["CSo11UIResponder", "storyboard"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewControllerAtIndex"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "NSArray"]
+- !private ["PSo16UIStateRestoring", "NSNotFound"]
+- !private ["PSo16UIStateRestoring", "PCContentViewController"]
+- !private ["PSo16UIStateRestoring", "addChildViewController"]
+- !private ["PSo16UIStateRestoring", "dataSource"]
+- !private ["PSo16UIStateRestoring", "didMoveToParentViewController"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "pageIndex"]
+- ["PSo16UIStateRestoring", "pagePunches"]
+- ["PSo16UIStateRestoring", "pageRestaurants"]
+- ["PSo16UIStateRestoring", "pageViewController"]
+- ["PSo16UIStateRestoring", "presentationCountForPageViewController"]
+- ["PSo16UIStateRestoring", "presentationIndexForPageViewController"]
+- !private ["PSo16UIStateRestoring", "punchedText"]
+- !private ["PSo16UIStateRestoring", "restaurantText"]
+- !private ["PSo16UIStateRestoring", "setViewControllers"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewControllerAtIndex"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "NSArray"]
+- !private ["PSo18UITraitEnvironment", "NSNotFound"]
+- !private ["PSo18UITraitEnvironment", "PCContentViewController"]
+- !private ["PSo18UITraitEnvironment", "addChildViewController"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "didMoveToParentViewController"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "pageIndex"]
+- ["PSo18UITraitEnvironment", "pagePunches"]
+- ["PSo18UITraitEnvironment", "pageRestaurants"]
+- ["PSo18UITraitEnvironment", "pageViewController"]
+- ["PSo18UITraitEnvironment", "presentationCountForPageViewController"]
+- ["PSo18UITraitEnvironment", "presentationIndexForPageViewController"]
+- !private ["PSo18UITraitEnvironment", "punchedText"]
+- !private ["PSo18UITraitEnvironment", "restaurantText"]
+- !private ["PSo18UITraitEnvironment", "setViewControllers"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewControllerAtIndex"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo16UIViewController", "CGRectMake"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSArray"]
+- !private ["CSo16UIViewController", "NSNotFound"]
+- ["CSo16UIViewController", "PCContentViewController"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIPageViewController"]
+- ["CSo16UIViewController", "UIViewController"]
+- !private ["CSo16UIViewController", "addChildViewController"]
+- !private ["CSo16UIViewController", "dataSource"]
+- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "didMoveToParentViewController"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "pageIndex"]
+- ["CSo16UIViewController", "pagePunches"]
+- ["CSo16UIViewController", "pageRestaurants"]
+- ["CSo16UIViewController", "pageViewController"]
+- ["CSo16UIViewController", "presentationCountForPageViewController"]
+- ["CSo16UIViewController", "presentationIndexForPageViewController"]
+- !private ["CSo16UIViewController", "punchedText"]
+- !private ["CSo16UIViewController", "restaurantText"]
+- !private ["CSo16UIViewController", "setViewControllers"]
+- !private ["CSo16UIViewController", "storyboard"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewControllerAtIndex"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "width"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "CSo7NSArray"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "C7Punchit23PCContentViewController"
+- "C7Punchit23PunchCardViewController"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo20UIPageViewController"
+- "PSo30UIPageViewControllerDataSource"
+- !private "OSC39UIPageViewControllerNavigationDirection"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+interface-hash: "e5a97c6310978eddb602692627f19b51"

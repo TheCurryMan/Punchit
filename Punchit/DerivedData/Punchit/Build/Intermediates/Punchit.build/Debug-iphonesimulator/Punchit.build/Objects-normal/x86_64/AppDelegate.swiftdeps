@@ -6,28 +6,35 @@ provides-nominal:
 provides-member:
 - ["C7Punchit11AppDelegate", ""]
 provides-dynamic-lookup:
+- "window"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
 - "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
-- "applicationWillTerminate"
-- "applicationDidBecomeActive"
 - "application"
-- "window"
-- "applicationWillResignActive"
+- "application"
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "UIPageControl"
-- "UIApplication"
-- "AppDelegate"
-- "NSObject"
-- "AnyObject"
-- "UIResponder"
-- "Bool"
 - "UIWindow"
-- !private "UIColor"
+- !private "FBSDKAppEvents"
+- "NSObject"
+- "String"
+- !private "FBSDKApplicationDelegate"
+- "AnyObject"
+- "Bool"
 - "UIApplicationDelegate"
+- "AppDelegate"
+- "NSURL"
+- "UIApplication"
+- "UIResponder"
+- !private "UIPageControl"
+- !private "UIColor"
 depends-member:
+- !private ["PSs9AnyObject", "FBSDKAppEvents"]
+- !private ["PSs9AnyObject", "FBSDKApplicationDelegate"]
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIPageControl"]
+- !private ["PSs9AnyObject", "activateApp"]
 - !private ["PSs9AnyObject", "appearance"]
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -47,12 +54,17 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "lightGrayColor"]
 - !private ["PSs9AnyObject", "pageIndicatorTintColor"]
+- !private ["PSs9AnyObject", "sharedInstance"]
 - !private ["PSs9AnyObject", "whiteColor"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
 - ["C7Punchit11AppDelegate", "AnyObject"]
 - ["C7Punchit11AppDelegate", "Bool"]
+- !private ["C7Punchit11AppDelegate", "FBSDKAppEvents"]
+- !private ["C7Punchit11AppDelegate", "FBSDKApplicationDelegate"]
 - ["C7Punchit11AppDelegate", "NSObject"]
+- ["C7Punchit11AppDelegate", "NSURL"]
+- ["C7Punchit11AppDelegate", "String"]
 - ["C7Punchit11AppDelegate", "UIApplication"]
 - !private ["C7Punchit11AppDelegate", "UIColor"]
 - !private ["C7Punchit11AppDelegate", "UIPageControl"]
@@ -72,8 +84,11 @@ depends-member:
 - ["C7Punchit11AppDelegate", "deinit"]
 - ["C7Punchit11AppDelegate", "init"]
 - ["C7Punchit11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "FBSDKAppEvents"]
+- !private ["PSs11CVarArgType", "FBSDKApplicationDelegate"]
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIPageControl"]
+- !private ["PSs11CVarArgType", "activateApp"]
 - !private ["PSs11CVarArgType", "appearance"]
 - ["PSs11CVarArgType", "application"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
@@ -93,11 +108,15 @@ depends-member:
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "lightGrayColor"]
 - !private ["PSs11CVarArgType", "pageIndicatorTintColor"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
 - !private ["PSs11CVarArgType", "whiteColor"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "FBSDKAppEvents"]
+- !private ["PSs23CustomStringConvertible", "FBSDKApplicationDelegate"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIPageControl"]
+- !private ["PSs23CustomStringConvertible", "activateApp"]
 - !private ["PSs23CustomStringConvertible", "appearance"]
 - ["PSs23CustomStringConvertible", "application"]
 - ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
@@ -117,11 +136,15 @@ depends-member:
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "lightGrayColor"]
 - !private ["PSs23CustomStringConvertible", "pageIndicatorTintColor"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
 - !private ["PSs23CustomStringConvertible", "whiteColor"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FBSDKAppEvents"]
+- !private ["PSs9Equatable", "FBSDKApplicationDelegate"]
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIPageControl"]
+- !private ["PSs9Equatable", "activateApp"]
 - !private ["PSs9Equatable", "appearance"]
 - ["PSs9Equatable", "application"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
@@ -141,11 +164,18 @@ depends-member:
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "lightGrayColor"]
 - !private ["PSs9Equatable", "pageIndicatorTintColor"]
+- !private ["PSs9Equatable", "sharedInstance"]
 - !private ["PSs9Equatable", "whiteColor"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
+- !private ["CSo14FBSDKAppEvents", "activateApp"]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["PSs8Hashable", "FBSDKAppEvents"]
+- !private ["PSs8Hashable", "FBSDKApplicationDelegate"]
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIPageControl"]
+- !private ["PSs8Hashable", "activateApp"]
 - !private ["PSs8Hashable", "appearance"]
 - ["PSs8Hashable", "application"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
@@ -165,6 +195,7 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "lightGrayColor"]
 - !private ["PSs8Hashable", "pageIndicatorTintColor"]
+- !private ["PSs8Hashable", "sharedInstance"]
 - !private ["PSs8Hashable", "whiteColor"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
@@ -180,11 +211,16 @@ depends-member:
 - !private ["PSo9NSCopying", "whiteColor"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAppEvents"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
 - ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIPageControl"]
 - ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "activateApp"]
 - !private ["CSo8NSObject", "appearance"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
@@ -204,10 +240,14 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "lightGrayColor"]
 - !private ["CSo8NSObject", "pageIndicatorTintColor"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - !private ["CSo8NSObject", "whiteColor"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAppEvents"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIPageControl"]
+- !private ["PSo16NSObjectProtocol", "activateApp"]
 - !private ["PSo16NSObjectProtocol", "appearance"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
@@ -227,12 +267,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "lightGrayColor"]
 - !private ["PSo16NSObjectProtocol", "pageIndicatorTintColor"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "blackColor"]
 - !private ["PSo14NSSecureCoding", "lightGrayColor"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["Sq", "deinit"]
 - !private ["PSo29UIAccessibilityIdentification", "appearance"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "currentPageIndicatorTintColor"]
@@ -245,6 +287,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - !private ["PSo21UIAppearanceContainer", "currentPageIndicatorTintColor"]
 - !private ["PSo21UIAppearanceContainer", "pageIndicatorTintColor"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKAppEvents"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
 - !private ["PSo21UIApplicationDelegate", "UIColor"]
 - !private ["PSo21UIApplicationDelegate", "UIPageControl"]
 - ["PSo21UIApplicationDelegate", "application"]
@@ -286,7 +330,11 @@ depends-member:
 - !private ["CSo13UIPageControl", "pageIndicatorTintColor"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAppEvents"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
 - ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIPageControl"]
@@ -331,12 +379,15 @@ depends-nominal:
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
+- !private "CSo14FBSDKAppEvents"
+- !private "CSo24FBSDKApplicationDelegate"
 - "PSs8Hashable"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "Sq"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - !private "PSo21UIAppearanceContainer"
@@ -375,6 +426,60 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
@@ -412,4 +517,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
+interface-hash: "7560963324f35ca01a9b81f1b1163f01"

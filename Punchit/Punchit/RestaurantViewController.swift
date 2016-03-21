@@ -38,6 +38,22 @@ class RestaurantViewController: UIViewController, UITableViewDataSource, UITable
     
     var businesses: [Business]!
     
+    override func viewWillAppear(animated: Bool) {
+        //viewDidLoad()
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationItem.setHidesBackButton(false, animated: false)
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -81,8 +97,9 @@ func getYelpData() {
             self.address.append(business.address!)
             self.distance.append(business.distance!)
             self.logo.append(business.ratingImageURL!)
-            
-            //print(business.name!)
+            print(business.name!)
+            print(business.phoneNumber!)
+
             //print(business.address!)
             //print(business.ratingImageURL)
             //print(business.reviewCount)
@@ -127,6 +144,7 @@ func getYelpData() {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print(indexPath.row)
+        performSegueWithIdentifier("restaurantview", sender: self)
     }
     
         

@@ -1,0 +1,624 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Business"
+provides-nominal:
+- "C7Punchit8Business"
+provides-member:
+- ["C7Punchit8Business", ""]
+provides-dynamic-lookup:
+- "categories"
+- "ratingImageURL"
+- "imageURL"
+- "businesses"
+- "reviewCount"
+- "address"
+- "searchWithTerm"
+- "distance"
+- "name"
+depends-top-level:
+- "NSDictionary"
+- "Bool"
+- "Void"
+- "YelpSortMode"
+- !private "!="
+- "Business"
+- !private "+="
+- !private ">"
+- "NSObject"
+- "NSError"
+- !private "StringLiteralType"
+- "String"
+- "NSNumber"
+- !private "!"
+- !private "YelpClient"
+- !private "&&"
+- "NSURL"
+- !private "*"
+- !private "NSArray"
+depends-member:
+- !private ["CSo29AFHTTPRequestOperationManager", "searchWithTerm"]
+- !private ["CSo29AFHTTPRequestOperationManager", "sharedInstance"]
+- !private ["PSs9AnyObject", "Business"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "YelpClient"]
+- ["PSs9AnyObject", "address"]
+- ["PSs9AnyObject", "businesses"]
+- ["PSs9AnyObject", "categories"]
+- !private ["PSs9AnyObject", "count"]
+- ["PSs9AnyObject", "distance"]
+- !private ["PSs9AnyObject", "doubleValue"]
+- ["PSs9AnyObject", "imageURL"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isEmpty"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "ratingImageURL"]
+- ["PSs9AnyObject", "reviewCount"]
+- ["PSs9AnyObject", "searchWithTerm"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joinWithSeparator"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "joinWithSeparator"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["CSo32BDBOAuth1RequestOperationManager", "searchWithTerm"]
+- !private ["CSo32BDBOAuth1RequestOperationManager", "sharedInstance"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "doubleValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["C7Punchit8Business", "Bool"]
+- ["C7Punchit8Business", "Business"]
+- !private ["C7Punchit8Business", "NSArray"]
+- ["C7Punchit8Business", "NSDictionary"]
+- ["C7Punchit8Business", "NSError"]
+- ["C7Punchit8Business", "NSNumber"]
+- ["C7Punchit8Business", "NSURL"]
+- ["C7Punchit8Business", "String"]
+- ["C7Punchit8Business", "Void"]
+- !private ["C7Punchit8Business", "YelpClient"]
+- ["C7Punchit8Business", "YelpSortMode"]
+- ["C7Punchit8Business", "address"]
+- ["C7Punchit8Business", "businesses"]
+- ["C7Punchit8Business", "categories"]
+- ["C7Punchit8Business", "deinit"]
+- ["C7Punchit8Business", "distance"]
+- ["C7Punchit8Business", "imageURL"]
+- ["C7Punchit8Business", "init"]
+- ["C7Punchit8Business", "name"]
+- ["C7Punchit8Business", "ratingImageURL"]
+- ["C7Punchit8Business", "reviewCount"]
+- ["C7Punchit8Business", "searchWithTerm"]
+- !private ["PSs11CVarArgType", "Business"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "YelpClient"]
+- ["PSs11CVarArgType", "address"]
+- ["PSs11CVarArgType", "businesses"]
+- ["PSs11CVarArgType", "categories"]
+- !private ["PSs11CVarArgType", "count"]
+- ["PSs11CVarArgType", "distance"]
+- !private ["PSs11CVarArgType", "doubleValue"]
+- ["PSs11CVarArgType", "imageURL"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isEmpty"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "ratingImageURL"]
+- ["PSs11CVarArgType", "reviewCount"]
+- ["PSs11CVarArgType", "searchWithTerm"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "joinWithSeparator"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "joinWithSeparator"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Business"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "YelpClient"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "address"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- ["PSs23CustomStringConvertible", "businesses"]
+- ["PSs23CustomStringConvertible", "categories"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "distance"]
+- !private ["PSs23CustomStringConvertible", "doubleValue"]
+- ["PSs23CustomStringConvertible", "imageURL"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "joinWithSeparator"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "ratingImageURL"]
+- ["PSs23CustomStringConvertible", "reviewCount"]
+- ["PSs23CustomStringConvertible", "searchWithTerm"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "Business"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "YelpClient"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "address"]
+- ["PSs9Equatable", "businesses"]
+- ["PSs9Equatable", "categories"]
+- !private ["PSs9Equatable", "count"]
+- ["PSs9Equatable", "distance"]
+- !private ["PSs9Equatable", "doubleValue"]
+- ["PSs9Equatable", "imageURL"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isEmpty"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "ratingImageURL"]
+- ["PSs9Equatable", "reviewCount"]
+- ["PSs9Equatable", "searchWithTerm"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs23FloatLiteralConvertible", "doubleValue"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Business"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "YelpClient"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "address"]
+- ["PSs8Hashable", "businesses"]
+- ["PSs8Hashable", "categories"]
+- !private ["PSs8Hashable", "count"]
+- ["PSs8Hashable", "distance"]
+- !private ["PSs8Hashable", "doubleValue"]
+- ["PSs8Hashable", "imageURL"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isEmpty"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "ratingImageURL"]
+- ["PSs8Hashable", "reviewCount"]
+- ["PSs8Hashable", "searchWithTerm"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "joinWithSeparator"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "doubleValue"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "joinWithSeparator"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "joinWithSeparator"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "joinWithSeparator"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["CSo7NSArray", "count"]
+- !private ["CSo7NSArray", "subscript"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "doubleValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "searchWithTerm"]
+- !private ["PSo8NSCoding", "sharedInstance"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "doubleValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "searchWithTerm"]
+- !private ["PSo9NSCopying", "sharedInstance"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSNumber", "doubleValue"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Business"]
+- !private ["CSo8NSObject", "NSArray"]
+- ["CSo8NSObject", "NSDictionary"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "YelpClient"]
+- ["CSo8NSObject", "YelpSortMode"]
+- ["CSo8NSObject", "address"]
+- ["CSo8NSObject", "businesses"]
+- ["CSo8NSObject", "categories"]
+- !private ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "distance"]
+- !private ["CSo8NSObject", "doubleValue"]
+- ["CSo8NSObject", "imageURL"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "ratingImageURL"]
+- ["CSo8NSObject", "reviewCount"]
+- ["CSo8NSObject", "searchWithTerm"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Business"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "YelpClient"]
+- ["PSo16NSObjectProtocol", "address"]
+- ["PSo16NSObjectProtocol", "businesses"]
+- ["PSo16NSObjectProtocol", "categories"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "distance"]
+- !private ["PSo16NSObjectProtocol", "doubleValue"]
+- ["PSo16NSObjectProtocol", "imageURL"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "ratingImageURL"]
+- ["PSo16NSObjectProtocol", "reviewCount"]
+- ["PSo16NSObjectProtocol", "searchWithTerm"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "doubleValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "searchWithTerm"]
+- !private ["PSo14NSSecureCoding", "sharedInstance"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo7NSValue", "doubleValue"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "isEmpty"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "joinWithSeparator"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "joinWithSeparator"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "isEmpty"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["C7Punchit10YelpClient", "searchWithTerm"]
+- !private ["C7Punchit10YelpClient", "sharedInstance"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "joinWithSeparator"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs16_CocoaStringType", "isEmpty"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "joinWithSeparator"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "joinWithSeparator"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["PSs12_Reflectable", "joinWithSeparator"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- !private "CSo29AFHTTPRequestOperationManager"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "CSo32BDBOAuth1RequestOperationManager"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "C7Punchit8Business"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "C7Punchit10YelpClient"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+interface-hash: "2ba7dac12f8c287e61f7205634308dec"

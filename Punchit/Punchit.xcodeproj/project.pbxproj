@@ -18,9 +18,13 @@
 		E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F11091C99059000E5BD25 /* PCContentViewController.swift */; };
 		E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */; };
 		E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */; };
+		E1348B4E1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1348B4D1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift */; };
 		E14C33E51C9D231B0001D83E /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */; };
+		E16355071C9DFAE4006B8E19 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16355061C9DFAE4006B8E19 /* LoadingViewController.swift */; };
+		E163550B1C9E09F1006B8E19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163550A1C9E09F1006B8E19 /* SignUpViewController.swift */; };
 		E17709BB1C9D3EB5003920DC /* Pods_Punchit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 571191B84872B9D8F1CC4F85 /* Pods_Punchit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E179254E1C9D3C28006A3E24 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179254D1C9D3C28006A3E24 /* ScanViewController.swift */; };
+		E1AB6A9E1C9E7C9E00B9B3F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB6A9D1C9E7C9E00B9B3F2 /* LoginViewController.swift */; };
 		E1C8530E1C9CADF700343E4F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530A1C9CADF700343E4F /* Business.swift */; };
 		E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530C1C9CADF700343E4F /* YelpClient.swift */; };
 /* End PBXBuildFile section */
@@ -79,8 +83,12 @@
 		E11F11091C99059000E5BD25 /* PCContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCContentViewController.swift; sourceTree = "<group>"; };
 		E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchCardViewController.swift; sourceTree = "<group>"; };
 		E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchPointsViewController.swift; sourceTree = "<group>"; };
+		E1348B4D1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestaurantTableViewCell.xib; path = "../../../../../Downloads/ios_yelp_swift-master/Yelp/RestaurantTableViewCell.xib"; sourceTree = "<group>"; };
+		E16355061C9DFAE4006B8E19 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = ../../../../NewsOTG/NewsOTG/NewsOTG/LoadingViewController.swift; sourceTree = "<group>"; };
+		E163550A1C9E09F1006B8E19 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E179254D1C9D3C28006A3E24 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		E1AB6A9D1C9E7C9E00B9B3F2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1C8530A1C9CADF700343E4F /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		E1C8530C1C9CADF700343E4F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,7 +167,11 @@
 				E1C8530B1C9CADF700343E4F /* Models */,
 				E1C8530D1C9CADF700343E4F /* API */,
 				E119127E1C98FDC500D702C8 /* AppDelegate.swift */,
+				E16355061C9DFAE4006B8E19 /* LoadingViewController.swift */,
+				E163550A1C9E09F1006B8E19 /* SignUpViewController.swift */,
+				E1AB6A9D1C9E7C9E00B9B3F2 /* LoginViewController.swift */,
 				E11912801C98FDC500D702C8 /* RestaurantViewController.swift */,
+				E1348B4D1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift */,
 				E11F11091C99059000E5BD25 /* PCContentViewController.swift */,
 				E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */,
 				E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */,
@@ -393,14 +405,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E163550B1C9E09F1006B8E19 /* SignUpViewController.swift in Sources */,
 				E11912811C98FDC500D702C8 /* RestaurantViewController.swift in Sources */,
 				E179254E1C9D3C28006A3E24 /* ScanViewController.swift in Sources */,
 				E11F110A1C99059000E5BD25 /* PCContentViewController.swift in Sources */,
 				E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */,
 				E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */,
+				E16355071C9DFAE4006B8E19 /* LoadingViewController.swift in Sources */,
 				E1C8530E1C9CADF700343E4F /* Business.swift in Sources */,
 				E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */,
 				E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */,
+				E1348B4E1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift in Sources */,
+				E1AB6A9E1C9E7C9E00B9B3F2 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Punchit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YelpHacks.Punchit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Punchit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YelpHacks.Punchit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -23,18 +23,37 @@ PODS:
   - BDBOAuth1Manager (1.6.0):
     - AFNetworking/NSURLConnection (~> 2.6.0)
     - AFNetworking/NSURLSession (~> 2.6.0)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - FBSDKCoreKit (4.10.1):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.10.1):
+    - FBSDKCoreKit
   - Firebase (2.5.1)
   - SwiftQRCode (2.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
   - BDBOAuth1Manager
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
   - Firebase (>= 2.5.0)
   - SwiftQRCode
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   BDBOAuth1Manager: cd5a5872f355ca38180d52ca2dd844f0b0c84797
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  FBSDKCoreKit: d2aaed5e9ab7d8d6301c533376a1fbff1cf3deb5
+  FBSDKLoginKit: 699ff169080e3072de4b9b0faca90bf23dc36deb
+  FBSDKShareKit: 2fd887cce0056bdda91f99b2021d724a4fed8e88
   Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
   SwiftQRCode: ce939b2f3ceba3a4b89a99c981cba70604e480cf
 

@@ -9,6 +9,9 @@ pod 'AFNetworking', '~> 2.5'
 pod 'BDBOAuth1Manager'
 pod 'Firebase', '>= 2.5.0'
 pod 'SwiftQRCode'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
 
 #target 'Punchit' do
 #pod 'AFNetworking'

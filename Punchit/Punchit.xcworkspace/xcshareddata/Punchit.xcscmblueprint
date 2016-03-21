@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C4AC0ACB221405FD87AE109AE3F82CFEB50D6D44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F4F540D265E6963E8FDE326F53E3F7D234D38004" : 0,
+    "C4AC0ACB221405FD87AE109AE3F82CFEB50D6D44" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A89339B-11FE-4197-9E17-ED1E9B8B5DB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F4F540D265E6963E8FDE326F53E3F7D234D38004" : "..\/NewsOTG",
+    "C4AC0ACB221405FD87AE109AE3F82CFEB50D6D44" : "Punchit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Punchit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Punchit\/Punchit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TheCurryMan\/Punchit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4AC0ACB221405FD87AE109AE3F82CFEB50D6D44"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TheCurryMan\/NewsOTG.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4F540D265E6963E8FDE326F53E3F7D234D38004"
+    }
+  ]
+}
