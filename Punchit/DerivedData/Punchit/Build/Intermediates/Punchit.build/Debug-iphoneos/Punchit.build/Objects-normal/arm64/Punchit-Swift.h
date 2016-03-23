@@ -200,8 +200,10 @@ SWIFT_CLASS("_TtC7Punchit28MerchantPointsViewController")
 @property (nonatomic, copy) NSString * __nonnull restaurantID;
 @property (nonatomic, copy) NSString * __nonnull restaurantPhone;
 @property (nonatomic, copy) NSString * __nonnull link;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull transac;
 @property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
 - (void)viewDidLoad;
+- (id __nullable)nullToNil:(id __nullable)value;
 - (void)getMerch;
 - (void)didReceiveMemoryWarning;
 - (IBAction)earn:(id __nonnull)sender;

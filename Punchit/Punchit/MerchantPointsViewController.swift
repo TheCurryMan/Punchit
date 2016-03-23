@@ -27,6 +27,8 @@ class MerchantPointsViewController: UIViewController {
     var restaurantPhone = ""
     var link = ""
     
+    var transac = [""]
+    
     //var userMerchRef = Firebase(url: "https://punch-it.firebaseio.com")
 
     
@@ -72,6 +74,14 @@ class MerchantPointsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func nullToNil(value : AnyObject?) -> AnyObject? {
+        if value is NSNull {
+            return nil
+        } else {
+            return value
+        }
+    }
+    
     func getMerch() {
         
         print("getMerch called.")
@@ -79,10 +89,17 @@ class MerchantPointsViewController: UIViewController {
         let userMerchRef = Firebase(url: link)
         
         userMerchRef.observeEventType(.Value, withBlock: {snapshot in
-            print(snapshot)
+            print(snapshot.value)
+            
+            if self.nullToNil(snapshot.value) == nil {
+                print("no value")
+            }
+            else {
             var point = snapshot.value.objectForKey("points")
+            var transaction = snapshot.value.objectForKey("transaction")
+                self.transac = transaction as! [String]
             self.curPoints = point as! String
-            self.currentPoints.text = self.curPoints
+            self.currentPoints.text = self.curPoints }
             }, withCancelBlock: {error in
                 print("Current Points for the restaurant don't exist.")
                 print(error.description)
@@ -96,6 +113,9 @@ class MerchantPointsViewController: UIViewController {
     
     @IBAction func earn(sender: AnyObject) {
         
+        let timestamp = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
+        print(timestamp)
+        
         let userMerchRef = Firebase(url: link)
         
         var earnAmount = earnField.text!
@@ -103,9 +123,11 @@ class MerchantPointsViewController: UIViewController {
         var finalAmount = 0
         if curPoints == ""{
             finalAmount = Int(earnAmount)!
+            transac = ["E-\(earnAmount)-\(earnAmount)-\(timestamp)"]
         }
         else{
             finalAmount = Int(earnAmount)! + Int(curPoints)!
+            transac.append("E-\(earnAmount)-\(finalAmount)-\(timestamp)")
         }
     
         curPoints = String(finalAmount)
@@ -114,12 +136,19 @@ class MerchantPointsViewController: UIViewController {
         
         //let merchRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(userID)/")
         
-        userMerchRef.setValue(["points": String(finalAmount)])
+        userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac])
+        
+        //restaurantID = ref.authData.uid
+        //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
+        //userRef.updateChildValues(["transaction": transac])
         
     }
     
     
     @IBAction func redeem(sender: AnyObject) {
+        
+        let timestamp = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
+        print(timestamp)
         
         let userMerchRef = Firebase(url: link)
         
@@ -141,7 +170,12 @@ class MerchantPointsViewController: UIViewController {
         
         curPoints = String(finalAmount)
         currentPoints.text = curPoints
-            userMerchRef.setValue(["points": String(finalAmount)])
+        transac.append("R-\(redeemAmount)-\(finalAmount)-\(timestamp)")
+            userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac])
+            
+            //restaurantID = ref.authData.uid
+            //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
+            //userRef.updateChildValues(["transaction": transac])
             
         }
         
