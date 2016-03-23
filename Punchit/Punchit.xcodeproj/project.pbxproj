@@ -28,6 +28,7 @@
 		E1AF06391CA2248B00880119 /* MerchantScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */; };
 		E1AF063B1CA228EE00880119 /* MerchantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */; };
 		E1AF063E1CA2295B00880119 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF063D1CA2295B00880119 /* SettingsViewController.swift */; };
+		E1AF06401CA24AC800880119 /* MerchantPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF063F1CA24AC800880119 /* MerchantPointsViewController.swift */; };
 		E1C8530E1C9CADF700343E4F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530A1C9CADF700343E4F /* Business.swift */; };
 		E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530C1C9CADF700343E4F /* YelpClient.swift */; };
 /* End PBXBuildFile section */
@@ -95,6 +96,7 @@
 		E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantScanViewController.swift; sourceTree = "<group>"; };
 		E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantHomeViewController.swift; sourceTree = "<group>"; };
 		E1AF063D1CA2295B00880119 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E1AF063F1CA24AC800880119 /* MerchantPointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantPointsViewController.swift; sourceTree = "<group>"; };
 		E1C8530A1C9CADF700343E4F /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		E1C8530C1C9CADF700343E4F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +218,7 @@
 			children = (
 				E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */,
 				E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */,
+				E1AF063F1CA24AC800880119 /* MerchantPointsViewController.swift */,
 			);
 			name = Merchant;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				E119127F1C98FDC500D702C8 /* AppDelegate.swift in Sources */,
 				E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */,
 				E16355071C9DFAE4006B8E19 /* LoadingViewController.swift in Sources */,
+				E1AF06401CA24AC800880119 /* MerchantPointsViewController.swift in Sources */,
 				E1C8530E1C9CADF700343E4F /* Business.swift in Sources */,
 				E1AF063E1CA2295B00880119 /* SettingsViewController.swift in Sources */,
 				E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */,

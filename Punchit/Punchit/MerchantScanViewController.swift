@@ -12,6 +12,8 @@ import SwiftQRCode
 class MerchantScanViewController: UIViewController {
     
     var scanner = QRCode()
+    
+    var userid = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,8 @@ class MerchantScanViewController: UIViewController {
         
         scanner.prepareScan(view) { (stringValue) -> () in
         print(stringValue)
+            self.userid = stringValue
+            self.performSegueWithIdentifier("details", sender: self)
         }
         scanner.scanFrame = view.bounds 
 
@@ -37,7 +41,16 @@ class MerchantScanViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "details" {
+            var vc : MerchantPointsViewController = segue.destinationViewController as! MerchantPointsViewController
+            print(userid)
+            vc.userID = userid
+        
+        }
+    }
     /*
     // MARK: - Navigation
 

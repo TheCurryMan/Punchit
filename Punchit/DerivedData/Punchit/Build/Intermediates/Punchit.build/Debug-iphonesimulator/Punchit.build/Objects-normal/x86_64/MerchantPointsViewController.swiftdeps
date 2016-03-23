@@ -1,0 +1,813 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MerchantPointsViewController"
+provides-nominal:
+- "C7Punchit28MerchantPointsViewController"
+provides-member:
+- ["C7Punchit28MerchantPointsViewController", ""]
+provides-dynamic-lookup:
+- "redeem"
+- "didReceiveMemoryWarning"
+- "restaurantID"
+- "lastVisit"
+- "currentPoints"
+- "restaurantPhone"
+- "curPoints"
+- "earnField"
+- "viewDidLoad"
+- "userMerchRef"
+- "earn"
+- "redeemField"
+- "ref"
+- "userID"
+depends-top-level:
+- "StringLiteralType"
+- !private "+"
+- "UnicodeScalarType"
+- !private "String"
+- !private "print"
+- "AnyObject"
+- "UILabel"
+- "UITextField"
+- "MerchantPointsViewController"
+- "UIViewController"
+- !private "Dictionary"
+- "Firebase"
+- !private "Int"
+depends-member:
+- ["PSs9AnyObject", "Firebase"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "Key"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "Value"]
+- !private ["PSs9AnyObject", "authData"]
+- ["PSs9AnyObject", "curPoints"]
+- ["PSs9AnyObject", "currentPoints"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "description"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "earn"]
+- ["PSs9AnyObject", "earnField"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "lastVisit"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "observeEventType"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "redeem"]
+- ["PSs9AnyObject", "redeemField"]
+- ["PSs9AnyObject", "ref"]
+- ["PSs9AnyObject", "restaurantID"]
+- ["PSs9AnyObject", "restaurantPhone"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "uid"]
+- !private ["PSs9AnyObject", "updateChildValues"]
+- ["PSs9AnyObject", "userID"]
+- ["PSs9AnyObject", "userMerchRef"]
+- !private ["PSs9AnyObject", "value"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "deinit"]
+- ["PSs11CVarArgType", "Firebase"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "Key"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "Value"]
+- !private ["PSs11CVarArgType", "authData"]
+- ["PSs11CVarArgType", "curPoints"]
+- ["PSs11CVarArgType", "currentPoints"]
+- !private ["PSs11CVarArgType", "description"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "earn"]
+- ["PSs11CVarArgType", "earnField"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "lastVisit"]
+- !private ["PSs11CVarArgType", "observeEventType"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "redeem"]
+- ["PSs11CVarArgType", "redeemField"]
+- ["PSs11CVarArgType", "ref"]
+- ["PSs11CVarArgType", "restaurantID"]
+- ["PSs11CVarArgType", "restaurantPhone"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "uid"]
+- !private ["PSs11CVarArgType", "updateChildValues"]
+- ["PSs11CVarArgType", "userID"]
+- ["PSs11CVarArgType", "userMerchRef"]
+- !private ["PSs11CVarArgType", "value"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "Firebase"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "authData"]
+- ["PSs23CustomStringConvertible", "curPoints"]
+- ["PSs23CustomStringConvertible", "currentPoints"]
+- !private ["PSs23CustomStringConvertible", "description"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "earn"]
+- ["PSs23CustomStringConvertible", "earnField"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "lastVisit"]
+- !private ["PSs23CustomStringConvertible", "observeEventType"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "redeem"]
+- ["PSs23CustomStringConvertible", "redeemField"]
+- ["PSs23CustomStringConvertible", "ref"]
+- ["PSs23CustomStringConvertible", "restaurantID"]
+- ["PSs23CustomStringConvertible", "restaurantPhone"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "uid"]
+- !private ["PSs23CustomStringConvertible", "updateChildValues"]
+- ["PSs23CustomStringConvertible", "userID"]
+- ["PSs23CustomStringConvertible", "userMerchRef"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- ["PSs9Equatable", "Firebase"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Key"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "Value"]
+- !private ["PSs9Equatable", "authData"]
+- ["PSs9Equatable", "curPoints"]
+- ["PSs9Equatable", "currentPoints"]
+- !private ["PSs9Equatable", "description"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "earn"]
+- ["PSs9Equatable", "earnField"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "lastVisit"]
+- !private ["PSs9Equatable", "observeEventType"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "redeem"]
+- ["PSs9Equatable", "redeemField"]
+- ["PSs9Equatable", "ref"]
+- ["PSs9Equatable", "restaurantID"]
+- ["PSs9Equatable", "restaurantPhone"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "uid"]
+- !private ["PSs9Equatable", "updateChildValues"]
+- ["PSs9Equatable", "userID"]
+- ["PSs9Equatable", "userMerchRef"]
+- !private ["PSs9Equatable", "value"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "description"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo9FAuthData", "uid"]
+- !private ["CSo13FDataSnapshot", "value"]
+- !private ["OSC10FEventType", "Value"]
+- !private ["CSo6FQuery", "authData"]
+- ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "observeEventType"]
+- !private ["CSo6FQuery", "updateChildValues"]
+- !private ["CSo8Firebase", "authData"]
+- ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "observeEventType"]
+- !private ["CSo8Firebase", "updateChildValues"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "init"]
+- ["PSs8Hashable", "Firebase"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Key"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "Value"]
+- !private ["PSs8Hashable", "authData"]
+- ["PSs8Hashable", "curPoints"]
+- ["PSs8Hashable", "currentPoints"]
+- !private ["PSs8Hashable", "description"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "earn"]
+- ["PSs8Hashable", "earnField"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "lastVisit"]
+- !private ["PSs8Hashable", "observeEventType"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "redeem"]
+- ["PSs8Hashable", "redeemField"]
+- ["PSs8Hashable", "ref"]
+- ["PSs8Hashable", "restaurantID"]
+- ["PSs8Hashable", "restaurantPhone"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "uid"]
+- !private ["PSs8Hashable", "updateChildValues"]
+- ["PSs8Hashable", "userID"]
+- ["PSs8Hashable", "userMerchRef"]
+- !private ["PSs8Hashable", "value"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "init"]
+- ["C7Punchit28MerchantPointsViewController", "AnyObject"]
+- ["C7Punchit28MerchantPointsViewController", "Firebase"]
+- !private ["C7Punchit28MerchantPointsViewController", "Int"]
+- !private ["C7Punchit28MerchantPointsViewController", "String"]
+- ["C7Punchit28MerchantPointsViewController", "UILabel"]
+- ["C7Punchit28MerchantPointsViewController", "UITextField"]
+- ["C7Punchit28MerchantPointsViewController", "curPoints"]
+- ["C7Punchit28MerchantPointsViewController", "currentPoints"]
+- ["C7Punchit28MerchantPointsViewController", "deinit"]
+- ["C7Punchit28MerchantPointsViewController", "didReceiveMemoryWarning"]
+- ["C7Punchit28MerchantPointsViewController", "earn"]
+- ["C7Punchit28MerchantPointsViewController", "earnField"]
+- ["C7Punchit28MerchantPointsViewController", "init"]
+- ["C7Punchit28MerchantPointsViewController", "lastVisit"]
+- !private ["C7Punchit28MerchantPointsViewController", "print"]
+- ["C7Punchit28MerchantPointsViewController", "redeem"]
+- ["C7Punchit28MerchantPointsViewController", "redeemField"]
+- ["C7Punchit28MerchantPointsViewController", "ref"]
+- ["C7Punchit28MerchantPointsViewController", "restaurantID"]
+- ["C7Punchit28MerchantPointsViewController", "restaurantPhone"]
+- ["C7Punchit28MerchantPointsViewController", "userID"]
+- ["C7Punchit28MerchantPointsViewController", "userMerchRef"]
+- ["C7Punchit28MerchantPointsViewController", "viewDidLoad"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "Key"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "Value"]
+- ["PSo8NSCoding", "curPoints"]
+- ["PSo8NSCoding", "currentPoints"]
+- !private ["PSo8NSCoding", "description"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "earn"]
+- ["PSo8NSCoding", "earnField"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lastVisit"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "redeem"]
+- ["PSo8NSCoding", "redeemField"]
+- ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "restaurantID"]
+- ["PSo8NSCoding", "restaurantPhone"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "userID"]
+- ["PSo8NSCoding", "userMerchRef"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Key"]
+- !private ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "description"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- !private ["CSo7NSError", "description"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- ["PSo26NSExtensionRequestHandling", "curPoints"]
+- ["PSo26NSExtensionRequestHandling", "currentPoints"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "earn"]
+- ["PSo26NSExtensionRequestHandling", "earnField"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "lastVisit"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "redeem"]
+- ["PSo26NSExtensionRequestHandling", "redeemField"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "restaurantID"]
+- ["PSo26NSExtensionRequestHandling", "restaurantPhone"]
+- ["PSo26NSExtensionRequestHandling", "userID"]
+- ["PSo26NSExtensionRequestHandling", "userMerchRef"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Firebase"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Key"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "Value"]
+- !private ["CSo8NSObject", "authData"]
+- ["CSo8NSObject", "curPoints"]
+- ["CSo8NSObject", "currentPoints"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "earn"]
+- ["CSo8NSObject", "earnField"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lastVisit"]
+- !private ["CSo8NSObject", "observeEventType"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "redeem"]
+- ["CSo8NSObject", "redeemField"]
+- ["CSo8NSObject", "ref"]
+- ["CSo8NSObject", "restaurantID"]
+- ["CSo8NSObject", "restaurantPhone"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["CSo8NSObject", "updateChildValues"]
+- ["CSo8NSObject", "userID"]
+- ["CSo8NSObject", "userMerchRef"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Key"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "authData"]
+- ["PSo16NSObjectProtocol", "curPoints"]
+- ["PSo16NSObjectProtocol", "currentPoints"]
+- !private ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "earn"]
+- ["PSo16NSObjectProtocol", "earnField"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lastVisit"]
+- !private ["PSo16NSObjectProtocol", "observeEventType"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "redeem"]
+- ["PSo16NSObjectProtocol", "redeemField"]
+- ["PSo16NSObjectProtocol", "ref"]
+- ["PSo16NSObjectProtocol", "restaurantID"]
+- ["PSo16NSObjectProtocol", "restaurantPhone"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "updateChildValues"]
+- ["PSo16NSObjectProtocol", "userID"]
+- ["PSo16NSObjectProtocol", "userMerchRef"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Key"]
+- !private ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "description"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs16RawRepresentable", "Value"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "curPoints"]
+- ["PSo21UIAppearanceContainer", "currentPoints"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "earn"]
+- ["PSo21UIAppearanceContainer", "earnField"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lastVisit"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "redeem"]
+- ["PSo21UIAppearanceContainer", "redeemField"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "restaurantID"]
+- ["PSo21UIAppearanceContainer", "restaurantPhone"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "userID"]
+- ["PSo21UIAppearanceContainer", "userMerchRef"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "String"]
+- ["PSo18UIContentContainer", "curPoints"]
+- ["PSo18UIContentContainer", "currentPoints"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "earn"]
+- ["PSo18UIContentContainer", "earnField"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "lastVisit"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "redeem"]
+- ["PSo18UIContentContainer", "redeemField"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "restaurantID"]
+- ["PSo18UIContentContainer", "restaurantPhone"]
+- ["PSo18UIContentContainer", "userID"]
+- ["PSo18UIContentContainer", "userMerchRef"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "curPoints"]
+- ["PSo18UIFocusEnvironment", "currentPoints"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "earn"]
+- ["PSo18UIFocusEnvironment", "earnField"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lastVisit"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "redeem"]
+- ["PSo18UIFocusEnvironment", "redeemField"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "restaurantID"]
+- ["PSo18UIFocusEnvironment", "restaurantPhone"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "userID"]
+- ["PSo18UIFocusEnvironment", "userMerchRef"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Firebase"]
+- !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "curPoints"]
+- ["CSo11UIResponder", "currentPoints"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "earn"]
+- ["CSo11UIResponder", "earnField"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lastVisit"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "redeem"]
+- ["CSo11UIResponder", "redeemField"]
+- ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "restaurantID"]
+- ["CSo11UIResponder", "restaurantPhone"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "userID"]
+- ["CSo11UIResponder", "userMerchRef"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "String"]
+- ["PSo16UIStateRestoring", "curPoints"]
+- ["PSo16UIStateRestoring", "currentPoints"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "earn"]
+- ["PSo16UIStateRestoring", "earnField"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "lastVisit"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "redeem"]
+- ["PSo16UIStateRestoring", "redeemField"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "restaurantID"]
+- ["PSo16UIStateRestoring", "restaurantPhone"]
+- ["PSo16UIStateRestoring", "userID"]
+- ["PSo16UIStateRestoring", "userMerchRef"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "curPoints"]
+- ["PSo18UITraitEnvironment", "currentPoints"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "earn"]
+- ["PSo18UITraitEnvironment", "earnField"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lastVisit"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "redeem"]
+- ["PSo18UITraitEnvironment", "redeemField"]
+- ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "restaurantID"]
+- ["PSo18UITraitEnvironment", "restaurantPhone"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "userID"]
+- ["PSo18UITraitEnvironment", "userMerchRef"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Firebase"]
+- !private ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "curPoints"]
+- ["CSo16UIViewController", "currentPoints"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "earn"]
+- ["CSo16UIViewController", "earnField"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "lastVisit"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "redeem"]
+- ["CSo16UIViewController", "redeemField"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "restaurantID"]
+- ["CSo16UIViewController", "restaurantPhone"]
+- ["CSo16UIViewController", "userID"]
+- ["CSo16UIViewController", "userMerchRef"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo9FAuthData"
+- !private "CSo13FDataSnapshot"
+- !private "OSC10FEventType"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C7Punchit28MerchantPointsViewController"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+- !private "objectForKey"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
+interface-hash: "419e93f0428127f9ef75bc9a5291e69f"

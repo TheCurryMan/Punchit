@@ -188,14 +188,41 @@ SWIFT_CLASS("_TtC7Punchit26MerchantHomeViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC7Punchit28MerchantPointsViewController")
+@interface MerchantPointsViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified lastVisit;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified earnField;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified redeemField;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified currentPoints;
+@property (nonatomic, copy) NSString * __nonnull curPoints;
+@property (nonatomic, copy) NSString * __nonnull userID;
+@property (nonatomic, copy) NSString * __nonnull restaurantID;
+@property (nonatomic, copy) NSString * __nonnull restaurantPhone;
+@property (nonatomic, copy) NSString * __nonnull link;
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)getMerch;
+- (void)didReceiveMemoryWarning;
+- (IBAction)earn:(id __nonnull)sender;
+- (IBAction)redeem:(id __nonnull)sender;
+- (void)didTapView;
+- (void)alert:(NSString * __nonnull)title message:(NSString * __nonnull)message action:(NSString * __nonnull)action;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class QRCode;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7Punchit26MerchantScanViewController")
 @interface MerchantScanViewController : UIViewController
 @property (nonatomic, strong) QRCode * __nonnull scanner;
+@property (nonatomic, copy) NSString * __nonnull userid;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -294,7 +321,6 @@ SWIFT_CLASS("_TtC7Punchit23RestaurantTableViewCell")
 
 @class CLLocationManager;
 @class CLLocation;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 @interface RestaurantViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, CLLocationManagerDelegate, UITableViewDataSource>
