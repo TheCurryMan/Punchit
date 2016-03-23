@@ -177,9 +177,24 @@ SWIFT_CLASS("_TtC7Punchit19LoginViewController")
 @end
 
 
+SWIFT_CLASS("_TtC7Punchit26MerchantHomeViewController")
+@interface MerchantHomeViewController : UIViewController
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)logOut:(id __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class QRCode;
+
 SWIFT_CLASS("_TtC7Punchit26MerchantScanViewController")
 @interface MerchantScanViewController : UIViewController
+@property (nonatomic, strong) QRCode * __nonnull scanner;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -310,7 +325,6 @@ SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class QRCode;
 
 SWIFT_CLASS("_TtC7Punchit18ScanViewController")
 @interface ScanViewController : UIViewController
@@ -319,6 +333,17 @@ SWIFT_CLASS("_TtC7Punchit18ScanViewController")
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified iconView;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7Punchit22SettingsViewController")
+@interface SettingsViewController : UIViewController
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)logOut:(id __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

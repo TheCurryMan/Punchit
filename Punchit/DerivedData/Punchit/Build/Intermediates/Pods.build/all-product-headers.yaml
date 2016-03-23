@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -34,7 +34,7 @@
         {
           'type': 'file',
           'name': "AFNetworking-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-Swift.h"
         },
         {
           'type': 'file',
@@ -120,23 +120,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/AFNetworking.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "BDBOAuth1Manager-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-Swift.h"
         },
         {
           'type': 'file',
@@ -172,18 +172,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/BDBOAuth1Manager.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/BDBOAuth1Manager.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Bolts.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -283,7 +283,7 @@
         {
           'type': 'file',
           'name': "Bolts-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-Swift.h"
         },
         {
           'type': 'file',
@@ -304,18 +304,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Bolts.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -360,7 +360,7 @@
         {
           'type': 'file',
           'name': "FBSDKCoreKit-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h"
         },
         {
           'type': 'file',
@@ -431,18 +431,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -457,7 +457,7 @@
         {
           'type': 'file',
           'name': "FBSDKLoginKit-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-Swift.h"
         },
         {
           'type': 'file',
@@ -493,18 +493,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKLoginKit.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/FBSDKLoginKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKShareKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -599,7 +599,7 @@
         {
           'type': 'file',
           'name': "FBSDKShareKit-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Headers/FBSDKShareKit-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKShareKit.framework/Headers/FBSDKShareKit-Swift.h"
         },
         {
           'type': 'file',
@@ -675,18 +675,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKShareKit.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/FBSDKShareKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/FBSDKShareKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -731,7 +731,7 @@
         {
           'type': 'file',
           'name': "Firebase-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Headers/Firebase-Swift.h"
         },
         {
           'type': 'file',
@@ -757,23 +757,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Firebase.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Firebase.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/Firebase.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Pods.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
         },
         {
           'type': 'file',
@@ -784,23 +784,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/Pods.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftQRCode-Swift.h",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
         },
         {
           'type': 'file',
@@ -811,12 +811,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules",
+      'name': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/SwiftQRCode.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftQRCode.build/module.modulemap"
+          'external-contents': "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftQRCode.build/module.modulemap"
         }
       ]
     }

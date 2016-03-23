@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C7Punchit18ScanViewController", ""]
 provides-dynamic-lookup:
-- "scanner"
-- "ref"
 - "iconView"
 - "viewDidLoad"
+- "scanner"
+- "ref"
 - "viewDidAppear"
 depends-top-level:
-- "UIImageView"
-- "UIViewController"
-- "QRCode"
-- "StringLiteralType"
-- "Firebase"
-- !private "UIImage"
 - !private "!="
 - "Bool"
+- "StringLiteralType"
+- !private "UIImage"
+- "QRCode"
+- "UIImageView"
+- "UIViewController"
+- "Firebase"
 - "ScanViewController"
 depends-member:
 - !private ["PSo38AVCaptureMetadataOutputObjectsDelegate", "generateImage"]

@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C7Punchit11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
 - "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
-- "window"
 - "application"
 - "application"
-- "applicationDidBecomeActive"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
 depends-top-level:
-- !private "FBSDKApplicationDelegate"
+- "Bool"
+- "String"
 - "AnyObject"
-- "UIWindow"
-- "UIApplication"
-- "NSURL"
-- !private "UIPageControl"
 - !private "FBSDKAppEvents"
 - !private "UIColor"
-- "AppDelegate"
-- "UIResponder"
-- "Bool"
 - "NSObject"
+- "UIResponder"
+- "NSURL"
 - "UIApplicationDelegate"
-- "String"
+- "AppDelegate"
+- "UIWindow"
+- "UIApplication"
+- !private "UIPageControl"
+- !private "FBSDKApplicationDelegate"
 depends-member:
 - !private ["PSs9AnyObject", "FBSDKAppEvents"]
 - !private ["PSs9AnyObject", "FBSDKApplicationDelegate"]

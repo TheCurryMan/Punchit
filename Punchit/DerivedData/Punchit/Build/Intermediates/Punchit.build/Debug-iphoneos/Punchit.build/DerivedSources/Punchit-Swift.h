@@ -88,8 +88,8 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import ObjectiveC;
-@import CoreLocation;
 @import CoreGraphics;
+@import CoreLocation;
 @import BDBOAuth1Manager;
 #endif
 
@@ -126,15 +126,28 @@ SWIFT_CLASS("_TtC7Punchit8Business")
 @property (nonatomic, readonly, copy) NSString * __nullable distance;
 @property (nonatomic, readonly, strong) NSURL * __nullable ratingImageURL;
 @property (nonatomic, readonly, strong) NSNumber * __nullable reviewCount;
+@property (nonatomic, readonly, copy) NSString * __nullable phoneNumber;
+@property (nonatomic, readonly, copy) NSString * __nullable phoneSimple;
+@property (nonatomic, readonly, copy) NSString * __nullable reviewText;
 - (nonnull instancetype)initWithDictionary:(NSDictionary * __nonnull)dictionary OBJC_DESIGNATED_INITIALIZER;
 + (NSArray<Business *> * __nonnull)businessesWithArray:(NSArray<NSDictionary *> * __nonnull)array;
 + (void)searchWithTerm:(NSString * __nonnull)term completion:(void (^ __nonnull)(NSArray<Business *> * __null_unspecified, NSError * __null_unspecified))completion;
 @end
 
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC7Punchit21DetailedViewTableCell")
+@interface DetailedViewTableCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified itemName;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified itemPoints;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIActivityIndicatorView;
 @class Firebase;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC7Punchit21LoadingViewController")
 @interface LoadingViewController : UIViewController
@@ -147,7 +160,46 @@ SWIFT_CLASS("_TtC7Punchit21LoadingViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
+@class UITextField;
+@class UIButton;
+
+SWIFT_CLASS("_TtC7Punchit19LoginViewController")
+@interface LoginViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified email;
+@property (nonatomic, strong) IBOutlet UITextField * __null_unspecified password;
+@property (nonatomic) BOOL merchant;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)login:(UIButton * __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7Punchit26MerchantHomeViewController")
+@interface MerchantHomeViewController : UIViewController
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)logOut:(id __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class QRCode;
+
+SWIFT_CLASS("_TtC7Punchit26MerchantScanViewController")
+@interface MerchantScanViewController : UIViewController
+@property (nonatomic, strong) QRCode * __nonnull scanner;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC7Punchit23PCContentViewController")
 @interface PCContentViewController : UIViewController
@@ -180,13 +232,51 @@ SWIFT_CLASS("_TtC7Punchit23PunchCardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 
 SWIFT_CLASS("_TtC7Punchit25PunchPointsViewController")
 @interface PunchPointsViewController : UIViewController
-@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified iconView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UIImageView;
+@class NSIndexPath;
+
+SWIFT_CLASS("_TtC7Punchit30RestaurantDetailViewController")
+@interface RestaurantDetailViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSString * __nonnull promotion;
+@property (nonatomic, copy) NSString * __nonnull points;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull tiers;
+@property (nonatomic, copy) NSString * __nonnull address;
+@property (nonatomic, copy) NSString * __nonnull distance;
+@property (nonatomic, strong) NSURL * __nonnull imageURL;
+@property (nonatomic, copy) NSString * __nonnull review;
+@property (nonatomic, copy) NSString * __nonnull phoneNumber;
+@property (nonatomic, copy) NSString * __nonnull phoneSimple;
+@property (nonatomic, copy) NSString * __nonnull tier1;
+@property (nonatomic, copy) NSString * __nonnull tier2;
+@property (nonatomic, copy) NSString * __nonnull tier3;
+@property (nonatomic, copy) NSString * __nonnull tier4;
+@property (nonatomic) NSInteger tierCount;
+@property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rName;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rPromotion;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rPoints;
+@property (nonatomic, strong) IBOutlet UITableView * __null_unspecified rTiers;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rAddress;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rNumDistance;
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified rImage;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rReview;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -203,9 +293,8 @@ SWIFT_CLASS("_TtC7Punchit23RestaurantTableViewCell")
 @end
 
 @class CLLocationManager;
-@class UITableView;
 @class CLLocation;
-@class NSIndexPath;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 @interface RestaurantViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, CLLocationManagerDelegate, UITableViewDataSource>
@@ -213,10 +302,16 @@ SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull address;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull distance;
 @property (nonatomic, copy) NSArray<NSURL *> * __nonnull logo;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull phone;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull phoneSimple;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull review;
+@property (nonatomic) NSInteger selectedRow;
 @property (nonatomic, readonly, strong) CLLocationManager * __nonnull locationManager;
 @property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, strong) Firebase * __null_unspecified myRootRef;
 @property (nonatomic, copy) NSArray<Business *> * __null_unspecified businesses;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLoad;
 - (void)getYelpData;
 - (void)locationManager:(CLLocationManager * __nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * __nonnull)locations;
@@ -225,23 +320,34 @@ SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 - (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class QRCode;
 
 SWIFT_CLASS("_TtC7Punchit18ScanViewController")
 @interface ScanViewController : UIViewController
 @property (nonatomic, readonly, strong) QRCode * __nonnull scanner;
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified iconView;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
-@class UIButton;
+
+SWIFT_CLASS("_TtC7Punchit22SettingsViewController")
+@interface SettingsViewController : UIViewController
+@property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)logOut:(id __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UITouch;
 @class UIEvent;
 
@@ -252,12 +358,16 @@ SWIFT_CLASS("_TtC7Punchit20SignUpViewController")
 @property (nonatomic, strong) IBOutlet UITextField * __null_unspecified password;
 @property (nonatomic, strong) IBOutlet UIButton * __null_unspecified signup;
 @property (nonatomic, strong) IBOutlet UIButton * __null_unspecified fbsignup;
+@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified googsignup;
+@property (nonatomic, strong) Firebase * __null_unspecified ref;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
 - (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (IBAction)signUp:(UIButton * __nonnull)sender;
 - (IBAction)fbLogin:(id __nonnull)sender;
+- (IBAction)merchantLogIn:(id __nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C7Punchit23PCContentViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "restaurantText"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "name"
 - "punchedText"
 - "cardpunch"
-- "didReceiveMemoryWarning"
-- "name"
 depends-top-level:
+- "String"
+- "UIViewController"
 - "Int"
 - "UILabel"
-- "UIViewController"
-- "String"
 - "PCContentViewController"
 depends-member:
 - ["PSs9AnyObject", "cardpunch"]

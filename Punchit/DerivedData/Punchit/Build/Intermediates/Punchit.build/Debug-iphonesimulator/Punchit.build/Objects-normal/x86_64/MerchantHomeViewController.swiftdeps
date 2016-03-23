@@ -1,0 +1,391 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MerchantHomeViewController"
+provides-nominal:
+- "C7Punchit26MerchantHomeViewController"
+provides-member:
+- ["C7Punchit26MerchantHomeViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewWillDisappear"
+- "logOut"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "Firebase"
+- "AnyObject"
+- "MerchantHomeViewController"
+- !private "StringLiteralType"
+- "Bool"
+- "UIViewController"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "Firebase"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "logOut"]
+- !private ["PSs9AnyObject", "navigationController"]
+- !private ["PSs9AnyObject", "navigationItem"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "setHidesBackButton"]
+- !private ["PSs9AnyObject", "setNavigationBarHidden"]
+- !private ["PSs9AnyObject", "unauth"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewWillAppear"]
+- ["PSs9AnyObject", "viewWillDisappear"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "Firebase"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "logOut"]
+- !private ["PSs11CVarArgType", "navigationController"]
+- !private ["PSs11CVarArgType", "navigationItem"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "setHidesBackButton"]
+- !private ["PSs11CVarArgType", "setNavigationBarHidden"]
+- !private ["PSs11CVarArgType", "unauth"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewWillAppear"]
+- ["PSs11CVarArgType", "viewWillDisappear"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "Firebase"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "logOut"]
+- !private ["PSs23CustomStringConvertible", "navigationController"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "setHidesBackButton"]
+- !private ["PSs23CustomStringConvertible", "setNavigationBarHidden"]
+- !private ["PSs23CustomStringConvertible", "unauth"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewWillAppear"]
+- ["PSs23CustomStringConvertible", "viewWillDisappear"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Firebase"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "logOut"]
+- !private ["PSs9Equatable", "navigationController"]
+- !private ["PSs9Equatable", "navigationItem"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "setHidesBackButton"]
+- !private ["PSs9Equatable", "setNavigationBarHidden"]
+- !private ["PSs9Equatable", "unauth"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewWillAppear"]
+- ["PSs9Equatable", "viewWillDisappear"]
+- ["PSs9Equatable", ""]
+- !private ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "unauth"]
+- !private ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "unauth"]
+- !private ["PSs8Hashable", "Firebase"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "logOut"]
+- !private ["PSs8Hashable", "navigationController"]
+- !private ["PSs8Hashable", "navigationItem"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "setHidesBackButton"]
+- !private ["PSs8Hashable", "setNavigationBarHidden"]
+- !private ["PSs8Hashable", "unauth"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewWillAppear"]
+- ["PSs8Hashable", "viewWillDisappear"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- ["C7Punchit26MerchantHomeViewController", "AnyObject"]
+- ["C7Punchit26MerchantHomeViewController", "Bool"]
+- !private ["C7Punchit26MerchantHomeViewController", "Firebase"]
+- ["C7Punchit26MerchantHomeViewController", "deinit"]
+- ["C7Punchit26MerchantHomeViewController", "didReceiveMemoryWarning"]
+- ["C7Punchit26MerchantHomeViewController", "init"]
+- ["C7Punchit26MerchantHomeViewController", "logOut"]
+- !private ["C7Punchit26MerchantHomeViewController", "navigationController"]
+- !private ["C7Punchit26MerchantHomeViewController", "navigationItem"]
+- !private ["C7Punchit26MerchantHomeViewController", "performSegueWithIdentifier"]
+- ["C7Punchit26MerchantHomeViewController", "viewDidLoad"]
+- ["C7Punchit26MerchantHomeViewController", "viewWillAppear"]
+- ["C7Punchit26MerchantHomeViewController", "viewWillDisappear"]
+- !private ["PSo8NSCoding", "Firebase"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "logOut"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "setHidesBackButton"]
+- !private ["PSo8NSCoding", "setNavigationBarHidden"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "viewWillDisappear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Firebase"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "logOut"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Firebase"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "logOut"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "setHidesBackButton"]
+- !private ["CSo8NSObject", "setNavigationBarHidden"]
+- !private ["CSo8NSObject", "unauth"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "viewWillDisappear"]
+- !private ["PSo16NSObjectProtocol", "Firebase"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "logOut"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "setHidesBackButton"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
+- !private ["PSo16NSObjectProtocol", "unauth"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIAppearanceContainer", "Firebase"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "logOut"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Firebase"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "logOut"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "Firebase"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "logOut"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "setNavigationBarHidden"]
+- !private ["CSo16UINavigationItem", "setHidesBackButton"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Firebase"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "logOut"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "setNavigationBarHidden"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "viewWillDisappear"]
+- !private ["PSo16UIStateRestoring", "Firebase"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "logOut"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "Firebase"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "logOut"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Firebase"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "logOut"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "setNavigationBarHidden"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "viewWillDisappear"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "CSo6FQuery"
+- !private "CSo8Firebase"
+- "PSs8Hashable"
+- !private "SQ"
+- "C7Punchit26MerchantHomeViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/SwiftQRCode.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-Swift.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Headers/SwiftQRCode-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/SwiftQRCode.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
+interface-hash: "956924069b7022e3a56d43a00af8f9b6"

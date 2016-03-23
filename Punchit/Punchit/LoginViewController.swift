@@ -57,7 +57,11 @@ class LoginViewController: UIViewController {
                 userDat["teatop"] = "5"
                 
                 self.ref.childByAppendingPath("users").childByAppendingPath(authData.uid).updateChildValues(userDat) */
-                self.performSegueWithIdentifier("userloggedin", sender: self)
+                if self.merchant == true {
+                    self.performSegueWithIdentifier("merchantHome", sender: self)
+                }
+                else {
+                    self.performSegueWithIdentifier("userloggedin", sender: self) }
             }
         }
     }

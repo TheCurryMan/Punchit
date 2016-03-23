@@ -7,13 +7,29 @@
 //
 
 import UIKit
+import SwiftQRCode
 
 class MerchantScanViewController: UIViewController {
+    
+    var scanner = QRCode()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        scanner.prepareScan(view) { (stringValue) -> () in
+        print(stringValue)
+        }
+        scanner.scanFrame = view.bounds 
+
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // start scan
+        scanner.startScan()
     }
 
     override func didReceiveMemoryWarning() {

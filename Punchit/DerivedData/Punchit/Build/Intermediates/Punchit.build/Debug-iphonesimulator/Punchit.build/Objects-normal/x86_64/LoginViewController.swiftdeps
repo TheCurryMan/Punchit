@@ -6,24 +6,25 @@ provides-nominal:
 provides-member:
 - ["C7Punchit19LoginViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "password"
 - "viewDidLoad"
+- "password"
+- "didReceiveMemoryWarning"
 - "login"
 - "ref"
-- "email"
 - "merchant"
+- "email"
 depends-top-level:
-- "StringLiteralType"
-- "Dictionary"
 - !private "!="
 - "LoginViewController"
-- !private "print"
-- "BooleanLiteralType"
+- !private "=="
+- "StringLiteralType"
+- "Dictionary"
 - "UIViewController"
-- "UITextField"
-- "Firebase"
 - "UIButton"
+- !private "print"
+- "Firebase"
+- "UITextField"
+- "BooleanLiteralType"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
 - !private ["PSs9AnyObject", "Key"]

@@ -9,8 +9,8 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
-- "UIViewController"
 - "PunchPointsViewController"
+- "UIViewController"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]

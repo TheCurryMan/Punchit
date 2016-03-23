@@ -26,6 +26,8 @@
 		E179254E1C9D3C28006A3E24 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179254D1C9D3C28006A3E24 /* ScanViewController.swift */; };
 		E1AB6A9E1C9E7C9E00B9B3F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB6A9D1C9E7C9E00B9B3F2 /* LoginViewController.swift */; };
 		E1AF06391CA2248B00880119 /* MerchantScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */; };
+		E1AF063B1CA228EE00880119 /* MerchantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */; };
+		E1AF063E1CA2295B00880119 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF063D1CA2295B00880119 /* SettingsViewController.swift */; };
 		E1C8530E1C9CADF700343E4F /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530A1C9CADF700343E4F /* Business.swift */; };
 		E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8530C1C9CADF700343E4F /* YelpClient.swift */; };
 /* End PBXBuildFile section */
@@ -91,6 +93,8 @@
 		E179254D1C9D3C28006A3E24 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		E1AB6A9D1C9E7C9E00B9B3F2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantScanViewController.swift; sourceTree = "<group>"; };
+		E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantHomeViewController.swift; sourceTree = "<group>"; };
+		E1AF063D1CA2295B00880119 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E1C8530A1C9CADF700343E4F /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		E1C8530C1C9CADF700343E4F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,7 +182,8 @@
 				E124922C1C9D442200C083A4 /* PunchPointsViewController.swift */,
 				E11F110D1C990FBD00E5BD25 /* PunchCardViewController.swift */,
 				E179254D1C9D3C28006A3E24 /* ScanViewController.swift */,
-				E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */,
+				E1AF063D1CA2295B00880119 /* SettingsViewController.swift */,
+				E1AF063C1CA228F300880119 /* Merchant */,
 				E11912821C98FDC500D702C8 /* Main.storyboard */,
 				E14C33E41C9D231B0001D83E /* RestaurantTableViewCell.xib */,
 				E11912851C98FDC500D702C8 /* Assets.xcassets */,
@@ -204,6 +209,15 @@
 				E11912A01C98FDC600D702C8 /* Info.plist */,
 			);
 			path = PunchitUITests;
+			sourceTree = "<group>";
+		};
+		E1AF063C1CA228F300880119 /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF063A1CA228EE00880119 /* MerchantHomeViewController.swift */,
+				E1AF06381CA2248B00880119 /* MerchantScanViewController.swift */,
+			);
+			name = Merchant;
 			sourceTree = "<group>";
 		};
 		E1C8530B1C9CADF700343E4F /* Models */ = {
@@ -416,10 +430,12 @@
 				E124922D1C9D442200C083A4 /* PunchPointsViewController.swift in Sources */,
 				E16355071C9DFAE4006B8E19 /* LoadingViewController.swift in Sources */,
 				E1C8530E1C9CADF700343E4F /* Business.swift in Sources */,
+				E1AF063E1CA2295B00880119 /* SettingsViewController.swift in Sources */,
 				E1C8530F1C9CADF700343E4F /* YelpClient.swift in Sources */,
 				E11F110E1C990FBD00E5BD25 /* PunchCardViewController.swift in Sources */,
 				E1348B4E1C9FBE4D002A68D6 /* RestaurantDetailViewController.swift in Sources */,
 				E1AF06391CA2248B00880119 /* MerchantScanViewController.swift in Sources */,
+				E1AF063B1CA228EE00880119 /* MerchantHomeViewController.swift in Sources */,
 				E1AB6A9E1C9E7C9E00B9B3F2 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
