@@ -16,6 +16,8 @@ class LoginViewController: UIViewController {
 
     @IBOutlet var password: UITextField!
     
+    var merchant = false
+    
     var ref = Firebase(url:"https://punch-it.firebaseio.com/")
     
     

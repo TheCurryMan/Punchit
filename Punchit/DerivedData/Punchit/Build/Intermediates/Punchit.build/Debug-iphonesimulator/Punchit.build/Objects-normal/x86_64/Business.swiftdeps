@@ -6,37 +6,39 @@ provides-nominal:
 provides-member:
 - ["C7Punchit8Business", ""]
 provides-dynamic-lookup:
-- "businesses"
-- "imageURL"
 - "distance"
+- "reviewCount"
+- "businesses"
+- "ratingImageURL"
+- "imageURL"
 - "searchWithTerm"
-- "categories"
 - "name"
 - "phoneNumber"
-- "ratingImageURL"
 - "address"
-- "reviewCount"
+- "categories"
+- "reviewText"
+- "phoneSimple"
 depends-top-level:
-- "String"
-- !private "print"
-- "YelpSortMode"
-- "NSURL"
-- "NSObject"
-- "NSDictionary"
-- "Bool"
 - !private "StringLiteralType"
-- !private "!"
-- "NSNumber"
-- !private "+="
-- "Void"
-- !private ">"
-- "NSError"
-- !private "!="
+- "YelpSortMode"
+- "NSObject"
 - !private "NSArray"
+- "Bool"
+- "NSURL"
+- "Business"
+- !private "print"
+- !private "*"
+- !private "+="
+- "String"
+- "NSDictionary"
+- !private "!="
+- !private "!"
+- !private ">"
 - !private "&&"
 - !private "YelpClient"
-- !private "*"
-- "Business"
+- "NSNumber"
+- "Void"
+- "NSError"
 depends-member:
 - !private ["CSo29AFHTTPRequestOperationManager", "searchWithTerm"]
 - !private ["CSo29AFHTTPRequestOperationManager", "sharedInstance"]
@@ -55,9 +57,11 @@ depends-member:
 - !private ["PSs9AnyObject", "isEmpty"]
 - ["PSs9AnyObject", "name"]
 - ["PSs9AnyObject", "phoneNumber"]
+- ["PSs9AnyObject", "phoneSimple"]
 - !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "ratingImageURL"]
 - ["PSs9AnyObject", "reviewCount"]
+- ["PSs9AnyObject", "reviewText"]
 - ["PSs9AnyObject", "searchWithTerm"]
 - !private ["PSs9AnyObject", "sharedInstance"]
 - !private ["PSs9AnyObject", "subscript"]
@@ -112,9 +116,11 @@ depends-member:
 - ["C7Punchit8Business", "init"]
 - ["C7Punchit8Business", "name"]
 - ["C7Punchit8Business", "phoneNumber"]
+- ["C7Punchit8Business", "phoneSimple"]
 - !private ["C7Punchit8Business", "print"]
 - ["C7Punchit8Business", "ratingImageURL"]
 - ["C7Punchit8Business", "reviewCount"]
+- ["C7Punchit8Business", "reviewText"]
 - ["C7Punchit8Business", "searchWithTerm"]
 - !private ["PSs11CVarArgType", "Business"]
 - !private ["PSs11CVarArgType", "Distance"]
@@ -133,9 +139,11 @@ depends-member:
 - !private ["PSs11CVarArgType", "isEmpty"]
 - ["PSs11CVarArgType", "name"]
 - ["PSs11CVarArgType", "phoneNumber"]
+- ["PSs11CVarArgType", "phoneSimple"]
 - !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "ratingImageURL"]
 - ["PSs11CVarArgType", "reviewCount"]
+- ["PSs11CVarArgType", "reviewText"]
 - ["PSs11CVarArgType", "searchWithTerm"]
 - !private ["PSs11CVarArgType", "sharedInstance"]
 - !private ["PSs11CVarArgType", "subscript"]
@@ -185,9 +193,11 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "joinWithSeparator"]
 - ["PSs23CustomStringConvertible", "name"]
 - ["PSs23CustomStringConvertible", "phoneNumber"]
+- ["PSs23CustomStringConvertible", "phoneSimple"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "ratingImageURL"]
 - ["PSs23CustomStringConvertible", "reviewCount"]
+- ["PSs23CustomStringConvertible", "reviewText"]
 - ["PSs23CustomStringConvertible", "searchWithTerm"]
 - !private ["PSs23CustomStringConvertible", "sharedInstance"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
@@ -211,9 +221,11 @@ depends-member:
 - !private ["PSs9Equatable", "isEmpty"]
 - ["PSs9Equatable", "name"]
 - ["PSs9Equatable", "phoneNumber"]
+- ["PSs9Equatable", "phoneSimple"]
 - !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "ratingImageURL"]
 - ["PSs9Equatable", "reviewCount"]
+- ["PSs9Equatable", "reviewText"]
 - ["PSs9Equatable", "searchWithTerm"]
 - !private ["PSs9Equatable", "sharedInstance"]
 - !private ["PSs9Equatable", "subscript"]
@@ -242,9 +254,11 @@ depends-member:
 - !private ["PSs8Hashable", "isEmpty"]
 - ["PSs8Hashable", "name"]
 - ["PSs8Hashable", "phoneNumber"]
+- ["PSs8Hashable", "phoneSimple"]
 - !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "ratingImageURL"]
 - ["PSs8Hashable", "reviewCount"]
+- ["PSs8Hashable", "reviewText"]
 - ["PSs8Hashable", "searchWithTerm"]
 - !private ["PSs8Hashable", "sharedInstance"]
 - !private ["PSs8Hashable", "subscript"]
@@ -341,9 +355,11 @@ depends-member:
 - !private ["CSo8NSObject", "isEmpty"]
 - ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "phoneNumber"]
+- ["CSo8NSObject", "phoneSimple"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "ratingImageURL"]
 - ["CSo8NSObject", "reviewCount"]
+- ["CSo8NSObject", "reviewText"]
 - ["CSo8NSObject", "searchWithTerm"]
 - !private ["CSo8NSObject", "sharedInstance"]
 - !private ["CSo8NSObject", "subscript"]
@@ -363,9 +379,11 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "isEmpty"]
 - ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "phoneNumber"]
+- ["PSo16NSObjectProtocol", "phoneSimple"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "ratingImageURL"]
 - ["PSo16NSObjectProtocol", "reviewCount"]
+- ["PSo16NSObjectProtocol", "reviewText"]
 - ["PSo16NSObjectProtocol", "searchWithTerm"]
 - !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - !private ["PSo16NSObjectProtocol", "subscript"]
@@ -693,4 +711,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "611168532f21bacf1284cbc81641a5e8"
+interface-hash: "a7769cf0183d1ab8c4f54adc45ceb114"

@@ -11,13 +11,14 @@ import SwiftQRCode
 
 class PunchPointsViewController: UIViewController {
 
-    @IBOutlet var iconView: UIImageView!
-    override func viewDidLoad() {
+    
+    
+       override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        iconView.image = QRCode.generateImage("Hello SwiftQRCode", avatarImage: UIImage(named: "avatar"), avatarScale: 0.3)
+        
     }
 
     override func didReceiveMemoryWarning() {

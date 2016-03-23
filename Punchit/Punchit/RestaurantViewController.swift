@@ -29,6 +29,10 @@ class RestaurantViewController: UIViewController, UITableViewDataSource, UITable
     var address = NSArray() as! [String]
     var distance = NSArray() as! [String]
     var logo = NSArray() as! [NSURL]
+    var phone = NSArray() as! [String]
+    var phoneSimple = NSArray() as! [String]
+    var review = NSArray() as! [String]
+    var selectedRow = 0
     
     let locationManager = CLLocationManager()
     
@@ -97,8 +101,10 @@ func getYelpData() {
             self.address.append(business.address!)
             self.distance.append(business.distance!)
             self.logo.append(business.ratingImageURL!)
-            print(business.name!)
-            print(business.phoneNumber!)
+            self.phone.append(business.phoneNumber!)
+            self.phoneSimple.append(business.phoneSimple!)
+            self.review.append(business.reviewText!)
+            //print(business.phoneNumber!)
 
             //print(business.address!)
             //print(business.ratingImageURL)
@@ -143,7 +149,7 @@ func getYelpData() {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print(indexPath.row)
+        selectedRow = indexPath.row
         performSegueWithIdentifier("restaurantview", sender: self)
     }
     
@@ -151,6 +157,22 @@ func getYelpData() {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "restaurantview" {
+
+        
+            var vc : RestaurantDetailViewController = segue.destinationViewController as! RestaurantDetailViewController
+            
+            vc.name = names[selectedRow]
+            vc.address = address[selectedRow]
+            vc.distance = distance[selectedRow]
+            vc.imageURL = logo[selectedRow]
+            vc.phoneNumber = phone[selectedRow]
+            vc.review = review[selectedRow]
+            vc.phoneSimple = phoneSimple[selectedRow]
+        }
     }
     
     /*

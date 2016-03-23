@@ -8,18 +8,35 @@
 
 import UIKit
 import SwiftQRCode
+import Firebase
 
 class ScanViewController: UIViewController {
 
     let scanner = QRCode()
     
+    let ref = Firebase(url: "https://punch-it.firebaseio.com")
+    
+    @IBOutlet var iconView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scanner.prepareScan(view) { (stringValue) -> () in
+        if ref.authData != nil {
+            // user authenticated
+            iconView.image = QRCode.generateImage(ref.authData.uid, avatarImage: UIImage(named: "avatar"), avatarScale: 0.3)
+        } else {
+            // No user is signed in
+            //performSegueWithIdentifier("signup", sender: self)
+            
+        }
+
+        
+        
+        
+        /*scanner.prepareScan(view) { (stringValue) -> () in
             print(stringValue)
         }
-        scanner.scanFrame = view.bounds
+        scanner.scanFrame = view.bounds */
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -28,6 +45,13 @@ class ScanViewController: UIViewController {
         // start scan
         scanner.startScan()
     }
+    
+    
+    
+        
+    
+    
+
 
     /*
     // MARK: - Navigation

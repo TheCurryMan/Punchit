@@ -9,63 +9,70 @@ provides-member:
 - ["C7Punchit23RestaurantTableViewCell", ""]
 - ["C7Punchit24RestaurantViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "myRootRef"
-- "viewWillAppear"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "address"
-- "Distance"
-- "viewWillDisappear"
-- "logo"
-- "getYelpData"
-- "Logo"
-- "businesses"
-- "viewDidLoad"
-- "Title"
 - "names"
-- "Address"
+- "phone"
 - "locationManager"
 - "locationManager"
+- "Distance"
 - "distance"
+- "viewWillDisappear"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "getYelpData"
+- "review"
+- "prepareForSegue"
+- "businesses"
+- "Address"
+- "address"
+- "viewWillAppear"
+- "phoneSimple"
+- "logo"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "Logo"
+- "myRootRef"
+- "Title"
+- "selectedRow"
 depends-top-level:
-- "UITableViewDataSource"
-- "CLLocation"
-- !private "UIImage"
-- "UITableViewDelegate"
-- "UITableViewCell"
-- "RestaurantTableViewCell"
-- !private "CLLocationCoordinate2D"
-- "CLLocationManagerDelegate"
-- "UIViewController"
-- "StringLiteralType"
-- !private "NSUserDefaults"
-- !private "Array"
-- !private "UINib"
-- "NSURL"
-- !private "print"
-- "Firebase"
-- "CGFloat"
-- !private "=="
-- "Business"
-- !private "BooleanLiteralType"
-- "String"
 - "Bool"
-- "Int"
 - "CLLocationManager"
-- !private "NSData"
+- !private "UIImage"
+- "StringLiteralType"
+- !private "Array"
+- "String"
+- "CLLocation"
+- !private "=="
 - "UITableView"
-- "RestaurantViewController"
+- "RestaurantTableViewCell"
+- "Business"
+- !private "NSUserDefaults"
+- "AnyObject"
+- !private "CLLocationCoordinate2D"
+- "CGFloat"
+- !private "BooleanLiteralType"
 - "NSIndexPath"
-- !private "NSError"
-- "UILabel"
-- !private "Void"
+- !private "NSData"
+- "RestaurantViewController"
+- "Int"
 - "NSArray"
+- "NSURL"
 - "UIImageView"
+- "UILabel"
+- "Firebase"
+- "UIStoryboardSegue"
+- !private "UINib"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- !private "Void"
+- "UIViewController"
 - !private "kCLLocationAccuracyNearestTenMeters"
+- "CLLocationManagerDelegate"
+- "UITableViewCell"
+- !private "NSError"
+- !private "RestaurantDetailViewController"
 depends-member:
 - ["PSs9AnyObject", "Address"]
 - !private ["PSs9AnyObject", "Business"]
@@ -85,10 +92,13 @@ depends-member:
 - !private ["PSs9AnyObject", "delegate"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs9AnyObject", "desiredAccuracy"]
+- !private ["PSs9AnyObject", "destinationViewController"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "distance"]
 - ["PSs9AnyObject", "getYelpData"]
+- !private ["PSs9AnyObject", "identifier"]
 - !private ["PSs9AnyObject", "image"]
+- !private ["PSs9AnyObject", "imageURL"]
 - ["PSs9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "kCLLocationAccuracyNearestTenMeters"]
@@ -106,12 +116,16 @@ depends-member:
 - !private ["PSs9AnyObject", "navigationItem"]
 - ["PSs9AnyObject", "numberOfSectionsInTableView"]
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- ["PSs9AnyObject", "phone"]
 - !private ["PSs9AnyObject", "phoneNumber"]
-- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "phoneSimple"]
+- ["PSs9AnyObject", "prepareForSegue"]
 - !private ["PSs9AnyObject", "ratingImageURL"]
 - !private ["PSs9AnyObject", "registerNib"]
 - !private ["PSs9AnyObject", "reloadData"]
 - !private ["PSs9AnyObject", "requestAlwaysAuthorization"]
+- ["PSs9AnyObject", "review"]
+- !private ["PSs9AnyObject", "reviewText"]
 - !private ["PSs9AnyObject", "row"]
 - ["PSs9AnyObject", "scrollViewDidEndDecelerating"]
 - ["PSs9AnyObject", "scrollViewDidEndDragging"]
@@ -127,6 +141,7 @@ depends-member:
 - ["PSs9AnyObject", "scrollViewWillEndDragging"]
 - !private ["PSs9AnyObject", "searchWithTerm"]
 - ["PSs9AnyObject", "sectionIndexTitlesForTableView"]
+- ["PSs9AnyObject", "selectedRow"]
 - !private ["PSs9AnyObject", "setHidesBackButton"]
 - !private ["PSs9AnyObject", "setNavigationBarHidden"]
 - !private ["PSs9AnyObject", "setObject"]
@@ -171,7 +186,9 @@ depends-member:
 - !private ["C7Punchit8Business", "distance"]
 - !private ["C7Punchit8Business", "name"]
 - !private ["C7Punchit8Business", "phoneNumber"]
+- !private ["C7Punchit8Business", "phoneSimple"]
 - !private ["C7Punchit8Business", "ratingImageURL"]
+- !private ["C7Punchit8Business", "reviewText"]
 - !private ["C7Punchit8Business", "searchWithTerm"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["CSo10CLLocation", "coordinate"]
@@ -208,7 +225,9 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "navigationItem"]
 - ["PSo25CLLocationManagerDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo25CLLocationManagerDelegate", "performSegueWithIdentifier"]
-- !private ["PSo25CLLocationManagerDelegate", "print"]
+- !private ["PSo25CLLocationManagerDelegate", "phone"]
+- !private ["PSo25CLLocationManagerDelegate", "phoneSimple"]
+- !private ["PSo25CLLocationManagerDelegate", "review"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewDidEndDragging"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -222,6 +241,7 @@ depends-member:
 - ["PSo25CLLocationManagerDelegate", "scrollViewWillBeginZooming"]
 - ["PSo25CLLocationManagerDelegate", "scrollViewWillEndDragging"]
 - ["PSo25CLLocationManagerDelegate", "sectionIndexTitlesForTableView"]
+- !private ["PSo25CLLocationManagerDelegate", "selectedRow"]
 - ["PSo25CLLocationManagerDelegate", "tableView"]
 - ["PSo25CLLocationManagerDelegate", "viewForZoomingInScrollView"]
 - ["PSo25CLLocationManagerDelegate", ""]
@@ -244,10 +264,13 @@ depends-member:
 - !private ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs11CVarArgType", "desiredAccuracy"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "distance"]
 - ["PSs11CVarArgType", "getYelpData"]
+- !private ["PSs11CVarArgType", "identifier"]
 - !private ["PSs11CVarArgType", "image"]
+- !private ["PSs11CVarArgType", "imageURL"]
 - ["PSs11CVarArgType", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "kCLLocationAccuracyNearestTenMeters"]
@@ -265,12 +288,16 @@ depends-member:
 - !private ["PSs11CVarArgType", "navigationItem"]
 - ["PSs11CVarArgType", "numberOfSectionsInTableView"]
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- ["PSs11CVarArgType", "phone"]
 - !private ["PSs11CVarArgType", "phoneNumber"]
-- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "phoneSimple"]
+- ["PSs11CVarArgType", "prepareForSegue"]
 - !private ["PSs11CVarArgType", "ratingImageURL"]
 - !private ["PSs11CVarArgType", "registerNib"]
 - !private ["PSs11CVarArgType", "reloadData"]
 - !private ["PSs11CVarArgType", "requestAlwaysAuthorization"]
+- ["PSs11CVarArgType", "review"]
+- !private ["PSs11CVarArgType", "reviewText"]
 - !private ["PSs11CVarArgType", "row"]
 - ["PSs11CVarArgType", "scrollViewDidEndDecelerating"]
 - ["PSs11CVarArgType", "scrollViewDidEndDragging"]
@@ -286,6 +313,7 @@ depends-member:
 - ["PSs11CVarArgType", "scrollViewWillEndDragging"]
 - !private ["PSs11CVarArgType", "searchWithTerm"]
 - ["PSs11CVarArgType", "sectionIndexTitlesForTableView"]
+- ["PSs11CVarArgType", "selectedRow"]
 - !private ["PSs11CVarArgType", "setHidesBackButton"]
 - !private ["PSs11CVarArgType", "setNavigationBarHidden"]
 - !private ["PSs11CVarArgType", "setObject"]
@@ -345,10 +373,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "desiredAccuracy"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "distance"]
 - ["PSs23CustomStringConvertible", "getYelpData"]
+- !private ["PSs23CustomStringConvertible", "identifier"]
 - !private ["PSs23CustomStringConvertible", "image"]
+- !private ["PSs23CustomStringConvertible", "imageURL"]
 - ["PSs23CustomStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "kCLLocationAccuracyNearestTenMeters"]
@@ -366,12 +397,16 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "navigationItem"]
 - ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["PSs23CustomStringConvertible", "phone"]
 - !private ["PSs23CustomStringConvertible", "phoneNumber"]
-- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "phoneSimple"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
 - !private ["PSs23CustomStringConvertible", "ratingImageURL"]
 - !private ["PSs23CustomStringConvertible", "registerNib"]
 - !private ["PSs23CustomStringConvertible", "reloadData"]
 - !private ["PSs23CustomStringConvertible", "requestAlwaysAuthorization"]
+- ["PSs23CustomStringConvertible", "review"]
+- !private ["PSs23CustomStringConvertible", "reviewText"]
 - !private ["PSs23CustomStringConvertible", "row"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDragging"]
@@ -387,6 +422,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "scrollViewWillEndDragging"]
 - !private ["PSs23CustomStringConvertible", "searchWithTerm"]
 - ["PSs23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- ["PSs23CustomStringConvertible", "selectedRow"]
 - !private ["PSs23CustomStringConvertible", "setHidesBackButton"]
 - !private ["PSs23CustomStringConvertible", "setNavigationBarHidden"]
 - !private ["PSs23CustomStringConvertible", "setObject"]
@@ -422,10 +458,13 @@ depends-member:
 - !private ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs9Equatable", "desiredAccuracy"]
+- !private ["PSs9Equatable", "destinationViewController"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "distance"]
 - ["PSs9Equatable", "getYelpData"]
+- !private ["PSs9Equatable", "identifier"]
 - !private ["PSs9Equatable", "image"]
+- !private ["PSs9Equatable", "imageURL"]
 - ["PSs9Equatable", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "kCLLocationAccuracyNearestTenMeters"]
@@ -443,12 +482,16 @@ depends-member:
 - !private ["PSs9Equatable", "navigationItem"]
 - ["PSs9Equatable", "numberOfSectionsInTableView"]
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- ["PSs9Equatable", "phone"]
 - !private ["PSs9Equatable", "phoneNumber"]
-- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "phoneSimple"]
+- ["PSs9Equatable", "prepareForSegue"]
 - !private ["PSs9Equatable", "ratingImageURL"]
 - !private ["PSs9Equatable", "registerNib"]
 - !private ["PSs9Equatable", "reloadData"]
 - !private ["PSs9Equatable", "requestAlwaysAuthorization"]
+- ["PSs9Equatable", "review"]
+- !private ["PSs9Equatable", "reviewText"]
 - !private ["PSs9Equatable", "row"]
 - ["PSs9Equatable", "scrollViewDidEndDecelerating"]
 - ["PSs9Equatable", "scrollViewDidEndDragging"]
@@ -464,6 +507,7 @@ depends-member:
 - ["PSs9Equatable", "scrollViewWillEndDragging"]
 - !private ["PSs9Equatable", "searchWithTerm"]
 - ["PSs9Equatable", "sectionIndexTitlesForTableView"]
+- ["PSs9Equatable", "selectedRow"]
 - !private ["PSs9Equatable", "setHidesBackButton"]
 - !private ["PSs9Equatable", "setNavigationBarHidden"]
 - !private ["PSs9Equatable", "setObject"]
@@ -502,10 +546,13 @@ depends-member:
 - !private ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs8Hashable", "desiredAccuracy"]
+- !private ["PSs8Hashable", "destinationViewController"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "distance"]
 - ["PSs8Hashable", "getYelpData"]
+- !private ["PSs8Hashable", "identifier"]
 - !private ["PSs8Hashable", "image"]
+- !private ["PSs8Hashable", "imageURL"]
 - ["PSs8Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "kCLLocationAccuracyNearestTenMeters"]
@@ -523,12 +570,16 @@ depends-member:
 - !private ["PSs8Hashable", "navigationItem"]
 - ["PSs8Hashable", "numberOfSectionsInTableView"]
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- ["PSs8Hashable", "phone"]
 - !private ["PSs8Hashable", "phoneNumber"]
-- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "phoneSimple"]
+- ["PSs8Hashable", "prepareForSegue"]
 - !private ["PSs8Hashable", "ratingImageURL"]
 - !private ["PSs8Hashable", "registerNib"]
 - !private ["PSs8Hashable", "reloadData"]
 - !private ["PSs8Hashable", "requestAlwaysAuthorization"]
+- ["PSs8Hashable", "review"]
+- !private ["PSs8Hashable", "reviewText"]
 - !private ["PSs8Hashable", "row"]
 - ["PSs8Hashable", "scrollViewDidEndDecelerating"]
 - ["PSs8Hashable", "scrollViewDidEndDragging"]
@@ -544,6 +595,7 @@ depends-member:
 - ["PSs8Hashable", "scrollViewWillEndDragging"]
 - !private ["PSs8Hashable", "searchWithTerm"]
 - ["PSs8Hashable", "sectionIndexTitlesForTableView"]
+- ["PSs8Hashable", "selectedRow"]
 - !private ["PSs8Hashable", "setHidesBackButton"]
 - !private ["PSs8Hashable", "setNavigationBarHidden"]
 - !private ["PSs8Hashable", "setObject"]
@@ -624,6 +676,7 @@ depends-member:
 - ["PSo8NSCoding", "distance"]
 - ["PSo8NSCoding", "getYelpData"]
 - !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "imageURL"]
 - ["PSo8NSCoding", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "kCLLocationAccuracyNearestTenMeters"]
@@ -633,14 +686,19 @@ depends-member:
 - ["PSo8NSCoding", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo8NSCoding", "logo"]
 - ["PSo8NSCoding", "myRootRef"]
+- !private ["PSo8NSCoding", "name"]
 - ["PSo8NSCoding", "names"]
 - !private ["PSo8NSCoding", "navigationController"]
 - !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
-- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "phone"]
+- !private ["PSo8NSCoding", "phoneNumber"]
+- ["PSo8NSCoding", "phoneSimple"]
+- ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "registerNib"]
 - !private ["PSo8NSCoding", "reloadData"]
+- ["PSo8NSCoding", "review"]
 - !private ["PSo8NSCoding", "row"]
 - ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
 - ["PSo8NSCoding", "scrollViewDidEndDragging"]
@@ -655,6 +713,7 @@ depends-member:
 - ["PSo8NSCoding", "scrollViewWillBeginZooming"]
 - ["PSo8NSCoding", "scrollViewWillEndDragging"]
 - ["PSo8NSCoding", "sectionIndexTitlesForTableView"]
+- ["PSo8NSCoding", "selectedRow"]
 - !private ["PSo8NSCoding", "setHidesBackButton"]
 - !private ["PSo8NSCoding", "setNavigationBarHidden"]
 - ["PSo8NSCoding", "tableView"]
@@ -681,6 +740,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "distance"]
 - ["PSo26NSExtensionRequestHandling", "getYelpData"]
+- !private ["PSo26NSExtensionRequestHandling", "imageURL"]
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "kCLLocationAccuracyNearestTenMeters"]
@@ -690,12 +750,17 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo26NSExtensionRequestHandling", "logo"]
 - ["PSo26NSExtensionRequestHandling", "myRootRef"]
+- !private ["PSo26NSExtensionRequestHandling", "name"]
 - ["PSo26NSExtensionRequestHandling", "names"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationController"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "phone"]
+- !private ["PSo26NSExtensionRequestHandling", "phoneNumber"]
+- ["PSo26NSExtensionRequestHandling", "phoneSimple"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "review"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndScrollingAnimation"]
@@ -709,6 +774,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "scrollViewWillBeginZooming"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewWillEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "sectionIndexTitlesForTableView"]
+- ["PSo26NSExtensionRequestHandling", "selectedRow"]
 - !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
 - ["PSo26NSExtensionRequestHandling", "tableView"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -720,6 +786,7 @@ depends-member:
 - !private ["CSo11NSIndexPath", "row"]
 - ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Address"]
+- ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "Business"]
 - ["CSo8NSObject", "CGFloat"]
@@ -736,6 +803,7 @@ depends-member:
 - ["CSo8NSObject", "NSIndexPath"]
 - ["CSo8NSObject", "NSURL"]
 - !private ["CSo8NSObject", "NSUserDefaults"]
+- !private ["CSo8NSObject", "RestaurantDetailViewController"]
 - !private ["CSo8NSObject", "RestaurantTableViewCell"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "Title"]
@@ -743,6 +811,7 @@ depends-member:
 - ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
 - !private ["CSo8NSObject", "Void"]
@@ -752,10 +821,13 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo8NSObject", "desiredAccuracy"]
+- !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "distance"]
 - ["CSo8NSObject", "getYelpData"]
+- !private ["CSo8NSObject", "identifier"]
 - !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "imageURL"]
 - ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kCLLocationAccuracyNearestTenMeters"]
@@ -773,12 +845,16 @@ depends-member:
 - !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "phone"]
 - !private ["CSo8NSObject", "phoneNumber"]
-- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "phoneSimple"]
+- ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "ratingImageURL"]
 - !private ["CSo8NSObject", "registerNib"]
 - !private ["CSo8NSObject", "reloadData"]
 - !private ["CSo8NSObject", "requestAlwaysAuthorization"]
+- ["CSo8NSObject", "review"]
+- !private ["CSo8NSObject", "reviewText"]
 - !private ["CSo8NSObject", "row"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
@@ -794,6 +870,7 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - !private ["CSo8NSObject", "searchWithTerm"]
 - ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- ["CSo8NSObject", "selectedRow"]
 - !private ["CSo8NSObject", "setHidesBackButton"]
 - !private ["CSo8NSObject", "setNavigationBarHidden"]
 - !private ["CSo8NSObject", "setObject"]
@@ -824,10 +901,13 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "distance"]
 - ["PSo16NSObjectProtocol", "getYelpData"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
 - !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imageURL"]
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyNearestTenMeters"]
@@ -845,12 +925,16 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "phone"]
 - !private ["PSo16NSObjectProtocol", "phoneNumber"]
-- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "phoneSimple"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "ratingImageURL"]
 - !private ["PSo16NSObjectProtocol", "registerNib"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
 - !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
+- ["PSo16NSObjectProtocol", "review"]
+- !private ["PSo16NSObjectProtocol", "reviewText"]
 - !private ["PSo16NSObjectProtocol", "row"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
@@ -866,6 +950,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
 - !private ["PSo16NSObjectProtocol", "searchWithTerm"]
 - ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- ["PSo16NSObjectProtocol", "selectedRow"]
 - !private ["PSo16NSObjectProtocol", "setHidesBackButton"]
 - !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
 - !private ["PSo16NSObjectProtocol", "setObject"]
@@ -900,6 +985,13 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - !private ["PSs16RawRepresentable", "Distance"]
+- !private ["C7Punchit30RestaurantDetailViewController", "address"]
+- !private ["C7Punchit30RestaurantDetailViewController", "distance"]
+- !private ["C7Punchit30RestaurantDetailViewController", "imageURL"]
+- !private ["C7Punchit30RestaurantDetailViewController", "name"]
+- !private ["C7Punchit30RestaurantDetailViewController", "phoneNumber"]
+- !private ["C7Punchit30RestaurantDetailViewController", "phoneSimple"]
+- !private ["C7Punchit30RestaurantDetailViewController", "review"]
 - ["C7Punchit23RestaurantTableViewCell", "Address"]
 - ["C7Punchit23RestaurantTableViewCell", "Distance"]
 - ["C7Punchit23RestaurantTableViewCell", "Logo"]
@@ -908,6 +1000,7 @@ depends-member:
 - ["C7Punchit23RestaurantTableViewCell", "UILabel"]
 - ["C7Punchit23RestaurantTableViewCell", "deinit"]
 - ["C7Punchit23RestaurantTableViewCell", "init"]
+- ["C7Punchit24RestaurantViewController", "AnyObject"]
 - ["C7Punchit24RestaurantViewController", "Bool"]
 - ["C7Punchit24RestaurantViewController", "Business"]
 - ["C7Punchit24RestaurantViewController", "CGFloat"]
@@ -922,10 +1015,12 @@ depends-member:
 - ["C7Punchit24RestaurantViewController", "NSIndexPath"]
 - ["C7Punchit24RestaurantViewController", "NSURL"]
 - !private ["C7Punchit24RestaurantViewController", "NSUserDefaults"]
+- !private ["C7Punchit24RestaurantViewController", "RestaurantDetailViewController"]
 - !private ["C7Punchit24RestaurantViewController", "RestaurantTableViewCell"]
 - ["C7Punchit24RestaurantViewController", "String"]
 - !private ["C7Punchit24RestaurantViewController", "UIImage"]
 - !private ["C7Punchit24RestaurantViewController", "UINib"]
+- ["C7Punchit24RestaurantViewController", "UIStoryboardSegue"]
 - ["C7Punchit24RestaurantViewController", "UITableView"]
 - ["C7Punchit24RestaurantViewController", "UITableViewCell"]
 - !private ["C7Punchit24RestaurantViewController", "Void"]
@@ -949,7 +1044,10 @@ depends-member:
 - !private ["C7Punchit24RestaurantViewController", "navigationItem"]
 - ["C7Punchit24RestaurantViewController", "numberOfSectionsInTableView"]
 - !private ["C7Punchit24RestaurantViewController", "performSegueWithIdentifier"]
-- !private ["C7Punchit24RestaurantViewController", "print"]
+- ["C7Punchit24RestaurantViewController", "phone"]
+- ["C7Punchit24RestaurantViewController", "phoneSimple"]
+- ["C7Punchit24RestaurantViewController", "prepareForSegue"]
+- ["C7Punchit24RestaurantViewController", "review"]
 - ["C7Punchit24RestaurantViewController", "scrollViewDidEndDecelerating"]
 - ["C7Punchit24RestaurantViewController", "scrollViewDidEndDragging"]
 - ["C7Punchit24RestaurantViewController", "scrollViewDidEndScrollingAnimation"]
@@ -963,6 +1061,7 @@ depends-member:
 - ["C7Punchit24RestaurantViewController", "scrollViewWillBeginZooming"]
 - ["C7Punchit24RestaurantViewController", "scrollViewWillEndDragging"]
 - ["C7Punchit24RestaurantViewController", "sectionIndexTitlesForTableView"]
+- ["C7Punchit24RestaurantViewController", "selectedRow"]
 - ["C7Punchit24RestaurantViewController", "tableView"]
 - ["C7Punchit24RestaurantViewController", "viewDidLoad"]
 - ["C7Punchit24RestaurantViewController", "viewForZoomingInScrollView"]
@@ -1028,6 +1127,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "distance"]
 - ["PSo21UIAppearanceContainer", "getYelpData"]
 - !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "imageURL"]
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kCLLocationAccuracyNearestTenMeters"]
@@ -1037,14 +1137,19 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo21UIAppearanceContainer", "logo"]
 - ["PSo21UIAppearanceContainer", "myRootRef"]
+- !private ["PSo21UIAppearanceContainer", "name"]
 - ["PSo21UIAppearanceContainer", "names"]
 - !private ["PSo21UIAppearanceContainer", "navigationController"]
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
-- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "phone"]
+- !private ["PSo21UIAppearanceContainer", "phoneNumber"]
+- ["PSo21UIAppearanceContainer", "phoneSimple"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "registerNib"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
+- ["PSo21UIAppearanceContainer", "review"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndScrollingAnimation"]
@@ -1058,6 +1163,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "scrollViewWillBeginZooming"]
 - ["PSo21UIAppearanceContainer", "scrollViewWillEndDragging"]
 - ["PSo21UIAppearanceContainer", "sectionIndexTitlesForTableView"]
+- ["PSo21UIAppearanceContainer", "selectedRow"]
 - !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
 - ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -1079,6 +1185,7 @@ depends-member:
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "distance"]
 - ["PSo18UIContentContainer", "getYelpData"]
+- !private ["PSo18UIContentContainer", "imageURL"]
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "kCLLocationAccuracyNearestTenMeters"]
@@ -1088,12 +1195,17 @@ depends-member:
 - ["PSo18UIContentContainer", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UIContentContainer", "logo"]
 - ["PSo18UIContentContainer", "myRootRef"]
+- !private ["PSo18UIContentContainer", "name"]
 - ["PSo18UIContentContainer", "names"]
 - !private ["PSo18UIContentContainer", "navigationController"]
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
-- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "phone"]
+- !private ["PSo18UIContentContainer", "phoneNumber"]
+- ["PSo18UIContentContainer", "phoneSimple"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "review"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
 - ["PSo18UIContentContainer", "scrollViewDidEndScrollingAnimation"]
@@ -1107,6 +1219,7 @@ depends-member:
 - ["PSo18UIContentContainer", "scrollViewWillBeginZooming"]
 - ["PSo18UIContentContainer", "scrollViewWillEndDragging"]
 - ["PSo18UIContentContainer", "sectionIndexTitlesForTableView"]
+- ["PSo18UIContentContainer", "selectedRow"]
 - !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
 - ["PSo18UIContentContainer", "tableView"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -1155,6 +1268,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "distance"]
 - ["PSo18UIFocusEnvironment", "getYelpData"]
 - !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "imageURL"]
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "kCLLocationAccuracyNearestTenMeters"]
@@ -1164,14 +1278,19 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UIFocusEnvironment", "logo"]
 - ["PSo18UIFocusEnvironment", "myRootRef"]
+- !private ["PSo18UIFocusEnvironment", "name"]
 - ["PSo18UIFocusEnvironment", "names"]
 - !private ["PSo18UIFocusEnvironment", "navigationController"]
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
-- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "phone"]
+- !private ["PSo18UIFocusEnvironment", "phoneNumber"]
+- ["PSo18UIFocusEnvironment", "phoneSimple"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
 - !private ["PSo18UIFocusEnvironment", "registerNib"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
+- ["PSo18UIFocusEnvironment", "review"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -1185,6 +1304,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UIFocusEnvironment", "scrollViewWillEndDragging"]
 - ["PSo18UIFocusEnvironment", "sectionIndexTitlesForTableView"]
+- ["PSo18UIFocusEnvironment", "selectedRow"]
 - !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
 - ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -1206,6 +1326,7 @@ depends-member:
 - !private ["CSo16UINavigationItem", "setHidesBackButton"]
 - !private ["CSo5UINib", "init"]
 - ["CSo11UIResponder", "Address"]
+- ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "Business"]
 - ["CSo11UIResponder", "CGFloat"]
@@ -1222,6 +1343,7 @@ depends-member:
 - ["CSo11UIResponder", "NSIndexPath"]
 - ["CSo11UIResponder", "NSURL"]
 - !private ["CSo11UIResponder", "NSUserDefaults"]
+- !private ["CSo11UIResponder", "RestaurantDetailViewController"]
 - !private ["CSo11UIResponder", "RestaurantTableViewCell"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "Title"]
@@ -1229,6 +1351,7 @@ depends-member:
 - ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
 - !private ["CSo11UIResponder", "Void"]
@@ -1239,6 +1362,7 @@ depends-member:
 - ["CSo11UIResponder", "distance"]
 - ["CSo11UIResponder", "getYelpData"]
 - !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "imageURL"]
 - ["CSo11UIResponder", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "kCLLocationAccuracyNearestTenMeters"]
@@ -1248,14 +1372,19 @@ depends-member:
 - ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
 - ["CSo11UIResponder", "logo"]
 - ["CSo11UIResponder", "myRootRef"]
+- !private ["CSo11UIResponder", "name"]
 - ["CSo11UIResponder", "names"]
 - !private ["CSo11UIResponder", "navigationController"]
 - !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
-- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "phone"]
+- !private ["CSo11UIResponder", "phoneNumber"]
+- ["CSo11UIResponder", "phoneSimple"]
+- ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "registerNib"]
 - !private ["CSo11UIResponder", "reloadData"]
+- ["CSo11UIResponder", "review"]
 - ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
 - ["CSo11UIResponder", "scrollViewDidEndDragging"]
 - ["CSo11UIResponder", "scrollViewDidEndScrollingAnimation"]
@@ -1269,6 +1398,7 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillBeginZooming"]
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
 - ["CSo11UIResponder", "sectionIndexTitlesForTableView"]
+- ["CSo11UIResponder", "selectedRow"]
 - !private ["CSo11UIResponder", "setNavigationBarHidden"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
@@ -1291,6 +1421,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "businesses"]
 - !private ["PSo20UIScrollViewDelegate", "distance"]
 - !private ["PSo20UIScrollViewDelegate", "getYelpData"]
+- !private ["PSo20UIScrollViewDelegate", "imageURL"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "kCLLocationAccuracyNearestTenMeters"]
 - ["PSo20UIScrollViewDelegate", "locationManager"]
@@ -1298,12 +1429,16 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "locationManagerDidResumeLocationUpdates"]
 - ["PSo20UIScrollViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo20UIScrollViewDelegate", "logo"]
+- !private ["PSo20UIScrollViewDelegate", "name"]
 - !private ["PSo20UIScrollViewDelegate", "names"]
 - !private ["PSo20UIScrollViewDelegate", "navigationController"]
 - !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "performSegueWithIdentifier"]
-- !private ["PSo20UIScrollViewDelegate", "print"]
+- !private ["PSo20UIScrollViewDelegate", "phone"]
+- !private ["PSo20UIScrollViewDelegate", "phoneNumber"]
+- !private ["PSo20UIScrollViewDelegate", "phoneSimple"]
+- !private ["PSo20UIScrollViewDelegate", "review"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -1317,6 +1452,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "scrollViewWillBeginZooming"]
 - ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
 - ["PSo20UIScrollViewDelegate", "sectionIndexTitlesForTableView"]
+- !private ["PSo20UIScrollViewDelegate", "selectedRow"]
 - ["PSo20UIScrollViewDelegate", "tableView"]
 - ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo20UIScrollViewDelegate", ""]
@@ -1333,6 +1469,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "distance"]
 - ["PSo16UIStateRestoring", "getYelpData"]
+- !private ["PSo16UIStateRestoring", "imageURL"]
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "kCLLocationAccuracyNearestTenMeters"]
@@ -1342,12 +1479,17 @@ depends-member:
 - ["PSo16UIStateRestoring", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo16UIStateRestoring", "logo"]
 - ["PSo16UIStateRestoring", "myRootRef"]
+- !private ["PSo16UIStateRestoring", "name"]
 - ["PSo16UIStateRestoring", "names"]
 - !private ["PSo16UIStateRestoring", "navigationController"]
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
-- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "phone"]
+- !private ["PSo16UIStateRestoring", "phoneNumber"]
+- ["PSo16UIStateRestoring", "phoneSimple"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "review"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndScrollingAnimation"]
@@ -1361,6 +1503,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "scrollViewWillBeginZooming"]
 - ["PSo16UIStateRestoring", "scrollViewWillEndDragging"]
 - ["PSo16UIStateRestoring", "sectionIndexTitlesForTableView"]
+- ["PSo16UIStateRestoring", "selectedRow"]
 - !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
 - ["PSo16UIStateRestoring", "tableView"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -1368,6 +1511,8 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewWillAppear"]
 - ["PSo16UIStateRestoring", "viewWillDisappear"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UITableView", "registerNib"]
 - !private ["CSo11UITableView", "reloadData"]
@@ -1391,6 +1536,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "businesses"]
 - !private ["PSo21UITableViewDataSource", "distance"]
 - !private ["PSo21UITableViewDataSource", "getYelpData"]
+- !private ["PSo21UITableViewDataSource", "imageURL"]
 - ["PSo21UITableViewDataSource", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UITableViewDataSource", "kCLLocationAccuracyNearestTenMeters"]
 - ["PSo21UITableViewDataSource", "locationManager"]
@@ -1398,12 +1544,16 @@ depends-member:
 - ["PSo21UITableViewDataSource", "locationManagerDidResumeLocationUpdates"]
 - ["PSo21UITableViewDataSource", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo21UITableViewDataSource", "logo"]
+- !private ["PSo21UITableViewDataSource", "name"]
 - !private ["PSo21UITableViewDataSource", "names"]
 - !private ["PSo21UITableViewDataSource", "navigationController"]
 - !private ["PSo21UITableViewDataSource", "navigationItem"]
 - ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
 - !private ["PSo21UITableViewDataSource", "performSegueWithIdentifier"]
-- !private ["PSo21UITableViewDataSource", "print"]
+- !private ["PSo21UITableViewDataSource", "phone"]
+- !private ["PSo21UITableViewDataSource", "phoneNumber"]
+- !private ["PSo21UITableViewDataSource", "phoneSimple"]
+- !private ["PSo21UITableViewDataSource", "review"]
 - ["PSo21UITableViewDataSource", "scrollViewDidEndDecelerating"]
 - ["PSo21UITableViewDataSource", "scrollViewDidEndDragging"]
 - ["PSo21UITableViewDataSource", "scrollViewDidEndScrollingAnimation"]
@@ -1417,6 +1567,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", "scrollViewWillBeginZooming"]
 - ["PSo21UITableViewDataSource", "scrollViewWillEndDragging"]
 - ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- !private ["PSo21UITableViewDataSource", "selectedRow"]
 - ["PSo21UITableViewDataSource", "tableView"]
 - ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
 - ["PSo21UITableViewDataSource", ""]
@@ -1432,6 +1583,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "businesses"]
 - !private ["PSo19UITableViewDelegate", "distance"]
 - !private ["PSo19UITableViewDelegate", "getYelpData"]
+- !private ["PSo19UITableViewDelegate", "imageURL"]
 - ["PSo19UITableViewDelegate", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo19UITableViewDelegate", "kCLLocationAccuracyNearestTenMeters"]
 - ["PSo19UITableViewDelegate", "locationManager"]
@@ -1439,12 +1591,16 @@ depends-member:
 - ["PSo19UITableViewDelegate", "locationManagerDidResumeLocationUpdates"]
 - ["PSo19UITableViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo19UITableViewDelegate", "logo"]
+- !private ["PSo19UITableViewDelegate", "name"]
 - !private ["PSo19UITableViewDelegate", "names"]
 - !private ["PSo19UITableViewDelegate", "navigationController"]
 - !private ["PSo19UITableViewDelegate", "navigationItem"]
 - ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo19UITableViewDelegate", "performSegueWithIdentifier"]
-- !private ["PSo19UITableViewDelegate", "print"]
+- !private ["PSo19UITableViewDelegate", "phone"]
+- !private ["PSo19UITableViewDelegate", "phoneNumber"]
+- !private ["PSo19UITableViewDelegate", "phoneSimple"]
+- !private ["PSo19UITableViewDelegate", "review"]
 - ["PSo19UITableViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo19UITableViewDelegate", "scrollViewDidEndDragging"]
 - ["PSo19UITableViewDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -1458,6 +1614,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "scrollViewWillBeginZooming"]
 - ["PSo19UITableViewDelegate", "scrollViewWillEndDragging"]
 - ["PSo19UITableViewDelegate", "sectionIndexTitlesForTableView"]
+- !private ["PSo19UITableViewDelegate", "selectedRow"]
 - ["PSo19UITableViewDelegate", "tableView"]
 - ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo19UITableViewDelegate", ""]
@@ -1480,6 +1637,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "distance"]
 - ["PSo18UITraitEnvironment", "getYelpData"]
 - !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "imageURL"]
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kCLLocationAccuracyNearestTenMeters"]
@@ -1489,14 +1647,19 @@ depends-member:
 - ["PSo18UITraitEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
 - ["PSo18UITraitEnvironment", "logo"]
 - ["PSo18UITraitEnvironment", "myRootRef"]
+- !private ["PSo18UITraitEnvironment", "name"]
 - ["PSo18UITraitEnvironment", "names"]
 - !private ["PSo18UITraitEnvironment", "navigationController"]
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
-- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "phone"]
+- !private ["PSo18UITraitEnvironment", "phoneNumber"]
+- ["PSo18UITraitEnvironment", "phoneSimple"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "registerNib"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
+- ["PSo18UITraitEnvironment", "review"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -1510,6 +1673,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UITraitEnvironment", "scrollViewWillEndDragging"]
 - ["PSo18UITraitEnvironment", "sectionIndexTitlesForTableView"]
+- ["PSo18UITraitEnvironment", "selectedRow"]
 - !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
 - ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -1530,6 +1694,7 @@ depends-member:
 - !private ["CSo6UIView", "registerNib"]
 - !private ["CSo6UIView", "reloadData"]
 - !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "Business"]
 - ["CSo16UIViewController", "CGFloat"]
@@ -1544,18 +1709,22 @@ depends-member:
 - ["CSo16UIViewController", "NSIndexPath"]
 - ["CSo16UIViewController", "NSURL"]
 - !private ["CSo16UIViewController", "NSUserDefaults"]
+- !private ["CSo16UIViewController", "RestaurantDetailViewController"]
 - !private ["CSo16UIViewController", "RestaurantTableViewCell"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIImage"]
 - !private ["CSo16UIViewController", "UINib"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
 - !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "address"]
 - ["CSo16UIViewController", "businesses"]
+- !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "distance"]
 - ["CSo16UIViewController", "getYelpData"]
+- !private ["CSo16UIViewController", "imageURL"]
 - ["CSo16UIViewController", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "kCLLocationAccuracyNearestTenMeters"]
@@ -1565,12 +1734,17 @@ depends-member:
 - ["CSo16UIViewController", "locationManagerShouldDisplayHeadingCalibration"]
 - ["CSo16UIViewController", "logo"]
 - ["CSo16UIViewController", "myRootRef"]
+- !private ["CSo16UIViewController", "name"]
 - ["CSo16UIViewController", "names"]
 - !private ["CSo16UIViewController", "navigationController"]
 - !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
-- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "phone"]
+- !private ["CSo16UIViewController", "phoneNumber"]
+- ["CSo16UIViewController", "phoneSimple"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "review"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
 - ["CSo16UIViewController", "scrollViewDidEndDragging"]
 - ["CSo16UIViewController", "scrollViewDidEndScrollingAnimation"]
@@ -1584,6 +1758,7 @@ depends-member:
 - ["CSo16UIViewController", "scrollViewWillBeginZooming"]
 - ["CSo16UIViewController", "scrollViewWillEndDragging"]
 - ["CSo16UIViewController", "sectionIndexTitlesForTableView"]
+- ["CSo16UIViewController", "selectedRow"]
 - !private ["CSo16UIViewController", "setNavigationBarHidden"]
 - ["CSo16UIViewController", "tableView"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1629,6 +1804,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "append"]
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - ["PSs12_Reflectable", "Address"]
@@ -1712,6 +1888,7 @@ depends-nominal:
 - !private "PSs21RandomAccessIndexType"
 - !private "PSs30RangeReplaceableCollectionType"
 - !private "PSs16RawRepresentable"
+- !private "C7Punchit30RestaurantDetailViewController"
 - "C7Punchit23RestaurantTableViewCell"
 - "C7Punchit24RestaurantViewController"
 - "PSs12SequenceType"
@@ -1737,6 +1914,7 @@ depends-nominal:
 - !private "CSo12UIScrollView"
 - "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
 - !private "CSo11UITableView"
 - "CSo15UITableViewCell"
 - "PSo21UITableViewDataSource"
@@ -1754,6 +1932,7 @@ depends-nominal:
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
 - !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
 - !private "PSs22_RandomAccessAmbiguity"
 - "PSs12_Reflectable"
 - !private "PSs18_SignedIntegerType"
@@ -1872,4 +2051,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "a9169bdb61fe73e8248f129e94a64588"
+interface-hash: "b7139f8eaf348165c5ba53b874847705"

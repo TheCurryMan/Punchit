@@ -6,22 +6,24 @@ provides-nominal:
 provides-member:
 - ["C7Punchit19LoginViewController", ""]
 provides-dynamic-lookup:
-- "email"
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
 - "password"
-- "ref"
+- "viewDidLoad"
 - "login"
+- "ref"
+- "email"
+- "merchant"
 depends-top-level:
-- "UIButton"
 - "StringLiteralType"
-- "Firebase"
-- "UITextField"
-- !private "print"
-- "UIViewController"
 - "Dictionary"
-- "LoginViewController"
 - !private "!="
+- "LoginViewController"
+- !private "print"
+- "BooleanLiteralType"
+- "UIViewController"
+- "UITextField"
+- "Firebase"
+- "UIButton"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
 - !private ["PSs9AnyObject", "Key"]
@@ -33,6 +35,7 @@ depends-member:
 - ["PSs9AnyObject", "email"]
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "login"]
+- ["PSs9AnyObject", "merchant"]
 - ["PSs9AnyObject", "password"]
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - !private ["PSs9AnyObject", "print"]
@@ -54,6 +57,7 @@ depends-member:
 - ["PSs11CVarArgType", "email"]
 - ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "login"]
+- ["PSs11CVarArgType", "merchant"]
 - ["PSs11CVarArgType", "password"]
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - !private ["PSs11CVarArgType", "print"]
@@ -77,6 +81,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "email"]
 - ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "login"]
+- ["PSs23CustomStringConvertible", "merchant"]
 - ["PSs23CustomStringConvertible", "password"]
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "print"]
@@ -101,6 +106,7 @@ depends-member:
 - ["PSs9Equatable", "email"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "login"]
+- ["PSs9Equatable", "merchant"]
 - ["PSs9Equatable", "password"]
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - !private ["PSs9Equatable", "print"]
@@ -129,6 +135,7 @@ depends-member:
 - ["PSs8Hashable", "email"]
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "login"]
+- ["PSs8Hashable", "merchant"]
 - ["PSs8Hashable", "password"]
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - !private ["PSs8Hashable", "print"]
@@ -149,6 +156,7 @@ depends-member:
 - ["C7Punchit19LoginViewController", "email"]
 - ["C7Punchit19LoginViewController", "init"]
 - ["C7Punchit19LoginViewController", "login"]
+- ["C7Punchit19LoginViewController", "merchant"]
 - ["C7Punchit19LoginViewController", "password"]
 - !private ["C7Punchit19LoginViewController", "performSegueWithIdentifier"]
 - !private ["C7Punchit19LoginViewController", "print"]
@@ -161,6 +169,7 @@ depends-member:
 - ["PSo8NSCoding", "email"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "login"]
+- ["PSo8NSCoding", "merchant"]
 - ["PSo8NSCoding", "password"]
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - !private ["PSo8NSCoding", "print"]
@@ -179,6 +188,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "email"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "login"]
+- ["PSo26NSExtensionRequestHandling", "merchant"]
 - ["PSo26NSExtensionRequestHandling", "password"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
@@ -201,6 +211,7 @@ depends-member:
 - ["CSo8NSObject", "email"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "login"]
+- ["CSo8NSObject", "merchant"]
 - ["CSo8NSObject", "password"]
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - !private ["CSo8NSObject", "print"]
@@ -218,6 +229,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "email"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "login"]
+- ["PSo16NSObjectProtocol", "merchant"]
 - ["PSo16NSObjectProtocol", "password"]
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "print"]
@@ -240,6 +252,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "email"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "login"]
+- ["PSo21UIAppearanceContainer", "merchant"]
 - ["PSo21UIAppearanceContainer", "password"]
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - !private ["PSo21UIAppearanceContainer", "print"]
@@ -252,6 +265,7 @@ depends-member:
 - ["PSo18UIContentContainer", "email"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "login"]
+- ["PSo18UIContentContainer", "merchant"]
 - ["PSo18UIContentContainer", "password"]
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - !private ["PSo18UIContentContainer", "print"]
@@ -266,6 +280,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "email"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "login"]
+- ["PSo18UIFocusEnvironment", "merchant"]
 - ["PSo18UIFocusEnvironment", "password"]
 - !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UIFocusEnvironment", "print"]
@@ -281,6 +296,7 @@ depends-member:
 - ["CSo11UIResponder", "email"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "login"]
+- ["CSo11UIResponder", "merchant"]
 - ["CSo11UIResponder", "password"]
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - !private ["CSo11UIResponder", "print"]
@@ -292,6 +308,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "email"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "login"]
+- ["PSo16UIStateRestoring", "merchant"]
 - ["PSo16UIStateRestoring", "password"]
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - !private ["PSo16UIStateRestoring", "print"]
@@ -306,6 +323,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "email"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "login"]
+- ["PSo18UITraitEnvironment", "merchant"]
 - ["PSo18UITraitEnvironment", "password"]
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - !private ["PSo18UITraitEnvironment", "print"]
@@ -321,6 +339,7 @@ depends-member:
 - ["CSo16UIViewController", "email"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "login"]
+- ["CSo16UIViewController", "merchant"]
 - ["CSo16UIViewController", "password"]
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - !private ["CSo16UIViewController", "print"]
@@ -503,4 +522,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "a7e6d793d67c83b787d42930301eece9"
+interface-hash: "29a69afa11a7c29cc641fcd2cfee948f"

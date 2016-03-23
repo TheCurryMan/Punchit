@@ -124,6 +124,19 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    @IBAction func merchantLogIn(sender: AnyObject) {
+        
+        performSegueWithIdentifier("merchant", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "merchant" {
+            var vc : LoginViewController = segue.destinationViewController as! LoginViewController
+            
+            vc.merchant = true
+        }
+    }
+    
     /*
     // MARK: - Navigation
     
