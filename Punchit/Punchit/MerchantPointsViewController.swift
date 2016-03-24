@@ -27,6 +27,7 @@ class MerchantPointsViewController: UIViewController {
     var restaurantPhone = ""
     var link = ""
     var name = ""
+    var restTransac = [""]
     
     var transac = [""]
     
@@ -45,7 +46,6 @@ class MerchantPointsViewController: UIViewController {
         
         
         restaurantID = ref.authData.uid
-        
         var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
         
         print(restaurantID)
@@ -55,7 +55,7 @@ class MerchantPointsViewController: UIViewController {
             print(phone!)
             self.name = snapshot.value.objectForKey("displayName") as! String
             self.restaurantPhone = phone! as! String
-            
+            self.restTransac = snapshot.value.objectForKey("transaction") as! [String]
             self.link = ("https://punch-it.firebaseio.com/users/\(self.userID)/\(self.restaurantPhone)")
             self.getMerch()
             }, withCancelBlock: { error in
@@ -125,10 +125,14 @@ class MerchantPointsViewController: UIViewController {
         if curPoints == ""{
             finalAmount = Int(earnAmount)!
             transac = ["E-\(earnAmount)-\(earnAmount)-\(timestamp)"]
+            restTransac = ["E-\(earnAmount)-\(earnAmount)-\(timestamp)"]
         }
         else{
             finalAmount = Int(earnAmount)! + Int(curPoints)!
             transac.append("E-\(earnAmount)-\(finalAmount)-\(timestamp)")
+            restTransac.append("E-\(earnAmount)-\(earnAmount)-\(timestamp)")
+            updateRest()
+            
         }
     
         curPoints = String(finalAmount)
@@ -138,10 +142,7 @@ class MerchantPointsViewController: UIViewController {
         //let merchRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(userID)/")
         
         userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac, "restName": self.name])
-        
-        //restaurantID = ref.authData.uid
-        //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
-        //userRef.updateChildValues(["transaction": transac])
+    
         
     }
     
@@ -172,21 +173,21 @@ class MerchantPointsViewController: UIViewController {
         curPoints = String(finalAmount)
         currentPoints.text = curPoints
         transac.append("R-\(redeemAmount)-\(finalAmount)-\(timestamp)")
+            restTransac.append("E-\(redeemAmount)-\(finalAmount)-\(timestamp)")
             userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac, "restName": self.name])
+            updateRest()
             
-            //restaurantID = ref.authData.uid
-            //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
-            //userRef.updateChildValues(["transaction": transac])
             
         }
+    
+    }
+    
+    func updateRest() {
+        restaurantID = ref.authData.uid
+        var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
         
-        
-        //let merchRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(userID)/")
-        
-        
-        
-        
-        
+        userRef.updateChildValues(["transaction": self.restTransac])
+
     }
     
     

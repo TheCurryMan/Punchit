@@ -201,6 +201,7 @@ SWIFT_CLASS("_TtC7Punchit28MerchantPointsViewController")
 @property (nonatomic, copy) NSString * __nonnull restaurantPhone;
 @property (nonatomic, copy) NSString * __nonnull link;
 @property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull restTransac;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull transac;
 @property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
 - (void)viewDidLoad;
@@ -209,6 +210,7 @@ SWIFT_CLASS("_TtC7Punchit28MerchantPointsViewController")
 - (void)didReceiveMemoryWarning;
 - (IBAction)earn:(id __nonnull)sender;
 - (IBAction)redeem:(id __nonnull)sender;
+- (void)updateRest;
 - (void)didTapView;
 - (void)alert:(NSString * __nonnull)title message:(NSString * __nonnull)message action:(NSString * __nonnull)action;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -344,11 +346,14 @@ SWIFT_CLASS("_TtC7Punchit23RestaurantTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISearchController;
 @class CLLocationManager;
+@class UISearchBar;
 @class CLLocation;
 
 SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
-@interface RestaurantViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, CLLocationManagerDelegate, UITableViewDataSource>
+@interface RestaurantViewController : UIViewController <UIBarPositioningDelegate, UITableViewDelegate, UIScrollViewDelegate, CLLocationManagerDelegate, UISearchResultsUpdating, UISearchBarDelegate, UITableViewDataSource>
+@property (nonatomic, strong) UISearchController * __null_unspecified searchController;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull names;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull address;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull distance;
@@ -364,6 +369,11 @@ SWIFT_CLASS("_TtC7Punchit24RestaurantViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLoad;
+- (void)configureSearchController;
+- (void)searchBarTextDidBeginEditing:(UISearchBar * __nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * __nonnull)searchBar;
+- (void)searchBarSearchButtonClicked:(UISearchBar * __nonnull)searchBar;
+- (void)updateSearchResultsForSearchController:(UISearchController * __nonnull)searchController;
 - (void)getYelpData;
 - (void)locationManager:(CLLocationManager * __nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * __nonnull)locations;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;

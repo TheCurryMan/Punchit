@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C7Punchit21LoadingViewController", ""]
 provides-dynamic-lookup:
+- "nextpage"
 - "ref"
 - "didReceiveMemoryWarning"
-- "activityIndicator"
 - "viewDidLoad"
-- "nextpage"
+- "activityIndicator"
 depends-top-level:
-- !private "print"
-- "StringLiteralType"
-- "Firebase"
-- !private "UIColor"
-- !private "CGRectMake"
-- !private "UIActivityIndicatorViewStyle"
-- "UIActivityIndicatorView"
-- "UIViewController"
 - !private "BooleanLiteralType"
+- !private "CGRectMake"
+- !private "Selector"
+- !private "NSTimer"
 - !private "!="
 - "LoadingViewController"
-- !private "NSTimer"
-- !private "Selector"
+- "UIActivityIndicatorView"
+- "Firebase"
+- !private "UIColor"
+- !private "UIActivityIndicatorViewStyle"
+- !private "print"
+- "StringLiteralType"
+- "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
 - ["PSs9AnyObject", "Firebase"]
@@ -57,7 +57,6 @@ depends-member:
 - !private ["PSs9AnyObject", "startAnimating"]
 - !private ["PSs9AnyObject", "subscript"]
 - !private ["PSs9AnyObject", "uid"]
-- !private ["PSs9AnyObject", "unauth"]
 - !private ["PSs9AnyObject", "value"]
 - !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
@@ -97,7 +96,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "setNavigationBarHidden"]
 - !private ["PSs11CVarArgType", "startAnimating"]
 - !private ["PSs11CVarArgType", "uid"]
-- !private ["PSs11CVarArgType", "unauth"]
 - !private ["PSs11CVarArgType", "value"]
 - !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
@@ -136,7 +134,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "setNavigationBarHidden"]
 - !private ["PSs23CustomStringConvertible", "startAnimating"]
 - !private ["PSs23CustomStringConvertible", "uid"]
-- !private ["PSs23CustomStringConvertible", "unauth"]
 - !private ["PSs23CustomStringConvertible", "value"]
 - !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
@@ -175,7 +172,6 @@ depends-member:
 - !private ["PSs9Equatable", "setNavigationBarHidden"]
 - !private ["PSs9Equatable", "startAnimating"]
 - !private ["PSs9Equatable", "uid"]
-- !private ["PSs9Equatable", "unauth"]
 - !private ["PSs9Equatable", "value"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
@@ -190,11 +186,9 @@ depends-member:
 - !private ["CSo6FQuery", "authData"]
 - ["CSo6FQuery", "init"]
 - !private ["CSo6FQuery", "observeEventType"]
-- !private ["CSo6FQuery", "unauth"]
 - !private ["CSo8Firebase", "authData"]
 - ["CSo8Firebase", "init"]
 - !private ["CSo8Firebase", "observeEventType"]
-- !private ["CSo8Firebase", "unauth"]
 - !private ["Sf", "deinit"]
 - !private ["PSs8Hashable", "CGRectMake"]
 - ["PSs8Hashable", "Firebase"]
@@ -228,7 +222,6 @@ depends-member:
 - !private ["PSs8Hashable", "setNavigationBarHidden"]
 - !private ["PSs8Hashable", "startAnimating"]
 - !private ["PSs8Hashable", "uid"]
-- !private ["PSs8Hashable", "unauth"]
 - !private ["PSs8Hashable", "value"]
 - !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
@@ -345,7 +338,6 @@ depends-member:
 - !private ["CSo8NSObject", "setNavigationBarHidden"]
 - !private ["CSo8NSObject", "startAnimating"]
 - !private ["CSo8NSObject", "uid"]
-- !private ["CSo8NSObject", "unauth"]
 - !private ["CSo8NSObject", "value"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -379,7 +371,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
 - !private ["PSo16NSObjectProtocol", "startAnimating"]
 - !private ["PSo16NSObjectProtocol", "uid"]
-- !private ["PSo16NSObjectProtocol", "unauth"]
 - !private ["PSo16NSObjectProtocol", "value"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]

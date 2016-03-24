@@ -6,54 +6,56 @@ provides-nominal:
 provides-member:
 - ["C7Punchit28MerchantPointsViewController", ""]
 provides-dynamic-lookup:
-- "curPoints"
-- "viewDidLoad"
+- "userID"
+- "ref"
+- "lastVisit"
 - "link"
-- "currentPoints"
-- "restaurantPhone"
-- "nullToNil"
-- "redeem"
-- "earnField"
-- "didReceiveMemoryWarning"
 - "redeemField"
-- "restaurantID"
-- "alert"
+- "getMerch"
+- "curPoints"
+- "earnField"
 - "didTapView"
 - "name"
-- "transac"
-- "getMerch"
-- "ref"
-- "userID"
+- "currentPoints"
+- "alert"
+- "restaurantPhone"
+- "nullToNil"
 - "earn"
-- "lastVisit"
+- "redeem"
+- "restTransac"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "restaurantID"
+- "transac"
+- "updateRest"
 depends-top-level:
-- !private "<"
-- "UnicodeScalarType"
-- "UILabel"
-- !private "=="
-- "Array"
-- !private "+"
 - "StringLiteralType"
-- !private "UIAlertControllerStyle"
-- !private "NSDateFormatter"
-- !private "Int"
-- !private "Dictionary"
-- !private "-"
-- !private "UIAlertActionStyle"
-- "String"
-- !private "UITapGestureRecognizer"
-- "UIViewController"
-- "Firebase"
-- !private "NSDate"
-- "UITextField"
-- !private "NSNull"
-- !private "UIAlertAction"
+- "AnyObject"
 - "MerchantPointsViewController"
-- !private "print"
+- !private "UIAlertAction"
+- "Array"
+- !private "Int"
+- !private "NSNull"
+- "String"
+- !private "=="
+- !private "UITapGestureRecognizer"
+- !private "UIAlertActionStyle"
+- !private "NSDateFormatter"
+- !private "NSDate"
+- "UnicodeScalarType"
 - !private "BooleanLiteralType"
 - !private "UIAlertController"
-- "AnyObject"
+- "Firebase"
+- "UITextField"
+- !private "+"
+- !private "<"
+- "UIViewController"
+- !private "Dictionary"
+- !private "UIAlertControllerStyle"
+- !private "print"
+- !private "-"
 - !private "!="
+- "UILabel"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
 - !private ["PSs9AnyObject", "Int"]
@@ -95,12 +97,14 @@ depends-member:
 - ["PSs9AnyObject", "redeem"]
 - ["PSs9AnyObject", "redeemField"]
 - ["PSs9AnyObject", "ref"]
+- ["PSs9AnyObject", "restTransac"]
 - ["PSs9AnyObject", "restaurantID"]
 - ["PSs9AnyObject", "restaurantPhone"]
 - !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "transac"]
 - !private ["PSs9AnyObject", "uid"]
 - !private ["PSs9AnyObject", "updateChildValues"]
+- ["PSs9AnyObject", "updateRest"]
 - ["PSs9AnyObject", "userID"]
 - !private ["PSs9AnyObject", "value"]
 - !private ["PSs9AnyObject", "view"]
@@ -171,12 +175,14 @@ depends-member:
 - ["PSs11CVarArgType", "redeem"]
 - ["PSs11CVarArgType", "redeemField"]
 - ["PSs11CVarArgType", "ref"]
+- ["PSs11CVarArgType", "restTransac"]
 - ["PSs11CVarArgType", "restaurantID"]
 - ["PSs11CVarArgType", "restaurantPhone"]
 - !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "transac"]
 - !private ["PSs11CVarArgType", "uid"]
 - !private ["PSs11CVarArgType", "updateChildValues"]
+- ["PSs11CVarArgType", "updateRest"]
 - ["PSs11CVarArgType", "userID"]
 - !private ["PSs11CVarArgType", "value"]
 - !private ["PSs11CVarArgType", "view"]
@@ -250,12 +256,14 @@ depends-member:
 - ["PSs23CustomStringConvertible", "redeem"]
 - ["PSs23CustomStringConvertible", "redeemField"]
 - ["PSs23CustomStringConvertible", "ref"]
+- ["PSs23CustomStringConvertible", "restTransac"]
 - ["PSs23CustomStringConvertible", "restaurantID"]
 - ["PSs23CustomStringConvertible", "restaurantPhone"]
 - !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "transac"]
 - !private ["PSs23CustomStringConvertible", "uid"]
 - !private ["PSs23CustomStringConvertible", "updateChildValues"]
+- ["PSs23CustomStringConvertible", "updateRest"]
 - ["PSs23CustomStringConvertible", "userID"]
 - !private ["PSs23CustomStringConvertible", "value"]
 - !private ["PSs23CustomStringConvertible", "view"]
@@ -311,12 +319,14 @@ depends-member:
 - ["PSs9Equatable", "redeem"]
 - ["PSs9Equatable", "redeemField"]
 - ["PSs9Equatable", "ref"]
+- ["PSs9Equatable", "restTransac"]
 - ["PSs9Equatable", "restaurantID"]
 - ["PSs9Equatable", "restaurantPhone"]
 - !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "transac"]
 - !private ["PSs9Equatable", "uid"]
 - !private ["PSs9Equatable", "updateChildValues"]
+- ["PSs9Equatable", "updateRest"]
 - ["PSs9Equatable", "userID"]
 - !private ["PSs9Equatable", "value"]
 - !private ["PSs9Equatable", "view"]
@@ -386,12 +396,14 @@ depends-member:
 - ["PSs8Hashable", "redeem"]
 - ["PSs8Hashable", "redeemField"]
 - ["PSs8Hashable", "ref"]
+- ["PSs8Hashable", "restTransac"]
 - ["PSs8Hashable", "restaurantID"]
 - ["PSs8Hashable", "restaurantPhone"]
 - !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "transac"]
 - !private ["PSs8Hashable", "uid"]
 - !private ["PSs8Hashable", "updateChildValues"]
+- ["PSs8Hashable", "updateRest"]
 - ["PSs8Hashable", "userID"]
 - !private ["PSs8Hashable", "value"]
 - !private ["PSs8Hashable", "view"]
@@ -457,9 +469,11 @@ depends-member:
 - ["C7Punchit28MerchantPointsViewController", "redeem"]
 - ["C7Punchit28MerchantPointsViewController", "redeemField"]
 - ["C7Punchit28MerchantPointsViewController", "ref"]
+- ["C7Punchit28MerchantPointsViewController", "restTransac"]
 - ["C7Punchit28MerchantPointsViewController", "restaurantID"]
 - ["C7Punchit28MerchantPointsViewController", "restaurantPhone"]
 - ["C7Punchit28MerchantPointsViewController", "transac"]
+- ["C7Punchit28MerchantPointsViewController", "updateRest"]
 - ["C7Punchit28MerchantPointsViewController", "userID"]
 - !private ["C7Punchit28MerchantPointsViewController", "view"]
 - ["C7Punchit28MerchantPointsViewController", "viewDidLoad"]
@@ -519,10 +533,12 @@ depends-member:
 - ["PSo8NSCoding", "redeem"]
 - ["PSo8NSCoding", "redeemField"]
 - ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "restTransac"]
 - ["PSo8NSCoding", "restaurantID"]
 - ["PSo8NSCoding", "restaurantPhone"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "transac"]
+- ["PSo8NSCoding", "updateRest"]
 - ["PSo8NSCoding", "userID"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -568,9 +584,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "redeem"]
 - ["PSo26NSExtensionRequestHandling", "redeemField"]
 - ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "restTransac"]
 - ["PSo26NSExtensionRequestHandling", "restaurantID"]
 - ["PSo26NSExtensionRequestHandling", "restaurantPhone"]
 - ["PSo26NSExtensionRequestHandling", "transac"]
+- ["PSo26NSExtensionRequestHandling", "updateRest"]
 - ["PSo26NSExtensionRequestHandling", "userID"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -624,12 +642,14 @@ depends-member:
 - ["CSo8NSObject", "redeem"]
 - ["CSo8NSObject", "redeemField"]
 - ["CSo8NSObject", "ref"]
+- ["CSo8NSObject", "restTransac"]
 - ["CSo8NSObject", "restaurantID"]
 - ["CSo8NSObject", "restaurantPhone"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "transac"]
 - !private ["CSo8NSObject", "uid"]
 - !private ["CSo8NSObject", "updateChildValues"]
+- ["CSo8NSObject", "updateRest"]
 - ["CSo8NSObject", "userID"]
 - !private ["CSo8NSObject", "value"]
 - !private ["CSo8NSObject", "view"]
@@ -672,12 +692,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "redeem"]
 - ["PSo16NSObjectProtocol", "redeemField"]
 - ["PSo16NSObjectProtocol", "ref"]
+- ["PSo16NSObjectProtocol", "restTransac"]
 - ["PSo16NSObjectProtocol", "restaurantID"]
 - ["PSo16NSObjectProtocol", "restaurantPhone"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "transac"]
 - !private ["PSo16NSObjectProtocol", "uid"]
 - !private ["PSo16NSObjectProtocol", "updateChildValues"]
+- ["PSo16NSObjectProtocol", "updateRest"]
 - ["PSo16NSObjectProtocol", "userID"]
 - !private ["PSo16NSObjectProtocol", "value"]
 - !private ["PSo16NSObjectProtocol", "view"]
@@ -769,10 +791,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "redeem"]
 - ["PSo21UIAppearanceContainer", "redeemField"]
 - ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "restTransac"]
 - ["PSo21UIAppearanceContainer", "restaurantID"]
 - ["PSo21UIAppearanceContainer", "restaurantPhone"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "transac"]
+- ["PSo21UIAppearanceContainer", "updateRest"]
 - ["PSo21UIAppearanceContainer", "userID"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
@@ -806,9 +830,11 @@ depends-member:
 - ["PSo18UIContentContainer", "redeem"]
 - ["PSo18UIContentContainer", "redeemField"]
 - ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "restTransac"]
 - ["PSo18UIContentContainer", "restaurantID"]
 - ["PSo18UIContentContainer", "restaurantPhone"]
 - ["PSo18UIContentContainer", "transac"]
+- ["PSo18UIContentContainer", "updateRest"]
 - ["PSo18UIContentContainer", "userID"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -851,10 +877,12 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "redeem"]
 - ["PSo18UIFocusEnvironment", "redeemField"]
 - ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "restTransac"]
 - ["PSo18UIFocusEnvironment", "restaurantID"]
 - ["PSo18UIFocusEnvironment", "restaurantPhone"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "transac"]
+- ["PSo18UIFocusEnvironment", "updateRest"]
 - ["PSo18UIFocusEnvironment", "userID"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
@@ -898,10 +926,12 @@ depends-member:
 - ["CSo11UIResponder", "redeem"]
 - ["CSo11UIResponder", "redeemField"]
 - ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "restTransac"]
 - ["CSo11UIResponder", "restaurantID"]
 - ["CSo11UIResponder", "restaurantPhone"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "transac"]
+- ["CSo11UIResponder", "updateRest"]
 - ["CSo11UIResponder", "userID"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
@@ -934,9 +964,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "redeem"]
 - ["PSo16UIStateRestoring", "redeemField"]
 - ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "restTransac"]
 - ["PSo16UIStateRestoring", "restaurantID"]
 - ["PSo16UIStateRestoring", "restaurantPhone"]
 - ["PSo16UIStateRestoring", "transac"]
+- ["PSo16UIStateRestoring", "updateRest"]
 - ["PSo16UIStateRestoring", "userID"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -977,10 +1009,12 @@ depends-member:
 - ["PSo18UITraitEnvironment", "redeem"]
 - ["PSo18UITraitEnvironment", "redeemField"]
 - ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "restTransac"]
 - ["PSo18UITraitEnvironment", "restaurantID"]
 - ["PSo18UITraitEnvironment", "restaurantPhone"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "transac"]
+- ["PSo18UITraitEnvironment", "updateRest"]
 - ["PSo18UITraitEnvironment", "userID"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
@@ -1021,9 +1055,11 @@ depends-member:
 - ["CSo16UIViewController", "redeem"]
 - ["CSo16UIViewController", "redeemField"]
 - ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "restTransac"]
 - ["CSo16UIViewController", "restaurantID"]
 - ["CSo16UIViewController", "restaurantPhone"]
 - ["CSo16UIViewController", "transac"]
+- ["CSo16UIViewController", "updateRest"]
 - ["CSo16UIViewController", "userID"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1342,4 +1378,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphonesimulator/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "1021d375db4e09d9a8f63ca91b01677e"
+interface-hash: "d9805c4d56df850f73a29c9ecf993306"
