@@ -6,32 +6,27 @@ provides-nominal:
 provides-member:
 - ["C7Punchit19LoginViewController", ""]
 provides-dynamic-lookup:
+- "email"
+- "merchant"
+- "ref"
+- "login"
 - "viewDidLoad"
 - "password"
 - "didReceiveMemoryWarning"
-- "login"
-- "ref"
-- "merchant"
-- "email"
 depends-top-level:
+- "UIButton"
+- "Firebase"
+- !private "=="
+- "UITextField"
+- "UIViewController"
+- "StringLiteralType"
+- !private "print"
 - !private "!="
 - "LoginViewController"
-- !private "=="
-- "StringLiteralType"
-- "Dictionary"
-- "UIViewController"
-- "UIButton"
-- !private "print"
-- "Firebase"
-- "UITextField"
 - "BooleanLiteralType"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
-- !private ["PSs9AnyObject", "Key"]
-- !private ["PSs9AnyObject", "Value"]
 - !private ["PSs9AnyObject", "authUser"]
-- !private ["PSs9AnyObject", "childByAppendingPath"]
-- !private ["PSs9AnyObject", "deinit"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "email"]
 - ["PSs9AnyObject", "init"]
@@ -41,7 +36,6 @@ depends-member:
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "ref"]
-- !private ["PSs9AnyObject", "setValue"]
 - !private ["PSs9AnyObject", "text"]
 - !private ["PSs9AnyObject", "uid"]
 - ["PSs9AnyObject", "viewDidLoad"]
@@ -50,10 +44,7 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - ["PSs11CVarArgType", "Firebase"]
-- !private ["PSs11CVarArgType", "Key"]
-- !private ["PSs11CVarArgType", "Value"]
 - !private ["PSs11CVarArgType", "authUser"]
-- !private ["PSs11CVarArgType", "childByAppendingPath"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - ["PSs11CVarArgType", "email"]
 - ["PSs11CVarArgType", "init"]
@@ -63,21 +54,13 @@ depends-member:
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "ref"]
-- !private ["PSs11CVarArgType", "setValue"]
 - !private ["PSs11CVarArgType", "text"]
 - !private ["PSs11CVarArgType", "uid"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
-- !private ["PSs14CollectionType", "Key"]
-- !private ["PSs14CollectionType", "Value"]
-- !private ["PSs28CustomDebugStringConvertible", "Key"]
-- !private ["PSs28CustomDebugStringConvertible", "Value"]
 - ["PSs23CustomStringConvertible", "Firebase"]
-- !private ["PSs23CustomStringConvertible", "Key"]
-- !private ["PSs23CustomStringConvertible", "Value"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "authUser"]
-- !private ["PSs23CustomStringConvertible", "childByAppendingPath"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "email"]
 - ["PSs23CustomStringConvertible", "init"]
@@ -87,22 +70,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "ref"]
-- !private ["PSs23CustomStringConvertible", "setValue"]
 - !private ["PSs23CustomStringConvertible", "text"]
 - !private ["PSs23CustomStringConvertible", "uid"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
-- !private ["VSs10Dictionary", "Key"]
-- !private ["VSs10Dictionary", "Value"]
-- !private ["VSs10Dictionary", "deinit"]
-- !private ["PSs28DictionaryLiteralConvertible", "Key"]
-- !private ["PSs28DictionaryLiteralConvertible", "Value"]
 - ["PSs9Equatable", "Firebase"]
-- !private ["PSs9Equatable", "Key"]
-- !private ["PSs9Equatable", "Value"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "authUser"]
-- !private ["PSs9Equatable", "childByAppendingPath"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "email"]
 - ["PSs9Equatable", "init"]
@@ -112,26 +86,18 @@ depends-member:
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "ref"]
-- !private ["PSs9Equatable", "setValue"]
 - !private ["PSs9Equatable", "text"]
 - !private ["PSs9Equatable", "uid"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
 - !private ["CSo9FAuthData", "uid"]
 - !private ["CSo6FQuery", "authUser"]
-- !private ["CSo6FQuery", "childByAppendingPath"]
 - ["CSo6FQuery", "init"]
-- !private ["CSo6FQuery", "setValue"]
 - !private ["CSo8Firebase", "authUser"]
-- !private ["CSo8Firebase", "childByAppendingPath"]
 - ["CSo8Firebase", "init"]
-- !private ["CSo8Firebase", "setValue"]
 - ["PSs8Hashable", "Firebase"]
-- !private ["PSs8Hashable", "Key"]
-- !private ["PSs8Hashable", "Value"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "authUser"]
-- !private ["PSs8Hashable", "childByAppendingPath"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "email"]
 - ["PSs8Hashable", "init"]
@@ -141,14 +107,11 @@ depends-member:
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "ref"]
-- !private ["PSs8Hashable", "setValue"]
 - !private ["PSs8Hashable", "text"]
 - !private ["PSs8Hashable", "uid"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
 - ["SQ", "deinit"]
-- !private ["PSs9Indexable", "Key"]
-- !private ["PSs9Indexable", "Value"]
 - ["C7Punchit19LoginViewController", "Firebase"]
 - ["C7Punchit19LoginViewController", "UIButton"]
 - ["C7Punchit19LoginViewController", "UITextField"]
@@ -164,8 +127,6 @@ depends-member:
 - ["C7Punchit19LoginViewController", "ref"]
 - ["C7Punchit19LoginViewController", "viewDidLoad"]
 - ["PSo8NSCoding", "Firebase"]
-- !private ["PSo8NSCoding", "Key"]
-- !private ["PSo8NSCoding", "Value"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "email"]
 - ["PSo8NSCoding", "init"]
@@ -178,11 +139,6 @@ depends-member:
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- !private ["PSo9NSCopying", "Key"]
-- !private ["PSo9NSCopying", "Value"]
-- !private ["PSo9NSCopying", "deinit"]
-- !private ["CSo12NSDictionary", "Key"]
-- !private ["CSo12NSDictionary", "Value"]
 - !private ["CSo7NSError", "deinit"]
 - ["PSo26NSExtensionRequestHandling", "Firebase"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
@@ -196,17 +152,10 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "ref"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- !private ["PSo17NSFastEnumeration", "Key"]
-- !private ["PSo17NSFastEnumeration", "Value"]
-- !private ["PSo16NSMutableCopying", "Key"]
-- !private ["PSo16NSMutableCopying", "Value"]
 - ["CSo8NSObject", "Firebase"]
-- !private ["CSo8NSObject", "Key"]
 - ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UITextField"]
-- !private ["CSo8NSObject", "Value"]
 - !private ["CSo8NSObject", "authUser"]
-- !private ["CSo8NSObject", "childByAppendingPath"]
 - !private ["CSo8NSObject", "deinit"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "email"]
@@ -217,15 +166,11 @@ depends-member:
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "ref"]
-- !private ["CSo8NSObject", "setValue"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "uid"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "Firebase"]
-- !private ["PSo16NSObjectProtocol", "Key"]
-- !private ["PSo16NSObjectProtocol", "Value"]
 - !private ["PSo16NSObjectProtocol", "authUser"]
-- !private ["PSo16NSObjectProtocol", "childByAppendingPath"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "email"]
 - ["PSo16NSObjectProtocol", "init"]
@@ -235,17 +180,11 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "ref"]
-- !private ["PSo16NSObjectProtocol", "setValue"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "uid"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo14NSSecureCoding", "Key"]
-- !private ["PSo14NSSecureCoding", "Value"]
 - !private ["Sq", "deinit"]
-- !private ["PSs12SequenceType", "Key"]
-- !private ["PSs12SequenceType", "Value"]
-- !private ["SS", "deinit"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "text"]
 - ["PSo21UIAppearanceContainer", "Firebase"]
@@ -348,12 +287,8 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "Key"]
-- !private ["PSs21_ObjectiveCBridgeable", "Value"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- !private ["PSs12_Reflectable", "Key"]
-- !private ["PSs12_Reflectable", "Value"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "text"]
 depends-nominal:
@@ -362,32 +297,20 @@ depends-nominal:
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
 - "PSs11CVarArgType"
-- !private "PSs14CollectionType"
-- !private "PSs28CustomDebugStringConvertible"
 - "PSs23CustomStringConvertible"
-- !private "VSs10Dictionary"
-- !private "PSs28DictionaryLiteralConvertible"
 - "PSs9Equatable"
 - !private "CSo9FAuthData"
 - "CSo6FQuery"
 - "CSo8Firebase"
 - "PSs8Hashable"
 - "SQ"
-- !private "PSs9Indexable"
 - "C7Punchit19LoginViewController"
 - "PSo8NSCoding"
-- !private "PSo9NSCopying"
-- !private "CSo12NSDictionary"
 - !private "CSo7NSError"
 - "PSo26NSExtensionRequestHandling"
-- !private "PSo17NSFastEnumeration"
-- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
 - !private "Sq"
-- !private "PSs12SequenceType"
-- !private "SS"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"

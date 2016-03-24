@@ -200,6 +200,7 @@ SWIFT_CLASS("_TtC7Punchit28MerchantPointsViewController")
 @property (nonatomic, copy) NSString * __nonnull restaurantID;
 @property (nonatomic, copy) NSString * __nonnull restaurantPhone;
 @property (nonatomic, copy) NSString * __nonnull link;
+@property (nonatomic, copy) NSString * __nonnull name;
 @property (nonatomic, copy) NSArray<NSString *> * __nonnull transac;
 @property (nonatomic, readonly, strong) Firebase * __null_unspecified ref;
 - (void)viewDidLoad;
@@ -262,8 +263,22 @@ SWIFT_CLASS("_TtC7Punchit23PunchCardViewController")
 @end
 
 
+SWIFT_CLASS("_TtC7Punchit23PunchPointTableViewCell")
+@interface PunchPointTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified points;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified lastVisit;
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified name;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC7Punchit25PunchPointsViewController")
 @interface PunchPointsViewController : UIViewController
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull points;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull lastVisits;
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull restNames;
+@property (nonatomic, strong) Firebase * __null_unspecified myRootRef;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -291,6 +306,7 @@ SWIFT_CLASS("_TtC7Punchit30RestaurantDetailViewController")
 @property (nonatomic, copy) NSString * __nonnull tier3;
 @property (nonatomic, copy) NSString * __nonnull tier4;
 @property (nonatomic) NSInteger tierCount;
+@property (nonatomic, strong) Firebase * __null_unspecified myRootRef;
 @property (nonatomic, strong) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rName;
 @property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rPromotion;
@@ -300,7 +316,9 @@ SWIFT_CLASS("_TtC7Punchit30RestaurantDetailViewController")
 @property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rNumDistance;
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified rImage;
 @property (nonatomic, strong) IBOutlet UILabel * __null_unspecified rReview;
+@property (nonatomic) NSInteger curPoints;
 - (void)viewDidLoad;
+- (void)getPoints;
 - (void)didReceiveMemoryWarning;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;

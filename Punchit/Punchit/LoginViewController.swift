@@ -42,9 +42,9 @@ class LoginViewController: UIViewController {
                 // user is logged in, check authData for data
                 print(authData.uid)
                 
-                var teatoptiers = ["15": "1 Free PMT", "40": "2 Free PMTs"]
-                var data = ["promotion":"Get a free PMT if you spend $15!", "tiers": teatoptiers]
-                self.ref.childByAppendingPath("restaurants").childByAppendingPath("teatop").setValue(data)
+               // var teatoptiers = ["15": "1 Free PMT", "40": "2 Free PMTs"]
+                //var data = ["promotion":"Get a free PMT if you spend $15!", "tiers": teatoptiers]
+                //self.ref.childByAppendingPath("restaurants").childByAppendingPath("teatop").setValue(data)
                 
                 /*var userRef = Firebase(url:"https://punch-it.firebaseio.com/users/\(authData.uid)")
                 var userDat = ["":""] as Dictionary

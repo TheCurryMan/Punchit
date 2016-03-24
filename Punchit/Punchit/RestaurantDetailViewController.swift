@@ -34,6 +34,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
     var tier4 = ""
     var tierCount = 0
     
+    var myRootRef = Firebase(url:"https://punch-it.firebaseio.com/")
+
+    
     @IBOutlet var tableView: UITableView!
     @IBOutlet var rName: UILabel!
     
@@ -50,6 +53,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
     @IBOutlet var rImage: UIImageView!
     
     @IBOutlet var rReview: UILabel!
+    
+    
+    var curPoints = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,7 +81,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
             self.tier2 = try tierData!["tier2"]! as! String
             self.tier3 = try tierData!["tier3"]! as! String
             self.tier4 = try tierData!["tier4"]! as! String
-                
+           self.getPoints()
             
             self.tableView.reloadData()
             
@@ -92,6 +98,32 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         
 
         // Do any additional setup after loading the view.
+    }
+    
+    func getPoints(){
+        if myRootRef.authData != nil {
+        
+        var userRef = Firebase(url:"https://punch-it.firebaseio.com/users/\(myRootRef.authData.uid)/\(phoneSimple)")
+        
+            if userRef.authData != nil {
+            
+        userRef.observeEventType(.Value, withBlock: { snapshot in
+            
+            var poin = snapshot.value.objectForKey("points")
+            self.curPoints = Int(poin as! String)!
+            self.rPoints.text = poin as! String + " Points"
+            self.tableView.reloadData()
+            }, withCancelBlock: { error in
+                print(error.description)
+                self.curPoints = 0
+        })
+                
+            
+            } }
+        
+        else {
+            print("please be authenticated")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -117,6 +149,16 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         self.tiers = [tier1, tier2, tier3, tier4]
         cell.itemName.text = tiers[indexPath.row].componentsSeparatedByString(":")[1]
         cell.itemPoints.text = tiers[indexPath.row].componentsSeparatedByString(":")[0]
+        //print(Int(rPoints.text!)!)
+        //print(Int(tiers[indexPath.row].componentsSeparatedByString(":")[0])!)
+        if  curPoints >= Int(tiers[indexPath.row].componentsSeparatedByString(":")[0])! {
+           
+            cell.contentView.backgroundColor = UIColor.greenColor()
+            print("Should be green color")
+        }
+        else {
+            cell.contentView.backgroundColor = UIColor.lightGrayColor()
+        }
         
         return cell
     }

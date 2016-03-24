@@ -6,53 +6,54 @@ provides-nominal:
 provides-member:
 - ["C7Punchit28MerchantPointsViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "redeem"
-- "alert"
-- "link"
-- "viewDidLoad"
-- "earn"
-- "transac"
-- "userID"
-- "redeemField"
-- "currentPoints"
-- "getMerch"
-- "restaurantID"
-- "lastVisit"
-- "ref"
+- "earnField"
 - "curPoints"
+- "link"
+- "didTapView"
+- "currentPoints"
 - "nullToNil"
 - "restaurantPhone"
-- "earnField"
-- "didTapView"
+- "name"
+- "ref"
+- "didReceiveMemoryWarning"
+- "transac"
+- "redeem"
+- "lastVisit"
+- "restaurantID"
+- "viewDidLoad"
+- "getMerch"
+- "alert"
+- "earn"
+- "redeemField"
+- "userID"
 depends-top-level:
-- !private "UIAlertControllerStyle"
-- !private "!="
-- !private "NSDate"
-- !private "BooleanLiteralType"
-- !private "NSNull"
-- "MerchantPointsViewController"
-- !private "Dictionary"
-- "UILabel"
 - "UIViewController"
-- "AnyObject"
-- "UITextField"
-- "UnicodeScalarType"
-- !private "<"
-- "Array"
-- !private "+"
-- "Firebase"
-- !private "NSDateFormatter"
-- !private "UIAlertAction"
-- !private "UIAlertActionStyle"
 - !private "UITapGestureRecognizer"
-- !private "print"
-- !private "UIAlertController"
-- !private "-"
-- "StringLiteralType"
-- "String"
-- !private "=="
+- !private "UIAlertActionStyle"
 - !private "Int"
+- !private "-"
+- "String"
+- !private "UIAlertController"
+- !private "UIAlertAction"
+- !private "NSNull"
+- !private "+"
+- !private "BooleanLiteralType"
+- "Firebase"
+- "UnicodeScalarType"
+- "UITextField"
+- !private "NSDateFormatter"
+- "UILabel"
+- !private "UIAlertControllerStyle"
+- !private "<"
+- "StringLiteralType"
+- !private "print"
+- !private "=="
+- !private "Dictionary"
+- "AnyObject"
+- "MerchantPointsViewController"
+- !private "NSDate"
+- !private "!="
+- "Array"
 depends-member:
 - ["PSs9AnyObject", "Firebase"]
 - !private ["PSs9AnyObject", "Int"]
@@ -85,6 +86,7 @@ depends-member:
 - ["PSs9AnyObject", "lastVisit"]
 - ["PSs9AnyObject", "link"]
 - !private ["PSs9AnyObject", "localizedStringFromDate"]
+- ["PSs9AnyObject", "name"]
 - ["PSs9AnyObject", "nullToNil"]
 - !private ["PSs9AnyObject", "objectForKey"]
 - !private ["PSs9AnyObject", "observeEventType"]
@@ -161,6 +163,7 @@ depends-member:
 - ["PSs11CVarArgType", "lastVisit"]
 - ["PSs11CVarArgType", "link"]
 - !private ["PSs11CVarArgType", "localizedStringFromDate"]
+- ["PSs11CVarArgType", "name"]
 - ["PSs11CVarArgType", "nullToNil"]
 - !private ["PSs11CVarArgType", "observeEventType"]
 - !private ["PSs11CVarArgType", "presentViewController"]
@@ -239,6 +242,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "lastVisit"]
 - ["PSs23CustomStringConvertible", "link"]
 - !private ["PSs23CustomStringConvertible", "localizedStringFromDate"]
+- ["PSs23CustomStringConvertible", "name"]
 - ["PSs23CustomStringConvertible", "nullToNil"]
 - !private ["PSs23CustomStringConvertible", "observeEventType"]
 - !private ["PSs23CustomStringConvertible", "presentViewController"]
@@ -299,6 +303,7 @@ depends-member:
 - ["PSs9Equatable", "lastVisit"]
 - ["PSs9Equatable", "link"]
 - !private ["PSs9Equatable", "localizedStringFromDate"]
+- ["PSs9Equatable", "name"]
 - ["PSs9Equatable", "nullToNil"]
 - !private ["PSs9Equatable", "observeEventType"]
 - !private ["PSs9Equatable", "presentViewController"]
@@ -373,6 +378,7 @@ depends-member:
 - ["PSs8Hashable", "lastVisit"]
 - ["PSs8Hashable", "link"]
 - !private ["PSs8Hashable", "localizedStringFromDate"]
+- ["PSs8Hashable", "name"]
 - ["PSs8Hashable", "nullToNil"]
 - !private ["PSs8Hashable", "observeEventType"]
 - !private ["PSs8Hashable", "presentViewController"]
@@ -444,6 +450,7 @@ depends-member:
 - ["C7Punchit28MerchantPointsViewController", "init"]
 - ["C7Punchit28MerchantPointsViewController", "lastVisit"]
 - ["C7Punchit28MerchantPointsViewController", "link"]
+- ["C7Punchit28MerchantPointsViewController", "name"]
 - ["C7Punchit28MerchantPointsViewController", "nullToNil"]
 - !private ["C7Punchit28MerchantPointsViewController", "presentViewController"]
 - !private ["C7Punchit28MerchantPointsViewController", "print"]
@@ -505,6 +512,7 @@ depends-member:
 - ["PSo8NSCoding", "lastVisit"]
 - ["PSo8NSCoding", "link"]
 - !private ["PSo8NSCoding", "localizedStringFromDate"]
+- ["PSo8NSCoding", "name"]
 - ["PSo8NSCoding", "nullToNil"]
 - !private ["PSo8NSCoding", "presentViewController"]
 - !private ["PSo8NSCoding", "print"]
@@ -553,6 +561,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "lastVisit"]
 - ["PSo26NSExtensionRequestHandling", "link"]
+- ["PSo26NSExtensionRequestHandling", "name"]
 - ["PSo26NSExtensionRequestHandling", "nullToNil"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
@@ -607,6 +616,7 @@ depends-member:
 - ["CSo8NSObject", "lastVisit"]
 - ["CSo8NSObject", "link"]
 - !private ["CSo8NSObject", "localizedStringFromDate"]
+- ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "nullToNil"]
 - !private ["CSo8NSObject", "observeEventType"]
 - !private ["CSo8NSObject", "presentViewController"]
@@ -654,6 +664,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "lastVisit"]
 - ["PSo16NSObjectProtocol", "link"]
 - !private ["PSo16NSObjectProtocol", "localizedStringFromDate"]
+- ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "nullToNil"]
 - !private ["PSo16NSObjectProtocol", "observeEventType"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
@@ -751,6 +762,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "lastVisit"]
 - ["PSo21UIAppearanceContainer", "link"]
+- ["PSo21UIAppearanceContainer", "name"]
 - ["PSo21UIAppearanceContainer", "nullToNil"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - !private ["PSo21UIAppearanceContainer", "print"]
@@ -787,6 +799,7 @@ depends-member:
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "lastVisit"]
 - ["PSo18UIContentContainer", "link"]
+- ["PSo18UIContentContainer", "name"]
 - ["PSo18UIContentContainer", "nullToNil"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
 - !private ["PSo18UIContentContainer", "print"]
@@ -831,6 +844,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "lastVisit"]
 - ["PSo18UIFocusEnvironment", "link"]
+- ["PSo18UIFocusEnvironment", "name"]
 - ["PSo18UIFocusEnvironment", "nullToNil"]
 - !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - !private ["PSo18UIFocusEnvironment", "print"]
@@ -877,6 +891,7 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "lastVisit"]
 - ["CSo11UIResponder", "link"]
+- ["CSo11UIResponder", "name"]
 - ["CSo11UIResponder", "nullToNil"]
 - !private ["CSo11UIResponder", "presentViewController"]
 - !private ["CSo11UIResponder", "print"]
@@ -912,6 +927,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "lastVisit"]
 - ["PSo16UIStateRestoring", "link"]
+- ["PSo16UIStateRestoring", "name"]
 - ["PSo16UIStateRestoring", "nullToNil"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
 - !private ["PSo16UIStateRestoring", "print"]
@@ -954,6 +970,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "lastVisit"]
 - ["PSo18UITraitEnvironment", "link"]
+- ["PSo18UITraitEnvironment", "name"]
 - ["PSo18UITraitEnvironment", "nullToNil"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
 - !private ["PSo18UITraitEnvironment", "print"]
@@ -997,6 +1014,7 @@ depends-member:
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "lastVisit"]
 - ["CSo16UIViewController", "link"]
+- ["CSo16UIViewController", "name"]
 - ["CSo16UIViewController", "nullToNil"]
 - !private ["CSo16UIViewController", "presentViewController"]
 - !private ["CSo16UIViewController", "print"]
@@ -1324,4 +1342,4 @@ depends-external:
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
 - "/Users/Avinash/Documents/Code/Punchit/Punchit/DerivedData/Punchit/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
-interface-hash: "d787778e43f4d8ddd2e99cc49adeb752"
+interface-hash: "1021d375db4e09d9a8f63ca91b01677e"

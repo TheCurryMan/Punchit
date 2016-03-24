@@ -10,23 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -42,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -58,7 +42,102 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.viewDidLoad (Punchit.MerchantPointsViewController)() -&gt; ()"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.94841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.(viewDidLoad (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.948511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.(viewDidLoad (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #2)"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.948596"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -74,74 +153,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.viewDidLoad (Punchit.MerchantPointsViewController)() -&gt; ()"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.046693"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "2124">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.(viewDidLoad (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.046855"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "1076">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.(viewDidLoad (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #2)"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.046959"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -153,45 +169,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -201,11 +201,11 @@
                   moduleName = "Punchit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.049801"
+                  timestampString = "480480417.953156"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
                   offsetFromSymbolStart = "1712">
                </Location>
                <Location
@@ -216,11 +216,11 @@
                   moduleName = "Punchit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.05019"
+                  timestampString = "480480417.953294"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
@@ -233,23 +233,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -265,7 +249,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -281,7 +265,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -297,7 +281,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -313,151 +297,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "getMerch()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.getMerch (Punchit.MerchantPointsViewController)() -&gt; ()"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.054024"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.(getMerch (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.054124"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "getMerch()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "getMerch()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.getMerch (Punchit.MerchantPointsViewController)() -&gt; ()"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.05534"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Punchit.MerchantPointsViewController.(getMerch (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
-                  moduleName = "Punchit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.055572"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "getMerch()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "getMerch()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -473,11 +313,171 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Punchit/MerchantPointsViewController.swift"
-            timestampString = "480408044.439332"
+            timestampString = "480480102.792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "getMerch()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.getMerch (Punchit.MerchantPointsViewController)() -&gt; ()"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.958083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.(getMerch (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.958206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getMerch()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getMerch()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.getMerch (Punchit.MerchantPointsViewController)() -&gt; ()"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.959817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Punchit.MerchantPointsViewController.(getMerch (Punchit.MerchantPointsViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Punchit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
+                  timestampString = "480480417.959929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getMerch()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "getMerch()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Punchit/MerchantPointsViewController.swift"
+            timestampString = "480480102.792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
             <Locations>
@@ -489,11 +489,11 @@
                   moduleName = "Punchit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.057801"
+                  timestampString = "480480417.96467"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
                   offsetFromSymbolStart = "2368">
                </Location>
                <Location
@@ -504,11 +504,11 @@
                   moduleName = "Punchit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Avinash/Documents/Code/Punchit/Punchit/Punchit/MerchantPointsViewController.swift"
-                  timestampString = "480406018.057903"
+                  timestampString = "480480417.96484"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
                   offsetFromSymbolStart = "448">
                </Location>
             </Locations>

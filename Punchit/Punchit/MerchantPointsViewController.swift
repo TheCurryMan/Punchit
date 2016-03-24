@@ -26,6 +26,7 @@ class MerchantPointsViewController: UIViewController {
     var restaurantID = ""
     var restaurantPhone = ""
     var link = ""
+    var name = ""
     
     var transac = [""]
     
@@ -52,7 +53,7 @@ class MerchantPointsViewController: UIViewController {
         userRef.observeEventType(.Value, withBlock: { snapshot in
             var phone = snapshot.value.objectForKey("phone")
             print(phone!)
-            
+            self.name = snapshot.value.objectForKey("displayName") as! String
             self.restaurantPhone = phone! as! String
             
             self.link = ("https://punch-it.firebaseio.com/users/\(self.userID)/\(self.restaurantPhone)")
@@ -136,7 +137,7 @@ class MerchantPointsViewController: UIViewController {
         
         //let merchRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(userID)/")
         
-        userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac])
+        userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac, "restName": self.name])
         
         //restaurantID = ref.authData.uid
         //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")
@@ -171,7 +172,7 @@ class MerchantPointsViewController: UIViewController {
         curPoints = String(finalAmount)
         currentPoints.text = curPoints
         transac.append("R-\(redeemAmount)-\(finalAmount)-\(timestamp)")
-            userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac])
+            userMerchRef.updateChildValues(["points": String(finalAmount), "transaction": transac, "restName": self.name])
             
             //restaurantID = ref.authData.uid
             //var userRef = Firebase(url: "https://punch-it.firebaseio.com/users/\(restaurantID)")

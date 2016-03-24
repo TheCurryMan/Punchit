@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C7Punchit26MerchantHomeViewController", ""]
 provides-dynamic-lookup:
-- "viewWillDisappear"
-- "logOut"
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
+- "logOut"
 - "viewWillAppear"
+- "viewDidLoad"
+- "viewWillDisappear"
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "Firebase"
-- "AnyObject"
-- "UIViewController"
 - "Bool"
 - !private "StringLiteralType"
+- "AnyObject"
 - "MerchantHomeViewController"
+- "UIViewController"
+- !private "BooleanLiteralType"
+- !private "Firebase"
 depends-member:
 - !private ["PSs9AnyObject", "Firebase"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]

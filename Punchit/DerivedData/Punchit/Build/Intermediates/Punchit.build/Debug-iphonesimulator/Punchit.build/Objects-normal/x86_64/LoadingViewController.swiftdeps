@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C7Punchit21LoadingViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "activityIndicator"
-- "didReceiveMemoryWarning"
-- "ref"
 - "nextpage"
+- "ref"
+- "didReceiveMemoryWarning"
+- "activityIndicator"
+- "viewDidLoad"
 depends-top-level:
-- !private "CGRectMake"
-- !private "Selector"
-- "StringLiteralType"
-- !private "NSTimer"
-- !private "UIActivityIndicatorViewStyle"
+- !private "!="
 - !private "UIColor"
+- !private "BooleanLiteralType"
+- !private "Selector"
+- !private "CGRectMake"
 - "UIActivityIndicatorView"
 - "LoadingViewController"
 - "UIViewController"
+- "StringLiteralType"
+- !private "UIActivityIndicatorViewStyle"
 - "Firebase"
+- !private "NSTimer"
 - !private "print"
-- !private "BooleanLiteralType"
-- !private "!="
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
 - ["PSs9AnyObject", "Firebase"]
@@ -39,6 +39,7 @@ depends-member:
 - !private ["PSs9AnyObject", "authData"]
 - !private ["PSs9AnyObject", "center"]
 - !private ["PSs9AnyObject", "color"]
+- !private ["PSs9AnyObject", "deinit"]
 - !private ["PSs9AnyObject", "description"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - !private ["PSs9AnyObject", "hidesWhenStopped"]

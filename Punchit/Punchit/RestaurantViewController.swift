@@ -96,6 +96,8 @@ func getYelpData() {
     Business.searchWithTerm("food", sort: .Distance, categories:["food"], deals: false) { (businesses: [Business]!, error: NSError!) -> Void in
         self.businesses = businesses
         
+        if businesses != nil {
+        
         for business in businesses {
             self.names.append(business.name!)
             self.address.append(business.address!)
@@ -109,6 +111,7 @@ func getYelpData() {
             //print(business.address!)
             //print(business.ratingImageURL)
             //print(business.reviewCount)
+        }
         }
         
         self.tableView.reloadData()

@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C7Punchit26MerchantScanViewController", ""]
 provides-dynamic-lookup:
-- "prepareForSegue"
-- "userid"
 - "viewDidAppear"
+- "prepareForSegue"
 - "scanner"
-- "viewDidLoad"
+- "userid"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "StringLiteralType"
-- "UIStoryboardSegue"
-- "UIViewController"
-- !private "print"
-- !private "=="
-- "AnyObject"
-- "MerchantScanViewController"
-- "Bool"
-- !private "MerchantPointsViewController"
 - "QRCode"
+- "AnyObject"
+- "UIStoryboardSegue"
+- !private "print"
+- "Bool"
+- "UIViewController"
+- "MerchantScanViewController"
+- !private "MerchantPointsViewController"
+- "StringLiteralType"
+- !private "=="
 depends-member:
 - ["PSo38AVCaptureMetadataOutputObjectsDelegate", "init"]
 - !private ["PSo38AVCaptureMetadataOutputObjectsDelegate", "prepareScan"]
